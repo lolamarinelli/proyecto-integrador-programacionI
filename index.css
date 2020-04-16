@@ -1,4 +1,15 @@
 body{
     background-color: lime;
 }
+header{
+    display: grid;
+    background-color: white;
+    
 
+}
+.div1{
+    background-color: tomato;
+}
+.div2{
+    background-color: blue;
+}
