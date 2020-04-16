@@ -1,5 +1,8 @@
 body{
     background-color: rgb(59, 61, 64);
+    display: grid;
+    grid-template-rows: 30px 30px 30px;
+
 }
 .artitas{
     background-color: green;
@@ -8,3 +11,4 @@ body{
     background-color: hotpink;}
 .playlists{
     background-color: lightseagreen;}
+
