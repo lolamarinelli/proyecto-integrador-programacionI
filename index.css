@@ -1,15 +1,32 @@
 body{
     background-color: lime;
+    width: 100%;
 }
 header{
     display: grid;
-    background-color: white;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
     
 
 }
-.div1{
-    background-color: tomato;
+.Header{
+    text-decoration: none;
+    list-style-type:none;
+    width: 100%;
+    background-color: (247, 247, 247);
+
 }
-.div2{
-    background-color: blue;
+li.logo img{
+    margin-left: 0;
+    display: block;
+    width: 50%;
+}
+ul.Header{
+    display: grid;
+    grid-template-columns:18% 18% 20% 18% 18% ;
+
+}
+ul.Header a{
+    color: black;
+    text-decoration: none;
 }
