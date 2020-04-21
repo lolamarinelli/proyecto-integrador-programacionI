@@ -44,3 +44,13 @@ ul.Header a{
     width: 15px;
     align-content: end;
 }
+ul .navegacion {
+    display: none;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+nav:hover ul.navegacion {
+    display: block;
+}
