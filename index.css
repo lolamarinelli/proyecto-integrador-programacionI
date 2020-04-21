@@ -4,8 +4,10 @@ body{
 }
 header{
     display: grid;
-    background-color: rgb(247, 247, 247);
+    background-color: white;
     width: 100%;
+    position: fixed;
+
     
 
 }
