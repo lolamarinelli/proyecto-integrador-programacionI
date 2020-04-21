@@ -32,3 +32,15 @@ ul.Header a{
     color: black;
     text-decoration: none;
 }
+
+.none {
+    display: none;
+}
+
+.toggle-nav {       
+    padding: 10px;          
+    display: block;    
+    margin-top: 10px;    
+    width: 15px;
+    align-content: end;
+}
