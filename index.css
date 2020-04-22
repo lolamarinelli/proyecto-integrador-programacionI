@@ -63,3 +63,16 @@ ul .navegacion {
 nav:hover ul.navegacion {
     display: block;
 }
+main{
+    display: grid;
+    grid-template-rows: auto;
+}
+.Artistas{
+    background-color: hotpink;
+}
+.Canciones{
+background-color: khaki;
+}
+.playlists{
+background-color: lawngreen;
+}
