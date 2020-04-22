@@ -63,6 +63,7 @@ ul .navegacion {
 nav:hover ul.navegacion {
     display: block;
 }
+
 main{
     display: grid;
     grid-template-rows: auto;
