@@ -7,9 +7,6 @@ header{
     display: grid;
     background-color: white;
     width: 100%;
-  
-
-
 }
 
 .Header{
@@ -17,8 +14,6 @@ header{
     list-style-type:none;
     width: 100%;
     background-color: (247, 247, 247);
-    
-
 }
 li.logo img{
     margin-left: 0;
@@ -76,4 +71,25 @@ background-color: khaki;
 }
 .playlists{
 background-color: lawngreen;
+}
+
+footer {
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    height: 100px;
+    padding-top: 8px;
+    margin-top: 365px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+ul li{
+    list-style-type: none;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    user-select: none;
 }
