@@ -13,9 +13,7 @@ header{
     background-color: white;
     width: 100%;
     padding: 0px;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+   
 }
 
 .Header{
@@ -135,7 +133,10 @@ a {
     display: none;
 }
   
-  
+
+
+
+
  /* ------------------------- */
  /* Estilos de Materialize */
  /* ------------------------- */

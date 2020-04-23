@@ -15,11 +15,18 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
  
    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+  
+   <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script>
    
 
 </head>
 <body>
-    <header class="container">
+    <header>
         
         <ul class="Header">
             <li class="logo"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt=""></li>
@@ -46,7 +53,7 @@
 
  
  <main>
-<!--ARTISTAS--> 
+<!--ARTISTAS COMPU--> 
    <section class="Artistas">
     <div class="container">
         <div class="row">
@@ -80,7 +87,7 @@
                       <div class="carousel-item">
                         <h2 class="subtitulo"><a href=""></a>Karol</h2>
                         <p class="descripcion"></p>
-                        <img src="./img/karol.jpeg" alt="">
+                        <img src="./img/karolg2.jpeg" alt="">
                     </div>
                 </div>
                
@@ -90,9 +97,72 @@
     </div>
  
    </section>
- <!--CANCIONES--> 
-   <section class="Canciones">
-<p>canciones</p>
+ <!--ARTISTAS MOBILE--> 
+   <section class="albums">
+    <div uk-slideshow>
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="./img/Bad Bunny.jpeg" alt="" uk-cover>
+                <div class="uk-position-bottom uk-position-small">
+    
+                    <div class="uk-transition-slide-bottom">
+    
+                       <a href="/artistas.html"> Bad Bunny</a>
+    
+                    </div>
+    
+                </div>
+            </li>
+            <li>
+                <img src="./img/j balvin.jpeg" alt="" uk-cover>
+                <div class="uk-position-bottom uk-position-small">
+    
+                    <div class="uk-transition-slide-bottom">
+    
+                       <a href="/artistas.html"> J Balvin</a>
+    
+                    </div>
+    
+                </div>
+            </li>
+            <li>
+                <img src="./img/karolg2.jpeg" alt="" uk-cover>
+                <div class="uk-position-bottom uk-position-small">
+    
+                    <div class="uk-transition-slide-bottom">
+    
+                       <a href="/artistas.html"> Karol G</a>
+    
+                    </div>
+    
+                </div>
+            </li>
+            <li>
+                <img src="./img/ozuna.jpeg" alt="" uk-cover>
+                <div class="uk-position-bottom uk-position-small">
+    
+                    <div class="uk-transition-slide-bottom">
+    
+                       <a href="/artistas.html"> Ozuna</a>
+    
+                    </div>
+    
+                </div>
+            </li>
+            <li>
+                <img src="./img/paulo.jpeg" alt="" uk-cover>
+                <div class="uk-position-bottom uk-position-small">
+    
+                    <div class="uk-transition-slide-bottom">
+    
+                       <a href="/artistas.html"> Paulo Londra</a>
+    
+                    </div>
+    
+                </div>
+            </li>
+        </ul>
+    </div>
    </section>
  <!--PLAYLISTS--> 
    <section class="playlists">
