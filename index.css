@@ -70,7 +70,11 @@ main{
     display: grid;
     grid-template-rows: auto;
 }
-.Artistas{
+section .artistas div{
+    height: 100px;
+    width: 50%;
+}
+.artistas{
     background-color:transparent;
     
 }
@@ -134,7 +138,11 @@ a {
 }
   
 .albums{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 100px 100px 100px;
     background-color: blue;
+    
 }
 
 ul.uk-slideshow-items li img{
