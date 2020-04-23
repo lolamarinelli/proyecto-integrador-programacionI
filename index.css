@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color:white;
     width: 100%;
 
 }
@@ -13,6 +13,9 @@ header{
     background-color: white;
     width: 100%;
     padding: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .Header{
@@ -70,7 +73,8 @@ main{
     grid-template-rows: auto;
 }
 .Artistas{
-    background-color: grey;
+    background-color:transparent;
+    
 }
 .Canciones{
 background-color: khaki;
@@ -103,8 +107,8 @@ a {
 .titulo {
     font-size: 25px;
     font-family: 'Mukta', sans-serif;
-    margin-bottom: 40px;
-    color: #fff;
+    margin-bottom: 0px;
+    color:black;
  }
   
  .subtitulo {
@@ -133,9 +137,14 @@ a {
  /* ------------------------- */
  /* Estilos de Materialize */
  /* ------------------------- */
-  
+  div.carousel.center-align{
+      padding: 0px;
+      margin-top: 0;
+      
+  }
  .carousel{
-    min-width: 150px;
+    min-width: 100px;
+
  }
  .carousel .carousel-item{
     font-display: grid;
@@ -143,7 +152,7 @@ a {
     justify-content: center;
     align-items: center;
     user-select: none;
-   
+    text-align: center;
     width: 150px;
     height: 150px;
   
@@ -154,12 +163,13 @@ a {
     height: 100%;
     object-fit: cover;
     position: absolute;
-    top: 0;
+    top: 10;
     left: 0;
     z-index: -1;
     border-radius: 100px;
   
  }
+ 
  .carousel .carousel-item h2 p {
     margin-top: 15px;
     width: 150px;
