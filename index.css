@@ -133,9 +133,17 @@ a {
     display: none;
 }
   
+.albums{
+    background-color: blue;
+}
 
+ul.uk-slideshow-items li img{
+    width: 100%;
+    height: 100px;
+ 
+    
 
-
+}
 
  /* ------------------------- */
  /* Estilos de Materialize */
@@ -143,6 +151,9 @@ a {
   
 
  @media (min-width: 1024px){
+     .uk-position-relative{
+         display: none;
+     }
      .container {
          display: block;
      }
