@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-image:url(./img/WhatsApp\ Image\ 2020-04-24\ at\ 16.58.10.jpeg);
+    background-color: rgb(39, 39, 39);
     width: 100%;
-
 }
+
 header{
     display: grid;
     background-color:white;
@@ -74,8 +74,7 @@ ul .navegacion {
     z-index: 10;
     background-color: white;
     width: 100%;
-    left: 0; 
-    
+    left: 0;   
 }
 
 nav:hover ul.navegacion {
@@ -109,7 +108,7 @@ footer {
     padding-top: 8px;
     margin-top: 480px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 15% 15% 15% 15%;
 }
 
 ul li{
@@ -156,8 +155,9 @@ a {
 .albums{
     display: grid;
     grid-template-columns: 45% 45%;
-    grid-template-rows: 100px 100px 100px;
-    background-color:none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
     
 }
 
@@ -176,10 +176,15 @@ ul.uk-slideshow-items li img{
 .imgalbum{
     border: solid 2px black;
 }
-section .section-escrita{
-    font-size: larger;
-    font-style: oblique;
+.section-escrita h3 {
+    font-size: smaller;
     background-color: white;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
 }
 
 
