@@ -32,13 +32,17 @@
                <nav>
                 <a href="#" class="toggle-nav"> <span class="fa fa-bars"></span></a>
                 	<ul class="navegacion">
-                            <li><a href="#">"Buscador"</a></li>
+                            <li>
+                                <form class="buscador">
+                                    <span uk-search-icon></span>
+                                    <input class="lupa" type="search" placeholder="Search...">
+                                </form>
+                            </li>
                             <li><a href="#">Registrate</a></li>
                             <li><a href="#">Iniciar Sesión</a></li>	
                     </ul>
                 </nav> 
             </li>			
-                
             
         </ul>
     
@@ -51,7 +55,7 @@
  <!--ARTISTAS MOBILE--> 
 <section class="artistas">
     <div>
-        <h3>TUS ARTISTAS FAVORITOS</h3>
+        <h3 class="artistasfavoritos">TUS ARTISTAS FAVORITOS</h3>
     </div>
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
 
@@ -82,6 +86,7 @@
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
     
     </div>
+    <hr class="uk-divider-icon">
     <!--albums mobile--> 
     <div class="albums">
         <section class="section-escrita">
@@ -96,10 +101,21 @@
             <article><a href=""><img src="./img/algum6.jpeg" alt=""class="imgalbum"></a></article>
         </section>
     </div>
+    <hr class="uk-divider-icon">
  <!--PLAYLISTS--> 
-   <section class="playlists">
-<p>playlists</p>
-   </section>
+<section class="playlists">
+    <div>
+        <h3 class="topplaylist">TOP PLAYLISTS</h3>
+    </div>
+    <div class="todasplaylist">
+        <ul class="fotosplaylist">
+            <li><a href=""><img src="./img/playlistMUNDI.png" alt="" class="imgplaylist"></a></li>
+            <li><a href=""><img src="./img/playlistARG.png" alt="" class="imgplaylist"></a></li>
+            <li><a href=""><img src="./img/playlistUSA.png" alt="" class="imgplaylist"></a></li>
+            <li><a href=""><img src="./img/playlistBRASIL.png" alt="" class="imgplaylist"></a></li>
+        </ul>
+    </div>
+</section>
 </main>
 
 <footer class="main-footer">
