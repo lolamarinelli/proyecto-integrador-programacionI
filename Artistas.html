@@ -2,10 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Artistas.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
     <title>Document</title>
 </head>
 <body>
     
+    <div class="container">
+        <header>
+        
+            <ul class="Header">
+                <li class="logo"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt=""></li>
+                <li class="none">buscador</li>
+                <li class="none"><a href="">Iniciar Sesión!</a></li>
+                <li class="none"><a href="">Registrate</a></li>
+                <li>
+                   <nav>
+                    <a href="#" class="toggle-nav"> <span class="fa fa-bars"></span></a>
+                        <ul class="navegacion">
+                                <li><a href="#">"Buscador"</a></li>
+                                <li><a href="#">Registrate</a></li>
+                                <li><a href="#">Iniciar Sesión</a></li>	
+                        </ul>
+                    </nav> 
+                </li>			
+                    
+                
+            </ul>
+        
+    
+    
+        </header>
+        <main>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 300; max-height: 600; animation: push">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="img/Bad Bunny.jpeg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/J Balvin.jpeg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/karolg2.jpeg" alt="" uk-cover>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+            <div>
+                <section>
+                    <p>tus albums favoritos</p>
+                </section>
+                <section class="imgalbums">
+                    <article><img src="./img/album1.jpeg" alt="" class="imgalbum"></article>
+                    <article><img src="./img/album2.jpeg" alt="" class="imgalbum"></article>
+                    <article><img src="./img/album3.jpeg" alt=""class="imgalbum"></article>
+                    <article><img src="./img/album4.jpeg" alt=""class="imgalbum"></article>
+                    <article><img src="./img/album5.jpeg" alt=""class="imgalbum"></article>
+                    <article><img src="./img/album6.jpeg" alt=""class="imgalbum"></article>
+                </section>
+            </div>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 300; max-height: 600; animation: push">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="img/algum6.jpeg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/algum5.jpeg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="img/album4.jpeg" alt="" uk-cover>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+
+        </main>
+    </div>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script>
+<script src="index.js"></script>

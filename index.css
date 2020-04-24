@@ -150,7 +150,7 @@ a {
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: 100px 100px 100px;
-    background-color: blue;
+    background-color:white;
     
 }
 
@@ -158,60 +158,23 @@ ul.uk-slideshow-items li img{
     width: 100%;
     height: 100px;
  
-    
-
 }
+.imgalbums{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-evenly;
+    gap:10px;
+    margin-top: 15px;
+    bord
+}
+.imgalbum{
+    border: solid 2px black;
+}
+
 
  /* ------------------------- */
  /* Estilos de Materialize */
  /* ------------------------- */
   
 
- @media (min-width: 1024px){
-     .uk-position-relative{
-         display: none;
-     }
-     .container {
-         display: block;
-     }
-     div.carousel.center-align{
-        padding: 0px;
-        margin-top: 0;
-        
-    }
-   .carousel{
-      min-width: 1000px;
-  
-   }
-   .carousel .carousel-item{
-      font-display: grid;
-      -moz-box-direction:column;
-      justify-content: center;
-      align-items: center;
-      user-select: none;
-      text-align: center;
-      width: 750px;
-      height: 750px;
-    
-    
-   }
-   .carousel .carousel-item img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      position: absolute;
-      top: 10;
-      left: 0;
-      z-index: -1;
-      border-radius: 100px;
-    
-   }
-   
-   .carousel .carousel-item h2 p {
-      margin-top: 15px;
-      width: 750px;
-      height: 750px;
-   }
-  
-   
- }
+ 
