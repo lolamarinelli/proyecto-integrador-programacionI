@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color:white;
+    background-image:url(./img/WhatsApp\ Image\ 2020-04-24\ at\ 16.58.10.jpeg);
     width: 100%;
 
 }
 header{
     display: grid;
-    background-color: white;
+    background-color:white;
     width: 100%;
     padding: 0px;
     position: fixed;
     top: 0;
     z-index: 5;
+    border-bottom: solid 2px black;
+    
    
 }
 
@@ -24,14 +26,16 @@ header{
     list-style-type:none;
     width: 100%;
     background-color: (247, 247, 247);
-}
-.Header nav {
     position: relative;
+    
+    
 }
 li.logo img{
+    margin-top: 15px;
     margin-left: 0;
     display: block;
     width: 50%;
+    
     
 }
 ul.Header{
@@ -58,6 +62,7 @@ ul.Header a{
     align-content: end;
     margin-left: 28px;
     font-size: larger;
+    color: black;
     
 }
 ul .navegacion {
@@ -68,6 +73,9 @@ ul .navegacion {
     position: absolute;
     z-index: 10;
     background-color: white;
+    width: 100%;
+    left: 0; 
+    
 }
 
 nav:hover ul.navegacion {
@@ -77,14 +85,14 @@ nav:hover ul.navegacion {
 main{
     display: grid;
     grid-template-rows: auto;
-    margin-top: 200px;
+    margin-top: 80px;
 }
 section .artistas div{
     height: 100px;
     width: 50%;
 }
 .artistas{
-    background-color:transparent;
+    margin-top: 0px;
     
 }
 .Canciones{
@@ -119,18 +127,17 @@ a {
     font-size: 25px;
     font-family: 'Mukta', sans-serif;
     margin-bottom: 0px;
-    color:black;
- }
+}
   
  .subtitulo {
    
     margin: 0;
     padding-top: 0px;
-    color: #000;
     display: inline;
     font-size: 13px;
     font-weight: 300;
     text-transform: uppercase;
+    color: #000;
  }
   
  .descripcion {
@@ -150,7 +157,7 @@ a {
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: 100px 100px 100px;
-    background-color:white;
+    background-color:none;
     
 }
 
@@ -165,10 +172,14 @@ ul.uk-slideshow-items li img{
     justify-content: space-evenly;
     gap:10px;
     margin-top: 15px;
-    bord
 }
 .imgalbum{
     border: solid 2px black;
+}
+section .section-escrita{
+    font-size: larger;
+    font-style: oblique;
+    background-color: white;
 }
 
 
