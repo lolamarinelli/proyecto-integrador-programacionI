@@ -1,3 +1,10 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 header{
     display: grid;
     background-color:white;
@@ -7,8 +14,6 @@ header{
     top: 0;
     z-index: 5;
     border-bottom: solid 2px black;
-    
-   
 }
 
 .Header{
@@ -44,23 +49,18 @@ ul.Header a{
 }
 
 .toggle-nav {       
-    padding: 10px;          
+    padding: 7px;          
     display: block;    
-    margin-top: 10px;    
+    margin-top: 11px;    
     width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 28px;
+    margin-left: 0px;
     font-size: larger;
     color: black;
     
 }
-.linea{
-   width: 90%;
-   margin: 0 auto;
-   margin-top: 20px;
-   margin-bottom: 20px;
-}
+
 ul .navegacion {
     display: none;
     text-decoration: none;
@@ -76,23 +76,32 @@ ul .navegacion {
 nav:hover ul.navegacion {
     display: block;
 }
+
 .uk-button-default{
     border: none; 
 }
-main{
 
+button.uk-button.uk-button-default{
+    border: none;
 }
-div.paginalbum{
-    display: grid;
-    grid-template-columns: 50% 50%;
+
+li.fotobunny{
+    text-decoration: none;
+    list-style-type: none;
+    width: 50%;
+    text-align: center;
+}
+
+.centrobunny{
     margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 0px;
-    
-
+    border-radius: 50%;
+    text-align: center;
 }
-.fotodelalbum{
-    background-color: grey;
-    height: 70px;
 
+main{
+    display: grid;
+    padding: 0px;
+    margin-top: 80px;
+    background-color: rgb(39, 39, 39);
 }
+

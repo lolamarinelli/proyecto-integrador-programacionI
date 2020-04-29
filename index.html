@@ -9,7 +9,7 @@
     <!-- CSS Estilos -->
     <link rel="stylesheet" href="index.css">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
   
    <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
@@ -50,77 +50,57 @@
 
     </header>
 
- 
  <main>
  <!--ARTISTAS MOBILE--> 
 <section class="artistas">
-    <div class="tituloart">
-        <h4 class="artistasfavoritos">Tus artistas favoritos</h4>
+    <div>
+        <h3 class="artistasfavoritos">TUS ARTISTAS FAVORITOS</h3>
     </div>
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
 
-<section class="contartistas">
-  <div class="slidec">
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow= "ratio: 3:3.5" >
-
-            <ul class="uk-slideshow-items">
-                <li>
-                    <img class="imgartistas" src="./img/Bad Bunny.jpeg" alt="" uk-cover>
-                    <a class="linkartistas" href="">Bad Bunny</a>
-                </li>
-                <li>
-                    <img class="imgartistas" src="./img/j balvin.jpeg" alt="" uk-cover>
-                    <a href="">J Balvin</a>
-                </li>
-                <li>
-                    <img class="imgartistas" src="./img/karolg2.jpeg" alt="" uk-cover>
-                    <a href="">Karol G</a>
-                </li>
-            </ul>
-        
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-        
-        </div>
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="./img/Bad Bunny.jpeg" alt="" uk-cover>
+                <a href="">Bad Bunny</a>
+            </li>
+            <li>
+                <img src="./img/j balvin.jpeg" alt="" uk-cover>
+                <a href="">J Balvin</a>
+            </li>
+            <li>
+                <img src="./img/karolg2.jpeg" alt="" uk-cover>
+                <a href="">Karol G</a>
+            </li>
+            <li>
+                <img src="./img/ozuna.jpeg" alt="" uk-cover>
+                <a href="">Ozuna</a>
+            </li>
+            <li>
+                <img src="./img/paulo.jpeg" alt="" uk-cover>
+                <a href="">Paulo Londra</a>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
     
     </div>
-    <div class="slidec">
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow= "ratio: 3:3.5" >
-    
-            <ul class="uk-slideshow-items">
-               <li>
-                    <img class="imgartistas" src="./img/ozuna.jpeg" alt="" uk-cover>
-                    <a href="">Ozuna</a>
-                </li>
-                <li>
-                    <img class="imgartistas" src="./img/paulo.jpeg" alt="" uk-cover>
-                    <a href="">Paulo Londra</a>
-                </li>
-            </ul>
-        
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-        
-        </div>
-    </div>
-
-</section>
-
-    <hr class="linea">
+    <hr class="uk-divider-icon">
     <!--albums mobile--> 
     <div class="albums">
         <section class="section-escrita">
             <h3>LOS MEJORES ALBUMS PARA VOS!</h3>
         </section>
         <section class="imgalbums">
-            <article><a href="albums.html"><img src="./img/album1.jpeg" alt="" class="imgalbum"></a></article>
-            <article><a href="albums.html"><img src="./img/album7.jpeg" alt="" class="imgalbum"></a></article>
-            <article><a href="albums.html"><img src="./img/album3.jpeg" alt=""class="imgalbum"></a></article>
-            <article><a href="albums.html"><img src="./img/album4.jpeg" alt=""class="imgalbum"></a></article>
-            <article><a href="albums.html"><img src="./img/algum5.jpeg" alt=""class="imgalbum"></a></article>
-            <article><a href="albums.html"><img src="./img/algum6.jpeg" alt=""class="imgalbum"></a></article>
+            <article><a href=""><img src="./img/album1.jpeg" alt="" class="imgalbum"></a></article>
+            <article><a href=""><img src="./img/album7.jpeg" alt="" class="imgalbum"></a></article>
+            <article><a href=""><img src="./img/album3.jpeg" alt=""class="imgalbum"></a></article>
+            <article><a href=""><img src="./img/album4.jpeg" alt=""class="imgalbum"></a></article>
+            <article><a href=""><img src="./img/algum5.jpeg" alt=""class="imgalbum"></a></article>
+            <article><a href=""><img src="./img/algum6.jpeg" alt=""class="imgalbum"></a></article>
         </section>
     </div>
-    <hr class="linea">
+    <hr class="uk-divider-icon">
  <!--PLAYLISTS--> 
 <section class="playlists">
     <div>
@@ -128,10 +108,10 @@
     </div>
     <div class="todasplaylist">
         <ul class="fotosplaylist">
-            <li><a href="Tracks.html"><img src="./img/playlistMUNDI.png" alt="" class="imgplaylist"></a></li>
-            <li><a href="Tracks.html"><img src="./img/playlistARG.png" alt="" class="imgplaylist"></a></li>
-            <li><a href="Tracks.html"><img src="./img/playlistUSA.png" alt="" class="imgplaylist"></a></li>
-            <li><a href="Tracks.html"><img src="./img/playlistBRASIL.png" alt="" class="imgplaylist"></a></li>
+            <li><a href=""><img src="./img/playlistMUNDI.png" alt="" class="imgplaylist"></a></li>
+            <li><a href=""><img src="./img/playlistARG.png" alt="" class="imgplaylist"></a></li>
+            <li><a href=""><img src="./img/playlistUSA.png" alt="" class="imgplaylist"></a></li>
+            <li><a href=""><img src="./img/playlistBRASIL.png" alt="" class="imgplaylist"></a></li>
         </ul>
     </div>
 </section>
