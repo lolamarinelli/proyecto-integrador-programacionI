@@ -6,6 +6,7 @@
 body{
     background-color: rgb(39, 39, 39);
     width: 100%;
+    font-family:'Roboto', sans-serif;
 }
 
 header{
@@ -15,7 +16,10 @@ header{
     padding: 0px;
     position: fixed;
     top: 0;
-    z-index: 5;   
+    z-index: 5;
+    border-bottom: solid 2px black;
+    
+   
 }
 
 .Header{
@@ -54,15 +58,20 @@ ul.Header a{
 .toggle-nav {       
     padding: 10px;          
     display: block;    
-    margin-top: 14px;    
+    margin-top: 10px;    
     width: 15px;
     align-content: end;
-    margin-left: 12px;
+    text-align: end;
+    margin-left: 28px;
     font-size: larger;
     color: black;
+    
 }
-.navegacion li{
-    margin-bottom: 5px;
+.linea{
+   width: 90%;
+   margin: 0 auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 ul .navegacion {
     display: none;
@@ -73,7 +82,7 @@ ul .navegacion {
     z-index: 10;
     background-color: white;
     width: 100%;
-    left: 0;   
+    left: 0;
 }
 
 nav:hover ul.navegacion {
@@ -84,25 +93,39 @@ main{
     display: grid;
     grid-template-rows: auto;
     margin-top: 80px;
+    background-color: rgb(39, 39, 39);
 }
 section .artistas div{
     height: 100px;
     width: 50%;
 }
-.artistas{
-    margin-top: 0px;
+
+.artistasfavoritos{
+    font-family:'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+}
+.contartistas{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
 }
 
-.artistasfavoritos h3{
-    color: white;
+.slidec{
+    width: 100%;
+    margin: 0 auto;
 }
+
 .Canciones{
 background-color: khaki;
 }
 
 .playlists{
-    background-color: rgb(39, 39, 39);
-
+background-color: lawngreen;
 }
 
 footer {
@@ -115,6 +138,7 @@ footer {
     grid-template-columns: 15% 15% 15% 15%;
 }
 
+
 ul li{
     list-style-type: none;
     user-select: none;
@@ -126,10 +150,8 @@ a {
     user-select: none;
 }
 
-.titulo {
-    font-size: 25px;
-    font-family: 'Mukta', sans-serif;
-    margin-bottom: 0px;
+.tituloart {
+    padding-top: 20px;
 }
   
  .subtitulo {
@@ -142,7 +164,7 @@ a {
     text-transform: uppercase;
     color: #000;
  }
-  
+ 
  .descripcion {
     color:black;
     margin-bottom: 0em;
@@ -158,17 +180,12 @@ a {
   
 .albums{
     display: grid;
-    grid-template-columns: 40% 57%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    grid-template-columns: 45% 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 
-ul.uk-slideshow-items li img{
-    width: 100%;
-    height: 100px;
- 
-}
 .imgalbums{
     display: grid;
     grid-template-columns: 45% 45%;
@@ -180,54 +197,20 @@ ul.uk-slideshow-items li img{
     border: solid 2px black;
 }
 .section-escrita h3 {
-    font-size: unset;
+    font-size: smaller;
     background-color: white;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 75px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
 
 }
 
-h3.artistasfavoritos {
-    color: white;
-    padding: 0px;
-}
-.fotosplaylist {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    gap: 10px 10px;
-    justify-content: space-around;
-    margin-left: 0;
-    padding-left: 0px;
-}
 
-.topplaylist {
-    text-align: center;
-    color: white;
-}
+ /* ------------------------- */
+ /* Estilos de Materialize */
+ /* ------------------------- */
+  
 
-section .playlists {
-    padding-bottom: 5px;
-}
-
-hr.uk-divider-icon {
-    margin: 10px 0px;
-}
-
-.buscador {
-    font-size: 1.625rem;
-}
-
-.lupa {
-    font-size: small;
-}
-
-form.buscador {
-    margin-left: 80px;
-}
-
-ol, ul {
-    padding: 0px;
-}
+ 
