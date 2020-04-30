@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* stylesheet palylist MOBILE*/
 body{
     background-color: rgb(39, 39, 39);
 }
@@ -95,20 +96,43 @@ main{
     margin-top: 20%
 }
 section.primera{
+   grid-template-rows: 50% 20% 30%;
+   
+
+}
+.ftoplaylist50{
+    padding-top: 40px;
+}
+}
+div.seguidores{ 
     display: grid;
-    grid-template-columns: 56% 40%;
+    grid-template-columns: 15% 75% ;
+    justify-content: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+   color: white;
+}
+div.seguir{
+    display: grid;
+    grid-template-columns:85% 5% ;
+    justify-content: left;
+    margin-top: 0;
+    margin-bottom: 0;
+   color: white;
+   padding-top: 0;
+   padding-bottom:2px ;
+   
+}
+i.fa sfa-arrow-circle-down{
+    color: green;
+}
+.h2{
+    font-size: x-large;
+    color: rgb(129, 180, 228);
+}
 
-}
-h3{
-    padding-top: 92px;
-}
-.h3{
-    padding-left: 0;
-    margin-left: 0;
-    margin-right: 32px;
-    color: honeydew;
 
-}
+
 section.segunda{
 
 
@@ -220,4 +244,4 @@ div .listatracks{
 
 }
 
-}
+/* stylesheet palylist DESKTOP*/

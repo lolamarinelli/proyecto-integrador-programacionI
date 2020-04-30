@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* stylesheet  album MOBILE */
 body{
     background-color:  rgb(39, 39, 39);
 }
@@ -88,6 +89,7 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
+
 main{
     display: grid;
     margin-top: 80px;
@@ -152,7 +154,7 @@ footer {
     border-right:solid 0.5px black;
     padding-left: 15px;
 }
-
+/* stylesheet album DESKTOP*/
 @media(min-width:1024){
     div .fotoalbum{
         justify-items: center;
