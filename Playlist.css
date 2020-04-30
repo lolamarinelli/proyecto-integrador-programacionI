@@ -54,6 +54,7 @@ ul.Header a{
 }
 button.uk-button.uk-button-default{
     border: none;
+    font-size: 25px;
 }
 .toggle-nav {       
     padding: 10px;          
@@ -123,14 +124,14 @@ div.seguir{
    padding-bottom:2px ;
    
 }
-i.fa sfa-arrow-circle-down{
-    color: green;
-}
 .h2{
+    margin-left: 30px;
     font-size: x-large;
     color: rgb(129, 180, 228);
 }
-
+.blanco{
+    color:rgb(255, 255, 255);
+}
 
 
 section.segunda{
