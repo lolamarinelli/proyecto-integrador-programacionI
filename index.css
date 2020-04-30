@@ -3,15 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*MOBILE*/
+
 body{
     background-color:black;
     width: 100%;
     font-family:'Roboto', sans-serif;
 }
-
 header{
     display: grid;
-    background-color:white;
     width: 100%;
     padding: 0px;
     position: fixed;
@@ -26,9 +26,8 @@ header{
     text-decoration: none;
     list-style-type:none;
     width: 100%;
-    background-color: rgb(247, 247, 247);
+    background-color:rgb(247, 247, 247);
     position: relative;
-    
     
 }
 li.logo img{
@@ -54,8 +53,12 @@ ul.Header a{
 .none {
     display: none;
 }
-
+.uk-button{
+    background-color: rgb(247, 247, 247);
+    
+}
 .toggle-nav {       
+    
     padding: 10px;          
     display: block;    
     margin-top: 10px;    
@@ -65,8 +68,10 @@ ul.Header a{
     margin-left: 28px;
     font-size: larger;
     color: black;
-    
+    padding-right: 100px;
 }
+
+
 .linea{
    width: 90%;
    margin: 0 auto;
@@ -235,6 +240,78 @@ footer {
     border-right:solid 0.5px black;
     padding-left: 15px;
 }
+
+/*DESKTOP*/
+
 @media(min-width: 1024px){
+    .headerm{
+        display: none;
+    }
+    header{
+        background-color: rgb(247, 247, 247);
+        width: 100%;
+    }
+
+    ul.headerd {
+        display: grid;
+        grid-template-columns: 15% 25% 10% 50%;
+        width: 100%;
+        list-style: none;
+        padding-left: 10px;
+    }
     
+    ul.headerd a{
+        color: black;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        
+
+    }
+    
+    li.vinculosh {
+        padding-top: 50px;
+        margin: 0 auto;
+        padding-left: 50px;
+        
+
+    }
+    li.columna4{
+        padding-top: 45px;
+        padding-left: 50px;
+    }
+    
+    li.vinculosh a {
+    
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+    form{
+        background-color: black;
+        color: white;
+        margin-right: 20px;
+        padding: 5px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    li.logo {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    
+    li.logo img {
+        width: 100%;
+    }
+    li.columna4{
+        width: 100%;
+        padding-left: 120px;
+    }
+
+    .buscador{
+        font-size: 25px;
+    }
+
 }
