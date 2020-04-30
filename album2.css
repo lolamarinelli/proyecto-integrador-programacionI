@@ -101,10 +101,10 @@ div .fotoalbum{
     justify-content: space-around;
 }
 .imgalbum{
-    height: 70%;
-    width: 40%;
+    height: 80%;
+    width: 50%;
     justify-content: space-around;
-    margin-left: 150px;
+    margin-left: 80px;
     margin-top: 15%;
     margin-bottom: 10%;
 
@@ -114,4 +114,16 @@ div .listaiconos{
     grid-template-columns: 85% 8% 8% ;
  
 
+}
+.h5{
+    color: whitesmoke;
+}
+@media(min-width:1024){
+    div .fotoalbum{
+        justify-items: center;
+    }
+    .imgalbum{
+        padding-left: 4px;
+        margin-left: 250px;
+    }
 }
