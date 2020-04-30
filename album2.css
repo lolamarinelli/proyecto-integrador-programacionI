@@ -115,3 +115,15 @@ div .listaiconos{
  
 
 }
+.h5{
+    color: whitesmoke;
+}
+@media(min-width:1024){
+    div .fotoalbum{
+        justify-items: center;
+    }
+    .imgalbum{
+        padding-left: 4px;
+        margin-left: 250px;
+    }
+}
