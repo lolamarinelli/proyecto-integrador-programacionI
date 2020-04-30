@@ -1,3 +1,6 @@
+body{
+    background-color:  rgb(39, 39, 39);
+}
 header{
     display: grid;
     background-color:white;
@@ -79,8 +82,11 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-main{
 
+.maindesktop{
+    display: grid;
+    margin-top: 115px;
+    display: none;
 }
 div.paginalbum{
     display: grid;
@@ -97,4 +103,9 @@ div.paginalbum{
 
 }
 
-  
+  @media(min-with:1200px)(portrait){
+    .maindesktop{
+        display: block;
+    }
+
+  }

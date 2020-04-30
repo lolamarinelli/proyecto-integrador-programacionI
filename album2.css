@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(39, 39, 39);
+    background-color:  rgb(39, 39, 39);
 }
 header{
     display: grid;
@@ -25,7 +25,6 @@ header{
     width: 100%;
     background-color: (247, 247, 247);
     position: relative;
-    
     
 }
 li.logo img{
@@ -53,6 +52,7 @@ ul.Header a{
 }
 
 .toggle-nav {       
+    
     padding: 10px;          
     display: block;    
     margin-top: 10px;    
@@ -90,46 +90,28 @@ nav:hover ul.navegacion {
 }
 main{
     display: grid;
-    margin-top: 30%
+    margin-top: 80px;
+    justify-content: space-around;
+    grid-template-rows: 1
+    ;
+    
+
 }
-section.primera{
+div .fotoalbum{
+    justify-content: space-around;
+}
+.imgalbum{
+    height: 70%;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+
+}
+div .listaiconos{
     display: grid;
-    grid-template-columns: 56% 40%;
-
-}
-h3{
-    padding-top: 92px;
-}
-.h3{
-    margin-right: 32px;
-    color: honeydew;
-
-}
-section.segunda{
-
-
-}
-.lista{
-    background-color: grey;
-    margin-left: 3px;
-    margin-right:3px ;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border-radius: 2%;
-
-
-}
-div .listatracks{
-    display: grid;
-    grid-template-columns: 20% 50% 8% 8% ;
+    grid-template-columns: 85% 8% 8% ;
  
 
 }
-.imglista{
-    width: 60%;
-    
-}
-span{
-    margin-top: 50px;
-}
-.uk-margin-small-right .uk-margin-small-right{margin-top: 45px;}
