@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 header{
     display: grid;
     background-color:white;
@@ -13,7 +12,6 @@ header{
     position: fixed;
     top: 0;
     z-index: 5;
-    border-bottom: solid 2px black;
 }
 
 .Header{
@@ -84,12 +82,23 @@ nav:hover ul.navegacion {
 button.uk-button.uk-button-default{
     border: none;
 }
+main{
+    display: grid;
+    padding: 0px;
+    margin-top: 80px;
+    background-color: rgb(39, 39, 39);
+}
+ul {
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
 
 li.fotobunny{
     text-decoration: none;
     list-style-type: none;
     width: 50%;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .centrobunny{
@@ -98,10 +107,134 @@ li.fotobunny{
     text-align: center;
 }
 
-main{
+a.letra {
+    color: white;
+}
+
+ul.info{
+    margin-bottom: 10px;
+    padding: 0 0 0 0;
+}
+
+.letrabunny h2{
+    margin-bottom: 0px;
+}
+
+.fans h6{
+    margin-bottom: 0px;
+    color: gray;
+}
+.cancionespopulares h5{
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.botonseguir{
+    margin-top: 10px;
+}
+a.seguir{
+    border: 2px solid rgb(94, 198, 233);
+    color: rgb(94, 198, 233);
+    padding: 4px;
+    border-radius: 50px 50px 50px 50px
+}
+
+.cancionespopulares h5{
+    text-align: left;
+    color: white;
+}
+.canciones{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    background-color: white;
+} 
+div.listacanciones{
     display: grid;
-    padding: 0px;
-    margin-top: 80px;
+    grid-template-columns: 10% 10% 60% 10%;
+    grid-template-rows: auto auto auto auto auto auto;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+
+}
+.unico1 div.listacanciones{
+    background-color: rgb(39, 39, 39);
+    color: white;
+
+}
+
+.unico2 div.listacanciones{
+    background-color: white;
+}
+
+.unico3 div.listacanciones{
+    background-color: rgb(39, 39, 39);
+    color: white;
+
+}
+
+.unico4 div.listacanciones{
+    background-color: white;
+}
+
+.unico5 div.listacanciones{
+    background-color: rgb(39, 39, 39);
+    color: white;
+
+}
+
+.unico6 div.listacanciones{
+    background-color: white;
+}
+
+p.letra{
+    margin: 0 0 0 0;
+    text-align: left;
+    padding: 2px 2px 2px 2px;
+}
+
+div.canciones{
     background-color: rgb(39, 39, 39);
 }
 
+ul.canciones1{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+a.uk-margin-small-right{
+    margin-top: 6px;
+}
+
+span.uk-margin-small-right-uk-icon{
+    margin-bottom: 3px;
+}
+
+div.albums{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+}
+
+h5.albums-todos{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+}
+
+
+.foto{
+    width: 100%;
+}
+
+p.titulo{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
