@@ -2,22 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Artistas.css">
     <title>Document</title>
+     <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+  
+   <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
     <header>
-        
         <ul class="Header">
-            <li class="logo"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt=""></li>
-            <li class="none">buscador</li>
-            <li class="none"><a href="">Iniciar Sesión!</a></li>
-            <li class="none"><a href="">Registrate</a></li>
-            <li>
+            <li class="logo" ><a href="index.html"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt="" ></a></li>
+            
                <nav>
-                <a href="#" class="toggle-nav"> <span class="fa fa-bars"></span></a>
-                	<ul class="navegacion">
+                   
+                <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-flip"><a href="#" class="toggle-nav"> <span class="fa fa-bars"></span></a></button>
+
+                <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                    <div class="uk-offcanvas-bar">
+                
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                
+                        <h3>Dale Play</h3>
+                        <ul class="navegacion">
                             <li>
                                 <form class="buscador">
                                     <span uk-search-icon></span>
@@ -27,13 +41,28 @@
                             <li><a href="#">Registrate</a></li>
                             <li><a href="#">Iniciar Sesión</a></li>	
                     </ul>
+            
+                
+                    </div>
+                </div>
+                
                 </nav> 
             </li>			
             
         </ul>
-    
-
 
     </header>
+    <main>
+        <ul>
+            <li class="fotobunny">
+                <img class="centrobunny" src="./img/BUNNY.jpeg" alt="">
+            </li>
+            <li>
+                <h2>Bad Bunny</h2>
+            </li>
+        </ul>
+    </main>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script>
+<script src="index.js"></script>
