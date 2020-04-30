@@ -51,7 +51,9 @@ ul.Header a{
 .none {
     display: none;
 }
-
+button.uk-button.uk-button-default{
+    border: none;
+}
 .toggle-nav {       
     padding: 10px;          
     display: block;    
@@ -126,6 +128,16 @@ div .listatracks{
     grid-template-columns: 20% 65% 8% 8% ;
  
 
+}
+span.uk-margin-small-right,
+a.uk-margin-small-right{
+    margin-top: 30px;
+}
+span.iconitos{
+    display: inline-block;
+   padding-top: 20px;
+   margin-top: 20px;
+   color: thistle;
 }
 .imglista{
     width: 100%;
