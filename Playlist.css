@@ -145,7 +145,7 @@ section .lista ul li{
   padding-top: 3px;
   
 }
-@media(min-width: 1024px){
+@media(min-width: 1024px)(){
 body{
     margin-left:200px ;
     margin-right: 20px;
