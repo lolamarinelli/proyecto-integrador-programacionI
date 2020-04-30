@@ -111,9 +111,49 @@ div .listaiconos{
  
 
 }
+.h1{
+    height: 10px;
+   margin: 0 0 0 0;
+}
+.h2{ 
+margin:0 0 0 0 
+}
+.h7{
+    margin:0 0
+}
 .h5{
     color: whitesmoke;
 }
+footer {
+    display: grid;
+    grid-template-columns: 35% 55%;
+    background-color:rgb(247, 247, 247) ;
+    border-radius: 20px 20px 0 0;
+}
+.fotofooter{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.imgf{
+    width: 100%;
+}
+.ulfooter{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color:rgb(247, 247, 247) ;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;;
+    margin-top: 20px;
+    
+
+}
+.nombresf{
+    border-left: solid 0.5px black;
+    border-right:solid 0.5px black;
+    padding-left: 15px;
+}
+
 @media(min-width:1024){
     div .fotoalbum{
         justify-items: center;
