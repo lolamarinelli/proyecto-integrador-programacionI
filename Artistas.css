@@ -29,15 +29,16 @@ li.logo img{
     margin-left: 0;
     display: block;
     width: 50%;
-    
-    
 }
 ul.Header{
     display: grid;
     grid-template-columns: 75% 20% ;
     padding-left: 10px;
-    
 
+}
+
+div.container{
+    display: none;
 }
 ul.Header a{
     color: black;
@@ -72,7 +73,9 @@ ul .navegacion {
     width: 100%;
     left: 0;
 }
-
+ul.informacion{
+    display: none;
+}
 nav:hover ul.navegacion {
     display: block;
 }
@@ -126,9 +129,11 @@ ul.info{
     margin-bottom: 0px;
     color: gray;
 }
-.cancionespopulares h5{
+h5.cancionespopulares {
     margin-bottom: 0px;
     margin-left: 15px;
+    text-align: left;
+    color: white;
 }
 
 .botonseguir{
@@ -141,10 +146,6 @@ a.seguir{
     border-radius: 50px 50px 50px 50px
 }
 
-.cancionespopulares h5{
-    text-align: left;
-    color: white;
-}
 .canciones{
     text-decoration: none;
     list-style-type: none;
@@ -229,6 +230,9 @@ h5.albums-todos{
     color: white;
 }
 
+div.albums1{
+    display: none;
+}
 
 .foto{
     width: 100%;
@@ -269,4 +273,107 @@ footer {
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
     padding-left: 15px;
+}
+
+@media (min-width: 1024px){
+    li.logo img{
+        margin-top: 15px;
+        margin-left: 30px;
+        display: block;
+        width: 20%;   
+    }
+
+    .toggle-nav {       
+        padding: 7px;          
+        display: block;    
+        margin-top: 27px;    
+        width: 15px;
+        align-content: end;
+        text-align: end;
+        margin-left: 0px;
+        font-size: x-large;
+        color: black;
+    }
+
+    li.fotobunny1{
+        text-decoration: none;
+        list-style-type: none;
+        width: 50%;
+        margin:0 0 0 0;
+    }
+
+    
+    .centrobunny1{
+        margin-top: 70px;
+        border-radius: 50%;
+        margin-left: 250px;
+    }
+
+    ul.info{
+        display: none
+    }
+    ul.informacion{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: auto auto auto auto;
+        justify-content: space-around;
+        text-align: left;
+        margin-top: 80px;
+    }
+
+    h2.letra1,h6.fans1,h5.seguir1{
+        margin: 0 0 0 0;
+    }
+
+    li.letrabunny1{
+        margin-top: 100px;
+    }
+        
+    a.seguir2{
+        border: 2px solid rgb(94, 198, 233);
+        color: rgb(94, 198, 233);
+        padding: 4px;
+        border-radius: 50px 50px 50px 50px
+    }
+
+    h2.letra1{
+        margin-top: 50px;
+    }
+
+    a.letra2{
+        color: white;
+        font-size: 3rem;
+    }
+
+    p.fans1{
+        color: gray;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    a.uk-margin-small-right{
+        text-align: left;
+    }
+
+    span.uk-margin-small-right-uk-icon{
+        margin-bottom: 3px;
+        margin-left: 60px;
+    }
+
+    div.albums{
+        display: none;
+    }
+
+    div.albums1{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-evenly;
+    }
+
+    p.titulo1{
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+    }
 }
