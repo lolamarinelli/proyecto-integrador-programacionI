@@ -5,6 +5,7 @@
 }
 body{
     background-color:  rgb(39, 39, 39);
+    width: 100%;
 }
 header{
     display: grid;
@@ -14,16 +15,14 @@ header{
     position: fixed;
     top: 0;
     z-index: 5;
-    border-bottom: solid 2px black;
-    
-   
+
 }
 
 .Header{
     text-decoration: none;
     list-style-type:none;
     width: 100%;
-    background-color: (247, 247, 247);
+    background-color: white;
     position: relative;
     
 }
@@ -39,7 +38,7 @@ ul.Header{
     display: grid;
     grid-template-columns: 75% 20% ;
     padding-left: 10px;
-    
+    margin-bottom: 18px;
 
 }
 ul.Header a{
@@ -52,17 +51,18 @@ ul.Header a{
 }
 
 .toggle-nav {       
-    
-    padding: 10px;          
+    padding: 0px;          
     display: block;    
-    margin-top: 10px;    
+    margin-top: 21px;    
     width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 28px;
     font-size: larger;
     color: black;
     
+}
+button.uk-button{
+    background-color: white;
 }
 .linea{
    width: 90%;
@@ -85,17 +85,13 @@ ul .navegacion {
 nav:hover ul.navegacion {
     display: block;
 }
-.uk-button-default{
-    border: none; 
-}
+
 main{
     display: grid;
     margin-top: 80px;
     justify-content: space-around;
-    grid-template-rows: 1
-    ;
+    grid-template-rows: 1;
     
-
 }
 div .fotoalbum{
     justify-content: space-around;
