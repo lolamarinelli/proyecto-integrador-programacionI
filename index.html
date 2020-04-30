@@ -22,16 +22,20 @@
 </head>
 <body>
     <header>
-        
         <ul class="Header">
-            <li class="logo"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt=""></li>
-            <li class="none">buscador</li>
-            <li class="none"><a href="">Iniciar Sesión!</a></li>
-            <li class="none"><a href="">Registrate</a></li>
-            <li>
+            <li class="logo" ><a href="index.html"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt="" ></a></li>
+            
                <nav>
-                <a href="#" class="toggle-nav"> <span class="fa fa-bars"></span></a>
-                	<ul class="navegacion">
+                   
+                <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-flip"><a href="#" class="toggle-nav"> <span class="fa fa-bars"></span></a></button>
+
+                <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                    <div class="uk-offcanvas-bar">
+                
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                
+                        <h3>Dale Play</h3>
+                        <ul class="navegacion">
                             <li>
                                 <form class="buscador">
                                     <span uk-search-icon></span>
@@ -41,12 +45,15 @@
                             <li><a href="#">Registrate</a></li>
                             <li><a href="#">Iniciar Sesión</a></li>	
                     </ul>
+            
+                
+                    </div>
+                </div>
+                
                 </nav> 
             </li>			
             
         </ul>
-    
-
 
     </header>
 
@@ -64,16 +71,21 @@
 
                     <ul class="uk-slideshow-items">
                         <li>
+                        <a  href="Artistas.html">
                             <img class="imgartistas" src="./img/Bad Bunny.jpeg" alt="" uk-cover>
-                            <a class="linkartistas" href="">Bad Bunny</a>
+                        </a>
                         </li>
                         <li>
-                            <img class="imgartistas" src="./img/j balvin.jpeg" alt="" uk-cover>
-                            <a href="">J Balvin</a>
+                           
+                            <a href="Artistas.html">
+                                <img class="imgartistas" src="./img/j balvin.jpeg" alt="" uk-cover>
+                            </a>
                         </li>
                         <li>
-                            <img class="imgartistas" src="./img/karolg2.jpeg" alt="" uk-cover>
-                            <a href="">Karol G</a>
+                            
+                            <a href="Artistas.html">
+                                <img class="imgartistas" src="./img/karolg2.jpeg" alt="" uk-cover>
+                            </a>
                         </li>
                     </ul>
                 
@@ -88,12 +100,16 @@
             
                     <ul class="uk-slideshow-items">
                     <li>
-                            <img class="imgartistas" src="./img/ozuna.jpeg" alt="" uk-cover>
-                            <a href="">Ozuna</a>
+                           
+                            <a href="Artistas.html">
+                                <img class="imgartistas" src="./img/ozuna.jpeg" alt="" uk-cover>
+                            </a>
                         </li>
                         <li>
-                            <img class="imgartistas" src="./img/paulo.jpeg" alt="" uk-cover>
-                            <a href="">Paulo Londra</a>
+                            
+                            <a href="Artistas.html">
+                                <img class="imgartistas" src="./img/paulo.jpeg" alt="" uk-cover>
+                            </a>
                         </li>
                     </ul>
                 
@@ -147,7 +163,7 @@
 <!--FOOTER--> 
     <footer class="footer1">
         <div class="fotofooter">
-            <img class="imgf" src="./img/logo proy.int.png" alt="">
+            <img class="imgf" src="./img/logodeezer.png" alt="">
         </div>
         <div>
             <ul class="ulfooter">
