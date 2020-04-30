@@ -112,7 +112,7 @@ section.segunda{
 
 }
 .lista{
-    background-color: grey;
+    background-color: rgb(39, 39, 39);
     margin-left: 3px;
     margin-right:3px ;
     margin-top: 2px;
@@ -145,6 +145,36 @@ section .lista ul li{
   padding-top: 3px;
   
 }
+footer {
+    display: grid;
+    grid-template-columns: 35% 55%;
+    background-color:rgb(247, 247, 247) ;
+    border-radius: 20px 20px 0 0;
+}
+.fotofooter{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.imgf{
+    width: 100%;
+}
+.ulfooter{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color:rgb(247, 247, 247) ;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;;
+    margin-top: 20px;
+    
+
+}
+.nombresf{
+    border-left: solid 0.5px black;
+    border-right:solid 0.5px black;
+    padding-left: 15px;
+}
+
 @media(min-width: 1024px)(){
 body{
     margin-left:200px ;
