@@ -212,10 +212,10 @@ footer {
 }
 /* stylesheet album DESKTOP*/
 @media(min-width: 1024px){
-    header{
+    Header{
         display: none;
     }
-    .headerdesktop{
+    header.desktopheader{
         display: block;
         display: grid;
         width: 100%;
