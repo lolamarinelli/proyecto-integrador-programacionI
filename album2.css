@@ -150,6 +150,23 @@ li.lista1{
 li.lista2{
     color: white;
 }
+h5.h5b{
+    margin: 30px 0 10px 35px;
+}
+
+a.escuchar{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid rgb(187, 238, 86);
+    background-color: rgb(187, 238, 86);
+    padding: 3px;
+    border-radius: 50px 50px 50px 50px;
+}
+svg{
+    margin-bottom: 4px;
+}
 footer {
     display: grid;
     grid-template-columns: 35% 55%;
@@ -213,7 +230,7 @@ footer {
 
     div.infoalbum{
         margin-top: 100px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     h2.h2letra{
@@ -227,6 +244,24 @@ footer {
     
     h6.h6letra{
         text-align: left;
+    }
+
+    h5.h5b{
+        margin: 20px 0 20px 170px;
+    }
+
+    a.escuchar1{
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        border: 1px solid rgb(187, 238, 86);
+        background-color: rgb(187, 238, 86);
+        padding: 5px;
+        border-radius: 50px 50px 50px 50px;
+    }
+
+    svg{
+        margin-bottom: 5px;
     }
 
     .imgalbum1{
