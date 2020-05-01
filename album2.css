@@ -54,7 +54,7 @@ ul.Header a{
     width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 28px;
+    margin-left: 0px;
     font-size: larger;
     color: black;
     
@@ -211,7 +211,7 @@ footer {
         width: 15px;
         align-content: end;
         text-align: end;
-        margin-left: 0px;
+        margin-left: 100px;
         font-size: x-large;
         color: black;
     }
