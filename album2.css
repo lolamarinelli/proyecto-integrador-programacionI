@@ -280,8 +280,8 @@ footer {
         width: 50%;
         margin-left: 280px;
     }
-    footer.footer1{
-        display: none;
+    .footer1{
+        display: none!important;
     }
     footer.footer2{
         display: block;
@@ -328,6 +328,7 @@ footer {
        margin-right: 20px;
    
    }
+   
 }
 
 
