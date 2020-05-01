@@ -16,6 +16,9 @@ header{
     top: 0;
     z-index: 5;
 }
+header.desktopheader{
+    display: none;
+}
 
 .Header{
     text-decoration: none;
@@ -167,6 +170,9 @@ a.escuchar{
 svg{
     margin-bottom: 4px;
 }
+footer.footer2{
+    display: none;
+}
 footer {
     display: grid;
     grid-template-columns: 35% 55%;
@@ -203,7 +209,7 @@ footer {
         display: block;
         width: 20%;   
     }
-
+    
     .toggle-nav {       
         padding: 7px;          
         display: block;    
@@ -268,7 +274,52 @@ footer {
         width: 50%;
         margin-left: 280px;
     }
+    footer.footer1{
+        display: none;
+    }
+    footer.footer2{
+        display: block;
+        display: grid;
+        grid-template-columns: 70% 30%;
 
+    }
+
+    footer {
+       background-color: white;
+       border-radius: 20px 20px 0 0;
+       height: 100px;
+       padding-top: 35px;
+       margin-top: 30px;
+   }
+
+   .lifooter {
+       background-color: white;
+       border-right: 1px solid black;
+       padding-left: 10px;
+       padding-right: 10px;
+       color: black;
+       font-size: 25px;
+   }
+
+   .primero{
+       border-left: 1px solid black;
+   }
+
+
+   ul.footer {
+       display: grid;
+       grid-template-columns: auto auto auto;
+       justify-content: center;
+   }
+   .deezer{
+       width:100%;
+       margin-bottom: 30px;
+   }
+
+   .deezerl{
+       margin-right: 20px;
+   
+   }
 }
 
 
