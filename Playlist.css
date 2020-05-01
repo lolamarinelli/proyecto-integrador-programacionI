@@ -224,6 +224,7 @@ footer {
  .headerDesktop{
      display: block;
  }
+ 
  .listaalbum{
      margin: 4 20 4 20;
  }
@@ -231,6 +232,7 @@ footer {
      padding-left: 123px;
  }
  .segunda{
+     width:80%
      margin-top: 0;
      padding-left: 150px;
      padding-right: 150px;
