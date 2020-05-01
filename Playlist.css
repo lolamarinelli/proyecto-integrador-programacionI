@@ -213,11 +213,16 @@ footer {
     padding-left: 15px;
 }
 
-
+.maind{
+    display: none;
+}
 /* stylesheet  DESKTOP*/
 @media(min-width: 1024px){
  .headerMobile{
       display: none;
+    }
+    .maind{
+        display: block;
     }
     .headerDesktop{
         display: block;
@@ -293,13 +298,18 @@ footer {
 .mainm{
     display: none;
 }
-.maind{
+.main{
     display: grid;
     width: 80%;
     justify-content: space-around;
     padding-right: 10%;
 }
 
+.to50{
+margin-right: 30px;
+justify-content: space-around;
+    
+}
 
 
 
