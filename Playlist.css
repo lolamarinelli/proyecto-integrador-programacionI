@@ -83,6 +83,17 @@ ul .navegacion {
     width: 100%;
     left: 0;
 }
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+input.lupa{
+    border: black ;
+    background:black;
+}
+svg{
+    color: black;
+}
 li a{
     color: whitesmoke;
 }
