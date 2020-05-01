@@ -207,25 +207,96 @@ footer {
     border-right:solid 0.5px black;
     padding-left: 15px;
 }
+.desktopheader{
+    display: none;
+}
 /* stylesheet album DESKTOP*/
 @media(min-width: 1024px){
-    li.logo img{
-        margin-top: 15px;
-        margin-left: 30px;
+    header{
+        display: none;
+    }
+    .headerdesktop{
         display: block;
-        width: 20%;   
+        display: grid;
+        width: 100%;
+        position: fixed;
+    }
+    header{
+        background-color: rgb(247, 247, 247);
+        width: 100%;
+    }
+ 
+     main{
+         margin-top: 0;
+     }
+    ul.headerd {
+        display: grid;
+        grid-template-columns: 15% 25% 20% 40%;
+        width: 100%;
+        list-style: none;
+        padding-left: 10px;
     }
     
-    .toggle-nav {       
-        padding: 7px;          
-        display: block;    
-        margin-top: 27px;    
-        width: 15px;
-        align-content: end;
-        text-align: end;
-        margin-left: 100px;
-        font-size: x-large;
+    ul.headerd a{
         color: black;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        
+
+    }
+    
+    li.vinculosh {
+        padding-top: 50px;
+        margin: 0 auto;
+        padding-left: 50px;
+        
+
+    }
+    li.columna4{
+        padding-top: 45px;
+        padding-left: 50px;
+        width: 100%;
+    }
+    
+    li.vinculosh a {
+    
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+    svg{
+        color: white;
+    }
+
+    input.lupa{
+        background-color:black;
+        border: none;
+        font-size: 20px;
+        
+    }
+
+    form{
+        background-color: black;
+        color: white;
+        margin-right: 20px;
+        padding: 5px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    li.logo {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    
+    li.logo img {
+        width: 100%;
+    }
+
+    .buscador{
+        font-size: 25px;
     }
     main div.fotoalbum{
         display: none;
