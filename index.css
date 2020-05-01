@@ -9,6 +9,7 @@ body{
     background-color:black;
     width: 100%;
     font-family:'Roboto', sans-serif;
+    height: auto;
 }
 header{
     display: grid;
@@ -17,7 +18,6 @@ header{
     position: fixed;
     top: 0;
     z-index: 5;
-    border-bottom: solid 2px black;
     
    
 }
@@ -52,7 +52,9 @@ ul.Header a{
 
 .none {
     display: none;
+
 }
+
 .uk-button{
     background-color: rgb(247, 247, 247);
     
@@ -65,7 +67,7 @@ ul.Header a{
     width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 28px;
+    margin-left: 10px;
     font-size: larger;
     color: black;
     padding-right: 100px;
@@ -242,7 +244,7 @@ main .maindesktop{
     display: none;
 }
 
-footer .footer2{
+.footer2{
     display: none;
 }
 
