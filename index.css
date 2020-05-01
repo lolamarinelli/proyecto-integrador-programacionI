@@ -305,6 +305,13 @@ footer .footer2{
         background-color: black;
         color: white;
     }
+
+    input.lupa{
+        background-color: black;
+        border: none;
+        
+    }
+
     form{
         background-color: black;
         color: white;

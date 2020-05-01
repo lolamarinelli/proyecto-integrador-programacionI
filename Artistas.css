@@ -87,7 +87,7 @@ nav:hover ul.navegacion {
 button.uk-button.uk-button-default{
     border: none;
 }
-main{
+main .mainmob{
     display: grid;
     padding: 0px;
     margin-top: 80px;
@@ -279,7 +279,86 @@ footer.footer2{
     padding-left: 15px;
 }
 
+.desktopheader{
+    display: none;
+}
+
 @media (min-width: 1024px){
+
+    .headerm{
+        display: none;
+    }
+    .desktopheader{
+        display: block;
+    }
+    header{
+        background-color: rgb(247, 247, 247);
+        width: 100%;
+    }
+
+    ul.headerd {
+        display: grid;
+        grid-template-columns: 15% 25% 20% 40%;
+        width: 100%;
+        list-style: none;
+        padding-left: 10px;
+    }
+    
+    ul.headerd a{
+        color: black;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        
+
+    }
+    
+    li.vinculosh {
+        padding-top: 50px;
+        margin: 0 auto;
+        padding-left: 40px;
+        
+
+    }
+    li.columna4{
+        padding-top: 45px;
+        padding-left: 50px;
+        width: 100%;
+    }
+    
+    li.vinculosh a {
+    
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+    form{
+        background-color: black;
+        color: white;
+        margin-right: 20px;
+        padding: 5px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    input.lupa{
+        font-size: 25px;
+    }
+
+    li.logod {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    
+    li.logod img {
+        width: 100%;
+    }
+
+    .buscador{
+        font-size: 25px;
+    }
+
     li.logo img{
         margin-top: 15px;
         margin-left: 30px;
