@@ -270,7 +270,7 @@ footer .footer2{
 
     ul.headerd {
         display: grid;
-        grid-template-columns: 15% 25% 10% 50%;
+        grid-template-columns: 15% 25% 20% 40%;
         width: 100%;
         list-style: none;
         padding-left: 10px;
@@ -296,6 +296,7 @@ footer .footer2{
     li.columna4{
         padding-top: 45px;
         padding-left: 50px;
+        width: 100%;
     }
     
     li.vinculosh a {
@@ -327,10 +328,6 @@ footer .footer2{
     
     li.logo img {
         width: 100%;
-    }
-    li.columna4{
-        width: 100%;
-        padding-left: 120px;
     }
 
     .buscador{
