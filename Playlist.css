@@ -213,105 +213,31 @@ footer {
     padding-left: 15px;
 }
 
-.maind{
+.maindesktop{
     display: none;
 }
 /* stylesheet  DESKTOP*/
 @media(min-width: 1024px){
  .headerMobile{
-      display: none;
-    }
-    .maind{
-        display: block;
-    }
-    .headerDesktop{
-        display: block;
-    }
-    .headerDesktop{
-        background-color: rgb(247, 247, 247);
-        width: 100%;
-    }
-
-    ul.headerDesktop {
-        display: grid;
-        grid-template-columns: 15% 25% 10% 50%;
-        width: 100%;
-        list-style: none;
-        padding-left: 10px;
-    }
-    
-    ul.headerDesktop a{
-        color: black;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-size: 25px;
-        font-weight: 500;
-        
-
-    }
-    
-    li.vinculosh {
-        padding-top: 50px;
-        margin: 0 auto;
-        padding-left: 50px;
-        
-
-    }
-    li.columna4{
-        padding-top: 45px;
-        padding-left: 50px;
-    }
-    
-    li.vinculosh a {
-    
-        border-radius: 10px 10px 10px 10px;
-        padding: 10px;
-        background-color: black;
-        color: white;
-    }
-    form{
-        background-color: black;
-        color: white;
-        margin-right: 20px;
-        padding: 5px;
-        border-radius: 10px 10px 10px 10px;
-    }
-
-    li.logo {
-        margin-top: 20px;
-        margin-right: 10px;
-    }
-    
-    li.logo img {
-        width: 100%;
-    }
-    li.columna4{
-        width: 100%;
-        padding-left: 120px;
-    }
-
-    .buscador{
-        font-size: 25px;
-    }
-
-
-.mainm{
-    display: none;
-}
-.main{
-    display: grid;
-    width: 80%;
-    justify-content: space-around;
-    padding-right: 10%;
-}
-
-.to50{
-margin-right: 30px;
-justify-content: space-around;
-    
-}
-
-
-
-
-}
+     display: none;
+ }
+ .headerDesktop{
+     display: block;
+ }
+ .listaalbum{
+     margin: 4 20 4 20;
+ }
+ h2.h2{
+     padding-left: 123px;
+ }
+ .segunda{
+     margin-top: 0;
+     padding-left: 150px;
+     padding-right: 150px;
+     padding-bottom: 20px;
+     padding-top: 10px;
+ }
+ .ftoplaylist50{
+     justify-content: center;
+     padding-left: 22px;
+ }
