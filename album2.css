@@ -15,9 +15,6 @@ header{
     position: fixed;
     top: 0;
     z-index: 5;
-    border-bottom: solid 2px black;
-    
-   
 }
 
 .Header{
@@ -26,15 +23,12 @@ header{
     width: 100%;
     background-color: (247, 247, 247);
     position: relative;
-    
 }
 li.logo img{
     margin-top: 15px;
     margin-left: 0;
     display: block;
     width: 50%;
-    
-    
 }
 ul.Header{
     display: grid;
@@ -94,36 +88,65 @@ main{
     display: grid;
     margin-top: 80px;
     justify-content: space-around;
-    grid-template-rows: 1
-    ;
-    
-
 }
-div .fotoalbum{
-    justify-content: space-around;
+div.fotoalbum{
+    text-align: center;
+}
+
+div.albumdesk{
+    display: none;
 }
 .imgalbum{
     height: 80%;
     width: 50%;
     justify-content: space-around;
-    margin-left: 80px;
-    margin-top: 15%;
-    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
 
 }
 div .listaiconos{
     display: grid;
-    grid-template-columns: 85% 8% 8% ;
- 
-
+    grid-template-columns: 75% 10% 10% ;
 }
 
 h2,h3,h6{
     height: 10px;
-   margin: 0 ;
+    margin: 0;
 }
-.h5{
+.h5,.h5a{
     color: whitesmoke;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.h5a{
+    color: black;
+}
+
+h2.h2letra{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3.h3letra{
+    color: white;
+    text-align: center;
+}
+
+h6.h6letra{
+    color: white;
+    text-align: center;
+}
+section.lista{
+    width: 80%;
+    margin: auto;
+}
+li.lista1{
+    color: black;
+}
+li.lista2{
+    color: white;
 }
 footer {
     display: grid;
@@ -131,6 +154,7 @@ footer {
     background-color:rgb(247, 247, 247) ;
     border-radius: 20px 20px 0 0;
 }
+
 .fotofooter{
     margin-top: 40px;
     margin-left: 10px;
@@ -146,8 +170,6 @@ footer {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
-    
-
 }
 .nombresf{
     border-left: solid 0.5px black;
@@ -155,12 +177,59 @@ footer {
     padding-left: 15px;
 }
 /* stylesheet album DESKTOP*/
-@media(min-width:1024){
-    div .fotoalbum{
-        justify-items: center;
+@media(min-width: 1024px){
+    li.logo img{
+        margin-top: 15px;
+        margin-left: 30px;
+        display: block;
+        width: 20%;   
     }
-    .imgalbum{
-        padding-left: 4px;
-        margin-left: 250px;
+
+    .toggle-nav {       
+        padding: 7px;          
+        display: block;    
+        margin-top: 27px;    
+        width: 15px;
+        align-content: end;
+        text-align: end;
+        margin-left: 0px;
+        font-size: x-large;
+        color: black;
     }
+    main div.fotoalbum{
+        display: none;
+    }
+
+    div.albumdesk{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: auto auto auto auto;
+        justify-content: space-around;
+        text-align: left;
+        margin-top: 80px;
+    }
+
+    div.infoalbum{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    h2.h2letra{
+        margin-top: 100px;
+        text-align:left;
+    }
+
+    h3.h3letra{
+        text-align: left;
+    }
+    
+    h6.h6letra{
+        text-align: left;
+    }
+
+    .imgalbum1{
+        width: 50%;
+        margin-left: 280px;
+    }
+
 }
