@@ -305,6 +305,7 @@ footer {
        padding-right: 10px;
        color: black;
        font-size: 25px;
+       list-style-type: none;
    }
 
    .primero{
@@ -316,6 +317,7 @@ footer {
        display: grid;
        grid-template-columns: auto auto auto;
        justify-content: center;
+
    }
    .deezer{
        width:100%;

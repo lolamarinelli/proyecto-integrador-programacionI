@@ -403,20 +403,18 @@ main .maindesktop{
         margin-left: 50px;
         margin-right: 50px;
         margin-top: 50px;
+        grid-row-gap: 50px;
 
     }
 
-    .indalb{
-        background-color: rgba(103, 106, 110, 0.3);
+     img .imgad{
         border-radius: 30px 30px 30px 30px;
-        margin-bottom: 20px;
-
     }
 
-  .imgad{
-      width: 80%;
+    .imgad{
+      width: 100%;
       border-radius: 30px 30px 30px 30px;
-      margin: 20px 0px 0px 17px ;
+      border: solid 30px rgba(103, 106, 110, 0.3);
      }
 
      .linea{
@@ -485,6 +483,10 @@ main .maindesktop{
         height: 100px;
         padding-top: 35px;
         margin-top: 30px;
+        
+    }
+    .footer1{
+        position: absolute !important;
     }
 
     .lifooter {
