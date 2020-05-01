@@ -98,7 +98,7 @@ button.uk-button.uk-button-default{
 main .mainmob{
     display: grid;
     padding: 0px;
-    margin-top: 80px;
+    margin-top: 200px;
 
 }
 ul {
@@ -115,7 +115,7 @@ li.fotobunny{
 }
 
 .centrobunny{
-    margin-top: 10px;
+    margin-top: 100px;
     border-radius: 50%;
     text-align: center;
 }
@@ -290,6 +290,15 @@ footer.footer2{
 .desktopheader{
     display: none;
 }
+
+.cancionesd{
+    display: none;
+}
+
+.albumsd{
+    display: none;
+}
+
 
 @media (min-width: 1024px){
 
@@ -515,4 +524,16 @@ footer.footer2{
        margin-right: 20px;
    
    }
+
+   .cancionesd{
+       display: block;
+
+   }
+
+   .cancionesm{
+       display: none;
+   }
+   .albumsd{
+    display: block;
+}
 }
