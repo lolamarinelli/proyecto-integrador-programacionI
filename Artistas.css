@@ -138,10 +138,12 @@ ul.info{
     color: gray;
 }
 h5.cancionespopulares {
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     margin-left: 15px;
     text-align: left;
     color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .botonseguir{
@@ -236,6 +238,8 @@ h5.albums-todos{
     margin-top: 20px;
     margin-left: 15px;
     color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 div.albums1{
