@@ -83,7 +83,9 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-
+button.uk-button.uk-button-default{
+    border: none;
+}
 main{
     display: grid;
     margin-top: 80px;
