@@ -7,7 +7,10 @@
 body{
     background-color: rgb(39, 39, 39);
 }
-header{
+.headerDesktop{
+    display: none;
+}
+.headerMobile{
     display: grid;
     background-color:white;
     width: 100%;
@@ -100,7 +103,7 @@ section.primera{
 
 }
 .ftoplaylist50{
-    padding-top: 40px;
+    padding-top: 26px;
 }
 }
 div.seguidores{ 
@@ -216,12 +219,15 @@ footer {
  .headerMobile{
       display: none;
     }
-    header{
+    .headerDesktop{
+        display: block;
+    }
+    .headerDesktop{
         background-color: rgb(247, 247, 247);
         width: 100%;
     }
 
-    ul.headerd {
+    ul.headerDesktop {
         display: grid;
         grid-template-columns: 15% 25% 10% 50%;
         width: 100%;
@@ -229,7 +235,7 @@ footer {
         padding-left: 10px;
     }
     
-    ul.headerd a{
+    ul.headerDesktop a{
         color: black;
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
@@ -289,7 +295,11 @@ footer {
 }
 .maind{
     display: grid;
+    width: 80%;
+    justify-content: space-around;
+    padding-right: 10%;
 }
+
 
 
 
