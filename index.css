@@ -100,7 +100,7 @@ main{
     margin-top: 80px;
 }
 
-section .artistas div{
+section .artistasm div{
     height: 100px;
     width: 50%;
 }
@@ -141,26 +141,7 @@ a {
     padding-top: 20px;
 }
   
- .subtitulo {
-   
-    margin: 0;
-    padding-top: 0px;
-    display: inline;
-    font-size: 13px;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #000;
- }
  
- .descripcion {
-    color:black;
-    margin-bottom: 0em;
-    margin: 7px 0;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Mukta', sans-serif;
-   
- }
  .container {
     display: none;
 }
@@ -190,7 +171,7 @@ a {
     border-radius: 50px 50px 50px 50px;
 }
 
-.playlists{
+.playlistsm{
     display: grid;
     grid-template-columns: 35% 60%;
 }
@@ -241,11 +222,46 @@ footer {
     padding-left: 15px;
 }
 
+.desktopheader{
+    display: none;
+}
+
+.despleglable{
+    display: none;
+}
+
+.artistasd{
+    display: none;
+}
+
+.albumsd{
+    display: none;
+}
+
+main .maindesktop{
+    display: none;
+}
+
+footer .footer2{
+    display: none;
+}
+
 /*DESKTOP*/
 
 @media(min-width: 1024px){
+    main .maindesktop{
+        display: block;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-top: 115px;
+
+    }
     .headerm{
         display: none;
+    }
+    .desktopheader{
+        display: block;
     }
     header{
         background-color: rgb(247, 247, 247);
@@ -313,5 +329,194 @@ footer {
     .buscador{
         font-size: 25px;
     }
+    
+    .playlistsm, .artistasm, .albumsm, .footer1{
+        display: none;
+    }
+
+    .despleglable{
+        display: block;
+        background-color:black;
+        border: solid 2px  white;
+        height: 2000px;
+        
+    }
+
+    .uldesp{
+        margin-top: 35px;
+        list-style-type: none;
+        position: fixed;
+        
+    }
+    .dli{
+        margin-bottom:35px;
+    }
+    .dli a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        font-weight: 530;
+    }
+
+    .artistasd{
+        display: block;
+    }
+
+    .tituartd h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        margin-top: 40px;
+        margin-left: 20px;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 50px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .contslide{
+        width: 80%;
+        margin-left: 90px;
+        margin-right: 50px;
+    }
+    
+    .imgartistasd{
+        height: 300px;
+    }
+
+    .albumsd{
+        display: block;
+    }
+
+    .contalbums{
+        display: grid;
+        grid-template-columns: 25% 25% 25% ;
+        grid-template-rows: 200px 200px;
+        justify-content: space-evenly;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+
+    }
+
+    .indalb{
+        background-color: rgba(103, 106, 110, 0.3);
+        border-radius: 30px 30px 30px 30px;
+        margin-bottom: 20px;
+
+    }
+
+  .imgad{
+      width: 80%;
+      border-radius: 30px 30px 30px 30px;
+      margin: 20px 0px 0px 17px ;
+     }
+
+     .linea{
+         margin-top: 50px;
+     }
+
+     .playlistsd{
+         display: grid;
+         grid-template-columns: 40% 60%;
+
+     }
+
+     .titplayd h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        margin-top: 300px;
+        margin-left: 20px;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 50px;
+        text-align: center;
+        margin-left: 50px;
+
+     }
+
+     .contplaylists{
+         margin-top: 20px;
+         margin-right: 90px;
+        
+     }
+     
+     .indplayd{
+        background-color: rgba(103, 106, 110, 0.3);
+        border-radius: 30px 30px 30px 30px;
+        margin-bottom: 20px;
+     }
+
+     .indplayd h5{
+         text-align: center;
+         font-size: 25px;
+         color: white;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 550;
+         padding-bottom: 10px;
+         margin-top: 10px;
+     }
+
+     .imgplayd{
+         width: 90%;
+         border-radius: 30px 30px 30px 30px;
+         margin-left: 20px;
+         margin-top: 20px;
+
+     }
+     .footer2{
+         display: block;
+         display: grid;
+         grid-template-columns: 70% 30%;
+
+     }
+
+     footer {
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+        height: 100px;
+        padding-top: 35px;
+        margin-top: 30px;
+    }
+
+    .lifooter {
+        background-color: white;
+        border-right: 1px solid black;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: black;
+        font-size: 25px;
+        
+    }
+
+    .primero{
+        border-left: 1px solid black;
+    }
+
+
+    ul.footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .deezer{
+        width:100%;
+        margin-bottom: 30px;
+    }
+
+    .deezerl{
+        margin-right: 20px;
+    
+    }
+
+
+
+    
+
+    
+    
+    
 
 }
