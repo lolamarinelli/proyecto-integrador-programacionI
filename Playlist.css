@@ -218,28 +218,53 @@ footer {
 }
 /* stylesheet  DESKTOP*/
 @media(min-width: 1024px){
- .headerMobile{
-     display: none;
- }
- .headerDesktop{
-     display: block;
- }
  
- .listaalbum{
-     margin: 4 20 4 20;
- }
- h2.h2{
-     padding-left: 123px;
- }
- .segunda{
-     width:80%
-     margin-top: 0;
-     padding-left: 150px;
-     padding-right: 150px;
-     padding-bottom: 20px;
-     padding-top: 10px;
- }
- .ftoplaylist50{
-     justify-content: center;
-     padding-left: 22px;
- }
+ 
+ li.logo img{
+    margin-top: 15px;
+    margin-left: 30px;
+    display: block;
+    width: 20%;   
+}
+
+.toggle-nav {       
+    padding: 7px;          
+    display: block;    
+    margin-top: 27px;    
+    width: 15px;
+    align-content: end;
+    text-align: end;
+    margin-left: 0px;
+    font-size: x-large;
+    color: black;
+}
+
+li.fotobunny1{
+    text-decoration: none;
+    list-style-type: none;
+    width: 50%;
+    margin:0 0 0 0;
+}
+
+
+.centrobunny1{
+    margin-top: 70px;
+    border-radius: 50%;
+    margin-left: 250px;
+}
+
+ul.info{
+    display: none
+}
+ul.informacion{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 80px;
+}
+
+h2.letra1,h6.fans1,h5.seguir1{
+    margin: 0 0 0 0;
+}
