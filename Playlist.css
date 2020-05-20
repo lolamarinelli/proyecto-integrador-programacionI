@@ -119,7 +119,10 @@ section.primera{
 h5{
     margin-top: 0;
 }
-
+.numeros{
+    color:white;
+    
+}
 div.seguidores{ 
     display: grid;
     grid-template-columns: 15% 75% ;
@@ -335,6 +338,7 @@ footer {
     padding-top: 0;
    }
    .numeros,.seguidores{
+       size: 10px;
        color: white;
    }
    .seguir{

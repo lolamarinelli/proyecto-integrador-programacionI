@@ -229,8 +229,9 @@ footer {
     display: none;
 }
 
-.despleglable{
+.desplegable{
     display: none;
+    
 }
 
 .artistasd{
@@ -341,10 +342,13 @@ main .maindesktop{
         display: none;
     }
 
-    .despleglable{
+    .desplegable{
         display: block;
         background-color:black;
         border: solid 2px  white;
+        border-bottom: none;
+        border-left: none;
+        margin-bottom: 0;
         height: 2000px;
         
     }
@@ -483,7 +487,7 @@ main .maindesktop{
         border-radius: 20px 20px 0 0;
         height: 100px;
         padding-top: 35px;
-        margin-top: 30px;
+        margin-top: 0;
         
     }
     .footer1{
