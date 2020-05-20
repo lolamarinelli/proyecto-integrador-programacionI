@@ -119,7 +119,7 @@ section.primera{
 h5{
     margin-top: 0;
 }
-}
+
 div.seguidores{ 
     display: grid;
     grid-template-columns: 15% 75% ;
