@@ -62,16 +62,16 @@ ul.Header a{
 }
 .toggle-nav {       
     
-    padding: 10px;          
+    padding: 7px;          
     display: block;    
-    margin-top: 10px;    
+    margin-top: 11px;    
     width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 10px;
+    margin-left: 0px;
     font-size: larger;
     color:black;
-    padding-right: 100px;
+    
 }
 
 
