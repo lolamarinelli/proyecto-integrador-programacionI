@@ -6,3 +6,4 @@ window .addEventListener("load", function(){
         console.log(respuesta);
     })
 }
+// esto es lo que esta en playground , pero nunca lo vimos asi nose bien dodne poner cada dato

@@ -17,3 +17,4 @@ then(
     }
 )
 })
+// no se que onda donde va el endpoint y ddonde encuento lo que usabamos con gyphy
