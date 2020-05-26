@@ -57,7 +57,7 @@ ul.Header a{
 }
 
 .uk-button{
-    background-color: rgb(247, 247, 247);
+    background-color:white;
     
 }
 .toggle-nav {       
@@ -95,6 +95,7 @@ ul .navegacion {
 
 nav:hover ul.navegacion {
     display: block;
+    
 }
 
 main{
