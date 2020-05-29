@@ -1,6 +1,6 @@
 window .addEventListener("load", function(){
-    const apiRoute=' https://cors-anywhere.herokuapp.com/https://developers.deezer.com/api/explorer?url=genre/0'
-    fetch (apiRoute+' https://developers.deezer.com/api/explorer?url=genre/0')
+    const apiRoute=' https://cors-anywhere.herokuapp.com/https://api.deezer.com/'
+    fetch (apiRoute+' https://api.deezer.com/genre')
     .then(data=>data.json())
     .then(respuesta =>{
         let genre= respuesta.data;
