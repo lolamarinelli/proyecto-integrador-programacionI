@@ -26,7 +26,7 @@ header{
     text-decoration: none;
     list-style-type:none;
     width: 100%;
-    background-color:rgb(247, 247, 247);
+    background-color:white;
     position: relative;
     
 }
@@ -49,9 +49,7 @@ ul.Header a{
     color:black;
     text-decoration: none;
 }
-.buscador{
-   
-}
+
 
 .none {
     display: none;
@@ -59,21 +57,21 @@ ul.Header a{
 }
 
 .uk-button{
-    background-color: rgb(247, 247, 247);
+    background-color:white;
     
 }
 .toggle-nav {       
     
-    padding: 10px;          
+    padding: 7px;          
     display: block;    
-    margin-top: 10px;    
+    margin-top: 11px;    
     width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 10px;
+    margin-left: 0px;
     font-size: larger;
     color:black;
-    padding-right: 100px;
+    
 }
 
 
@@ -97,6 +95,7 @@ ul .navegacion {
 
 nav:hover ul.navegacion {
     display: block;
+    
 }
 
 main{
@@ -231,8 +230,9 @@ footer {
     display: none;
 }
 
-.despleglable{
+.desplegable{
     display: none;
+    
 }
 
 .artistasd{
@@ -269,7 +269,7 @@ main .maindesktop{
         display: block;
     }
     header{
-        background-color: rgb(247, 247, 247);
+        background-color:white;
         width: 100%;
     }
 
@@ -343,10 +343,13 @@ main .maindesktop{
         display: none;
     }
 
-    .despleglable{
+    .desplegable{
         display: block;
         background-color:black;
         border: solid 2px  white;
+        border-bottom: none;
+        border-left: none;
+        margin-bottom: 0;
         height: 2000px;
         
     }
@@ -485,7 +488,7 @@ main .maindesktop{
         border-radius: 20px 20px 0 0;
         height: 100px;
         padding-top: 35px;
-        margin-top: 30px;
+        margin-top: 0;
         
     }
     .footer1{

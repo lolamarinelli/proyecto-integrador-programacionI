@@ -15,7 +15,6 @@ body{
     position: fixed;
     top: 0;
     z-index: 5;
-    border-bottom: solid 2px black;
     
    
 }
@@ -59,14 +58,13 @@ button.uk-button.uk-button-default{
     padding-left: 5px;
 }
 .toggle-nav {       
-    padding: 10px;          
+    padding: 7px;          
     display: block;    
-    margin-top: 10px;    
-    width: 15%;
+    margin-top: 11px;    
+    width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 10px;
-    margin-right: 40px;
+    margin-left: 0px;
     font-size: larger;
     color: black;
     
@@ -103,95 +101,11 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-main{
-    display: grid;
-    margin-top: 20%
-}
-section.primera{
-   grid-template-rows: 50% 20% 30%;
-   
-
-}
-.ftoplaylist50{
-    
-    padding-top: 26px;
-}
-h5{
-    margin-top: 0;
-}
-}
-div.seguidores{ 
-    display: grid;
-    grid-template-columns: 15% 75% ;
-    justify-content: left;
-    margin-top: 0;
-    margin-bottom: 0;
-   color: white;
-}
-div.seguir{
-    display: grid;
-    grid-template-columns:85% 5% ;
-    justify-content: left;
-    margin-top: 0;
-    margin-bottom: 0;
-   color: white;
-   padding-top: 0;
-   padding-bottom:1px ;
-   
-}
-.h2{
-    margin-left: 10px;
-    font-size: x-large;
-    color: rgb(129, 180, 228);
-}
-.blanco{
-    color:rgb(255, 255, 255);
-}
-
-.lista{
-    background-color: rgb(39, 39, 39);
-    margin-left: 3px;
-    margin-right:3px ;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border-radius: 2%;
-
-
-}
-div .listatracks{
-    display: grid;
-    grid-template-columns: 20% 65% 8% 8% ;
- 
-
-}
-span.uk-margin-small-right,
-a.uk-margin-small-right{
-    margin-top: 30px;
-}
-span.iconitos{
-    display: inline-block;
-   padding-top: 20px;
-   margin-top: 20px;
-   color: thistle;
-}
-.imglista{
-    width: 100%;
-    height: 90%;
-    margin-top: 3px;
-  margin-bottom: 0;
+.section1{
+    margin-top: 25%;
     
 }
-span{
-    padding-right: 0;
-    margin-top: 50%;
-}
-section .lista ul li{
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-bottom: 3px;
-  padding-top: 3px;
-  
-}
+
 footer {
     display: grid;
     grid-template-columns: 35% 55%;
@@ -203,7 +117,7 @@ footer {
     margin-left: 10px;
 }
 .imgf{
-    width: 100%;
+    width: 240px;
 }
 .ulfooter{
     list-style: none;
@@ -239,13 +153,11 @@ footer {
         position: fixed;
     }
     header{
-        background-color: rgb(247, 247, 247);
+        background-color:white;
         width: 100%;
     }
  
-     main{
-         margin-top: 0;
-     }
+  
     ul.headerd {
         display: grid;
         grid-template-columns: 15% 25% 20% 40%;
@@ -309,102 +221,57 @@ footer {
     }
     
     li.logo img {
-        width: 100%;
+        width: 60%%;
     }
 
     .buscador{
         font-size: 25px;
     }
-   .primera{
-       width:100%;
-   }
-   img.imgtop {
-       display: grid;
-       justify-content: space-around;
-    margin-left: 130px;
-   }
-   .imgtop{
-       padding-top: 220px;
-       margin-top: 0;
-       margin-right: 100px; 
-       margin-left: 140px;
-   }
-   .seguidores{
-     display: inline-block;
-    margin-left: 16%;
-    padding-top: 0;
-   }
-   .numeros,.seguidores{
-       color: white;
-   }
-   .seguir{
-       padding-left: 6%;
-       padding-right: 7%;
-       justify-content: space-around;
-       margin-left: 8%;
-       text-decoration: none;
-   }
-
-.listaalbum{
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.imglista{
-    width: 60%;
-    height: 80%;
-    margin: 1 1 4 4;
-    padding-left: 10px;
-}
-.renglones{
-    height: 80px;
-}
- footer.footer1{
-    display: none;
-}
-footer.footer2{
-    display: block;
-    display: grid;
-    grid-template-columns: 70% 30%;
-
-}
-footer {
-    background-color: white;
-    border-radius: 20px 20px 0 0;
-    height: 100px;
-    padding-top: 35px;
-    margin-top: 30px;
-}
-
-.lifooter {
-    background-color: white;
-    border-right: 1px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: black;
-    font-size: 25px;
-  list-style-type: none;
+    footer.footer1{
+        display: none;
+    }
+    footer.footer2{
+        display: block;
+        display: grid;
+        grid-template-columns: 70% 30%;
     
+    }
+    footer {
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+        height: 100px;
+        padding-top: 35px;
+        margin-top: 30px;
+    }
+    
+    .lifooter {
+        background-color: white;
+        border-right: 1px solid black;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: black;
+        font-size: 25px;
+      list-style-type: none;
+        
+    }
+    
+    .primero{
+        border-left: 1px solid black;
+    }
+    
+    
+    ul.footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .deezer{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    
+    .deezerl{
+        margin-right: 20px;
+    
+    }
 }
-
-.primero{
-    border-left: 1px solid black;
-}
-
-
-ul.footer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-}
-.deezer{
-    width:100%;
-    margin-bottom: 30px;
-}
-
-.deezerl{
-    margin-right: 20px;
-
-}
-}
-
-

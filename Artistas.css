@@ -311,10 +311,16 @@ footer.footer2{
     }
     .desktopheader{
         display: block;
+        display: grid;
+        width: 100%;
+        position: fixed;
     }
     header{
-        background-color: rgb(247, 247, 247);
+        background-color:white;
         width: 100%;
+    }
+    main{
+        margin-top: 0;
     }
 
     ul.headerd {
