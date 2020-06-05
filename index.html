@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="index.css">
     <!-- Fonts -->
    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+    <!--JS Header Buscador-->
+    <script src="jsBuscador.js"></script>
   
    <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
@@ -38,9 +40,9 @@
                         <h3>Dale Play</h3>
                         <ul class="navegacion">
                             <li>
-                                <form class="buscador">
-                                    <span uk-search-icon></span>
-                                    <input class="lupa" type="search" placeholder="Search...">
+                                <form action="resultados.html" method="GET">
+                                    <input type="text" name="buscador" placeholder="Buscador">
+                                    <input type="submit" value= "Buscar">
                                 </form>
                             </li>
                             <li><a href="#">Registrate</a></li>
