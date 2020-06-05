@@ -103,7 +103,8 @@ nav:hover ul.navegacion {
 }
 .section1{
     margin-top: 25%;
-    
+    display:grid;
+    display: block;
 }
 h2.h2Genero{
     color: white;
