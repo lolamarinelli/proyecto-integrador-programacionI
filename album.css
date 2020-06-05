@@ -289,6 +289,7 @@ footer {
     li.logo {
         margin-top: 20px;
         margin-right: 10px;
+        width: 100%;
     }
     
     li.logo img {
@@ -345,15 +346,18 @@ footer {
 
     svg{
         margin-bottom: 5px;
+        color: black;
     }
 
     .imgalbum1{
         width: 50%;
         margin-left: 280px;
     }
+
     .footer1{
         display: none!important;
     }
+
     footer.footer2{
         display: block;
         display: grid;
@@ -399,7 +403,7 @@ footer {
        margin-right: 20px;
    
    }
-   
+
 }
 
 

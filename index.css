@@ -287,8 +287,6 @@ main .maindesktop{
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         font-weight: 500;
-        
-
     }
     
     li.vinculosh {
@@ -305,7 +303,6 @@ main .maindesktop{
     }
     
     li.vinculosh a {
-    
         border-radius: 10px 10px 10px 10px;
         padding: 10px;
         background-color: black;
@@ -315,7 +312,6 @@ main .maindesktop{
     input.lupa{
         background-color: black;
         border: none;
-        
     }
 
     form{
@@ -329,6 +325,7 @@ main .maindesktop{
     li.logo {
         margin-top: 20px;
         margin-right: 10px;
+        width: 100%;
     }
     
     li.logo img {

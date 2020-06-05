@@ -309,11 +309,11 @@ footer.footer2{
     .headerm{
         display: none;
     }
+    li.logo{
+        display: none;
+    }
     .desktopheader{
         display: block;
-        display: grid;
-        width: 100%;
-        position: fixed;
     }
     header{
         background-color:white;
@@ -337,16 +337,16 @@ footer.footer2{
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         font-weight: 500;
-        
-
     }
     
+    ul.headerdesktop {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
     li.vinculosh {
         padding-top: 50px;
         margin: 0 auto;
-        padding-left: 40px;
-        
-
+        padding-left: 50px;
     }
     li.columna4{
         padding-top: 45px;
@@ -355,12 +355,16 @@ footer.footer2{
     }
     
     li.vinculosh a {
-    
         border-radius: 10px 10px 10px 10px;
         padding: 10px;
         background-color: black;
         color: white;
     }
+
+    svg{
+        color: white;
+    }
+
     form{
         background-color: black;
         color: white;
@@ -370,27 +374,26 @@ footer.footer2{
     }
 
     input.lupa{
-        font-size: 25px;
+        background-color: black;
+        border: none;
+        font-size: 20px;
     }
 
-    li.logod {
-        margin-top: 30px;
-        margin-right: 10px;
-    }
-    
-    li.logod img {
+    li.logod img{
+        margin-top: 15px;
         width: 100%;
     }
+    
 
     .buscador{
         font-size: 25px;
     }
 
-    li.logo img{
-        margin-top: 15px;
-        margin-left: 30px;
-        display: block;
-        width: 20%;   
+    li.logod {
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 10px;
+        display: block; 
     }
 
     .toggle-nav {       
