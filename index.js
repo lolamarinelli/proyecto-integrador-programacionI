@@ -1,7 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const elementosDelCarousel = document.querySelectorAll('.carousel');
-    M.Carousel.init(elementosDelCarousel, {
-        duration: 200
-      
-    });
- });
+window.addEventListener("load", function(){
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+
+.then (
+    function(respuesta){
+        return respuesta.json();
+    }
+)
+.then(
+    function(informacion){
+        let chart= informacion.data;
+        
+        for (let index=0;index< 3;index++){
+            cadaChart= chart[index]
+            imgChart= cadaChart.picture
+            console.log(informacion)
+            document.querySelector("liplay").innerHTML += imgChart
+        }
+    })
+})

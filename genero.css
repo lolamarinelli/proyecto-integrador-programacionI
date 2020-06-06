@@ -113,11 +113,27 @@ h2.h2Genero{
     margin-top:3px;
     margin-bottom: 20%;
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 50% 50%;
     justify-content: space-around;
 
 }
-
+.divDeJs{
+    display: grid;
+}
+.imgDeGeneros{
+    width: 100%;
+    position: relative;
+}
+.h4js{
+    color: white;
+    top: 50%;
+    left: 0;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
 footer {
     display: grid;
     grid-template-columns: 35% 55%;

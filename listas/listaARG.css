@@ -109,7 +109,6 @@ main{
 section.primera{
    grid-template-rows: 50% 20% 30%;
    
-
 }
 .ftoplaylist50{
     
@@ -200,7 +199,7 @@ section .lista ul li{
     grid-template-rows: 30px,30px;
     justify-content: space-around;
 }
-.h6{
+h5.nombredeartitas{
    margin-top: 0;
    padding-top: 0;
 }
@@ -332,19 +331,26 @@ footer {
        width:100%;
    }
    img.imgtop {
+       margin-top: 10%;
        display: grid;
        justify-content: space-around;
-    margin-left: 130px;
+    margin-left: 100px;
    }
-   .imgtop{
+   img.imgdelostops{
+   padding-left: 40%;
+    margin-left: 30%;
+    
+
+    
+   }
+   div.imgtop{
        padding-top: 220px;
-       margin-top: 0;
-       margin-right: 100px; 
-       margin-left: 140px;
+       margin-top: 5%;
+     margin-left: 25%;
    }
    .seguidores{
      display: inline-block;
-    margin-left: 16%;
+    margin-left: 10%%;
     padding-top: 0;
    }
    .numeros,.seguidores{
