@@ -102,107 +102,74 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-main{
-    display: grid;
-    margin-top: 20%
-}
-section.primera{
-   grid-template-rows: 50% 20% 30%;
-   
-}
-.ftoplaylist50{
-    
-    padding-top: 26px;
-}
-h5{
-    margin-top: 0;
-}
-.numeros{
-    color:white;
-    
-}
-div.seguidores{ 
-    display: grid;
-    grid-template-columns: 15% 75% ;
-    justify-content: left;
-    margin-top: 0;
-    margin-bottom: 0;
-   color: white;
-}
-div.seguir{
-    display: grid;
-    grid-template-columns:85% 5% ;
-    justify-content: left;
-    margin-top: 0;
-    margin-bottom: 0;
-   color: white;
-   padding-top: 0;
-   padding-bottom:1px ;
-   
-}
-.h2{
-    margin-left: 10px;
-    font-size: x-large;
-    color: rgb(129, 180, 228);
-}
-.blanco{
-    color:rgb(255, 255, 255);
-}
 
-.lista{
+
+
+/*nuevo pueba*/
+.conteiner{
     background-color: rgb(39, 39, 39);
-    margin-left: 3px;
-    margin-right:3px ;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border-radius: 2%;
-
 
 }
-div .listatracks{
+.catalog-header{
+padding-top: 24%;
+display: grid;
+grid-template-columns: 40% 60%;
+width: 100%;
+height: 10%;
+justify-content: center;
+}
+.imgdelostops{
+    margin-left: 2%;
+}
+.titulo{
+    margin-bottom: 0%;
+}
+.infoinfo{
+    margin-bottom: 0px;
+}
+.infolista{
     display: grid;
-    grid-template-columns: 20% 65% 8% 8% ;
- 
+    grid-template-rows: 3;
+}
+.toolbaritem{
+    display: inline-block;
 
+}
+.renglones{
+    box-sizing: ;
+}
+.lista{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.listatracks{
+        display: grid;
+        grid-template-columns: 20% 60% 10% 10% ;
+}
+h4.titulos,h5.nombredeartitas{
+    color: white;
 }
 span.uk-margin-small-right,
 a.uk-margin-small-right{
-    margin-top: 30px;
+   margin-top: 30px;
 }
 span.iconitos{
-    display: inline-block;
-   padding-top: 20px;
-   margin-top: 20px;
-   color: thistle;
+   display: inline-block;
+  padding-top: 20px;
+  margin-top: 20px;
+  color: thistle;
 }
-.imglista{
-    width: 100%;
-    height: 90%;
-    margin-top: 3px;
-  margin-bottom: 0;
-    
+h5.nombredeartista{
+    margin:0 0 0 0 ;
+    margin-top: 0px;
+    padding-top: 0px;
+
 }
-span{
-    padding-right: 0;
-    margin-top: 50%;
-}
-section .lista ul li{
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-bottom: 3px;
-  padding-top: 3px;
-  
-}
-.dentrolista.h5{
-    margin-bottom: 2px;
-    margin-top: 2px;
-    grid-template-rows: 30px,30px;
-    justify-content: space-around;
-}
-h5.nombredeartitas{
-   margin-top: 0;
-   padding-top: 0;
-}
+
+
+
+/*hasta aca */
 footer {
     display: grid;
     grid-template-columns: 35% 55%;
@@ -375,8 +342,14 @@ footer {
     margin: 1 1 4 4;
     padding-left: 10px;
 }
+.uk-listuk-list-striped{
+margin-top: 2px;
+margin-bottom: 2px;
+}
 .renglones{
-    height: 80px;
+    height: 40px;
+margin-bottom: 2px;
+margin-top: 2px;
 }
  footer.footer1{
     display: none;

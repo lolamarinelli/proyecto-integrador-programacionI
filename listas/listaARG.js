@@ -15,37 +15,51 @@ window .addEventListener("load", function(){
                 let img=cadaChart.album.cover;
                 let artista=cadaChart.artist.name;
                 let charts=`
-                <ul class="uk-list uk-list-striped">
+                
                         <li class="renglones">
                             <div class="listatracks"> 
                                 <a href="album.html"><img src=`+ img +` alt="" class="imglista" ></a>
-                                    <section class="dentrolista"><h4>`+titulo+`</h4><h5 class="nombredeartitas">`+artista+`</h5></section> 
+                                    <section class="dentrolista"><h4 class="titulos">`+titulo+`</h4><h5 class="nombredeartitas">`+artista+`</h5></section> 
                                     <span class="uk-margin-small-right" uk-icon="check"></span>
 
                                 <a href="" uk-icon="heart" class="uk-margin-small-right"></a>
                             </div>
                          </li>
-                </ul>         
+                   
              `
             document.querySelector(".lista").innerHTML += charts }
            
+                titulo=informacion.title;
+                let titulos=titulo;
             
+                document.querySelector(".titulo").innerHTML += titulos
+
                 seguidores=informacion.fans;
                 let fans=seguidores;
-                let followers=
-                `
-                <a href="">
-                <h5 class="numeros"> `+fans+`</h5>
-                </a>
-                `
-                document.querySelector(".seguidores").innerHTML += followers
+               
+                document.querySelector(".seguidores").innerHTML += fans
             
+                numeroDeCanciones=informacion.nb_tracks;
+                let canciones=numeroDeCanciones;
+              
+                document.querySelector(".ncanciones").innerHTML += canciones 
+
                 foto=informacion.picture;
                 let fotoDeLista=
                 `
                 <img src="`+ foto+`" alt="foto de TOP 50 ARGENTINA" class="imgdelostops">
                 `
-                document.querySelector(".imgtop").innerHTML += fotoDeLista
+                document.querySelector(".ftoheader").innerHTML += fotoDeLista
+
+                duracion=informacion.duration;
+                let minutos=duracion;
+               
+                document.querySelector(".duracion").innerHTML += minutos
+
+                document.querySelector(".tres").addEventListener("click",function(e){
+                    let respuesta= 
+                })
+                
         }
         
     )
