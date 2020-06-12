@@ -275,7 +275,6 @@ footer.footer2{
 .imgf{
     width: 100%;
 }
-
 .ulfooter{
     list-style: none;
     text-decoration: none;
@@ -285,7 +284,6 @@ footer.footer2{
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
 }
-
 .nombresf{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
@@ -552,12 +550,10 @@ footer.footer2{
 
    .deezerl{
        margin-right: 20px;
-   
    }
 
    .cancionesd{
        display: block;
-
    }
 
    .cancionesm{
