@@ -16,8 +16,11 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script>
 <script src="artista.js"></script>
-</head>
-<body>
+
+    
+<!--HEADER--> <!--HEADER--> <!--HEADER--> <!--HEADER--> <!--HEADER--> <!--HEADER--> <!--HEADER--> <!--HEADER--> 
+
+
     <header>
         <!--HEADER MOBILE--> 
         <ul class="Header">
@@ -56,9 +59,30 @@
             
         </ul>
 
+        <!-- HEADER DESKTOP -->
+        <header class="desktopheader">
+                <ul class="headerdesktop">
+                    <ul class="headerd">
+                        <li class="logod" ><a href="index.html"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt="" ></a></li>
+                        <li class="vinculosh"><a href="">Iniciar Sesión</a></li>
+                        <li class="vinculosh"><a href="">Registrate</a></li>
+                        <li class="columna4">
+                            <form class="buscador">
+                                <span uk-search-icon></span>
+                                <input class="lupa" type="search" placeholder="Search...">
+                            </form>
+                        </li>
+                    </ul>
+                </ul>
+        </header>
+
     </header>
 
-    <main class="mainmob">
+
+<!--MAIN--> <!--MAIN--> <!--MAIN--> <!--MAIN--> <!--MAIN--> <!--MAIN--> <!--MAIN--> <!--MAIN--> <!--MAIN--> <!--MAIN--> 
+   
+
+<main class="mainmob">
         <!--INFO MOBILE--> 
         <ul class="info">
             <li class="fotobunny">
@@ -111,7 +135,7 @@
                 </ul>
            </section>
         </div>
-    </aside>
+        </aside>
         <!--ALBUMS MOBILE--> 
         <h5 class="albums-todos">Albums</h5>
         <div class="albums">
@@ -141,41 +165,6 @@
         </div>
 
     </main>
-
-    <!--FOOTER MOBILE--> 
-    <footer class="footer1">
-        <div class="fotofooter">
-            <img class="imgf" src="./img/logodeezer.png" alt="">
-        </div>
-        <div>
-            <ul class="ulfooter">
-                <li class="nombresf">Lola Marinelli</li>
-                <li class="nombresf">Paulina Ruiz</li>
-                <li class="nombresf">Andrés Chiavelli</li>
-            </ul>
-        </div>
-    </footer>
-
-<!--EMPIEZA DESKTOP-->  <!--EMPIEZA DESKTOP--> <!--EMPIEZA DESKTOP--> 
-
-<!-- HEADER DESKTOP -->
-<header class="desktopheader">
-    <ul class="headerdesktop">
-        <ul class="headerd">
-            <li class="logod" ><a href="index.html"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt="" ></a></li>
-            <li class="vinculosh"><a href="">Iniciar Sesión</a></li>
-            <li class="vinculosh"><a href="">Registrate</a></li>
-            <li class="columna4">
-                <form class="buscador">
-                    <span uk-search-icon></span>
-                    <input class="lupa" type="search" placeholder="Search...">
-                </form>
-            </li>
-
-    </ul>
-
-</header>
-
 <main class="maindes"> 
      <!--INFO DESKTOP--> 
      <ul class="informacion">
@@ -189,7 +178,7 @@
         </li>
     </ul>
 
-    <!--CANCIONES MOBILE--> 
+    <!--CANCIONES DESKTOP--> 
     <aside class="cancionesd">
         <h5 class="cancionespopulares">Canciones más Populares</h5>
         <div class="canciones">
@@ -228,7 +217,7 @@
         </div>
     </aside>
 
-     <!--ALBUMS DESKTOP-->
+<!--ALBUMS DESKTOP-->
      <section class="albumsd">
          <div>
             <h5 class="albums-todos">Albums</h5> 
@@ -258,19 +247,49 @@
 </section>
 </main>
 
+
+<!--FOOTER--> <!--FOOTER--><!--FOOTER--><!--FOOTER--><!--FOOTER--><!--FOOTER--><!--FOOTER--><!--FOOTER--><!--FOOTER-->
+
+
+    <!--FOOTER MOBILE--> 
+    <footer class="footer1">
+        <div class="fotofooter">
+            <img class="imgf" src="./img/logodeezer.png" alt="">
+        </div>
+        <div>
+            <ul class="ulfooter">
+                <li class="nombresf">Lola Marinelli</li>
+                <li class="nombresf">Paulina Ruiz</li>
+                <li class="nombresf">Andrés Chiavelli</li>
+            </ul>
+        </div>
+    </footer>
     <!--FOOTER DESKTOP-->
     <footer class="footer2">
+        <div class="vinculos2">
+            <a href="http://facebook.com">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            </a>
+            <a href="http://instagram.com">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="http://twitter.com">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="http://youtube.com">
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+            </a>
+        </div>
         <div class="nombres">
-        <ul class="footer">
-            <li class="lifooter primero">Lola Marinelli</li>
-            <li class="lifooter">Paulina Ruiz</li>
-            <li class="lifooter">Andrés Chiavelli</li>
-        </ul>
+            <ul class="footer">
+                <li class="lifooter primero">Lola Marinelli</li>
+                <li class="lifooter">Paulina Ruiz</li>
+                <li class="lifooter">Andrés Chiavelli</li>
+            </ul>
         </div>
         <div class="deezerl">
-        <a href="https://www.deezer.com/es/"><img class="deezer" src="./img/logodeezer.png" alt=""></a>
-        </div>  
-    
+            <a href="https://www.deezer.com/es/"><img class="deezer" src="./img/logodeezer.png" alt=""></a>
+        </div>
     </footer>
 </body>
 </html>
