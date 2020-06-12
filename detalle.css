@@ -113,7 +113,7 @@ footer {
     border-radius: 20px 20px 0 0;
 }
 .fotofooter{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 10px;
 }
 .imgf{
@@ -127,9 +127,20 @@ footer {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
-    
-
 }
+
+.vinculos1{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+article.vinculos1 a{
+    color: black;
+    font-size: 16px;
+}
+
 .nombresf{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;

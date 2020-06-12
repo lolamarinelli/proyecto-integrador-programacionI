@@ -187,12 +187,25 @@ footer {
 }
 
 .fotofooter{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 10px;
 }
 .imgf{
     width: 100%;
 }
+
+.vinculos1{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+article.vinculos1 a{
+    color: black;
+    font-size: 16px;
+}
+
 .ulfooter{
     list-style: none;
     text-decoration: none;
