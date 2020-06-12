@@ -271,9 +271,11 @@ footer {
 footer.footer2{
     display: none;
 }
+
 .imgf{
     width: 100%;
 }
+
 .ulfooter{
     list-style: none;
     text-decoration: none;
@@ -282,9 +284,8 @@ footer.footer2{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
-    
-
 }
+
 .nombresf{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
@@ -501,14 +502,14 @@ footer.footer2{
 
     }
 
-    .vinculos{
+    .vinculos2{
         text-align: right;
         text-decoration: none;
         list-style-type: none;
         margin-top: 7px;
     }
 
-    div.vinculos a{
+    div.vinculos2 a{
         color: black;
         font-size: 30px;
     }
