@@ -21,7 +21,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
                 <img src="`+ img +`" alt="" class="imgDeGeneros">
              </div>
              `
-      document.querySelector(".section2").innerHTML += genero 
+      document.querySelector(".section2").innerHTML += generos 
       
         }
         console.log(informacion);
