@@ -261,8 +261,20 @@ footer {
     footer.footer2{
         display: block;
         display: grid;
-        grid-template-columns: 70% 30%;
-    
+        grid-template-columns: 12% 60% 25%;
+
+    }
+
+    .vinculos2{
+        text-align: right;
+        text-decoration: none;
+        list-style-type: none;
+        margin-top: 7px;
+    }
+
+    div.vinculos2 a{
+        color: black;
+        font-size: 30px;
     }
     footer {
         background-color: white;
@@ -287,6 +299,9 @@ footer {
         border-left: 1px solid black;
     }
     
+    div.nombres{
+        margin-top: 10px;
+    }
     
     ul.footer {
         display: grid;
