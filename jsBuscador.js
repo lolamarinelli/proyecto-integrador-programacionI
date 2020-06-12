@@ -31,8 +31,6 @@ window.addEventListener("load", function(){
                 `
                 document.querySelector("body").innerHTML += foto
 
-
-                
             }
             
         }
