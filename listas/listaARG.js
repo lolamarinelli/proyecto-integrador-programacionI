@@ -19,7 +19,7 @@ window .addEventListener("load", function(){
                 
                         <li class="renglones">
                             <div class="listatracks"> 
-                               
+                               <p>`+ (index+1) +`</p>
                                 <a href="album.html"><img src=`+ img +` alt="" class="imglista" ></a>
                                     <section class="dentrolista"><h4 class="titulos">`+titulo+`</h4><h5 class="nombredeartitas">`+artista+`</h5></section> 
                                     <span class="uk-margin-small-right" uk-icon="check"></span>
