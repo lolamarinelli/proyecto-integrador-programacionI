@@ -12,13 +12,13 @@ window .addEventListener("load", function(){
             for (let index=0;index< chart.length;index++){
                 cadaChart= chart [index];
                 let titulo= cadaChart.title;
-                let rank=cadaChart;
+                let img=cadaChart.album.cover;
                 let artista=cadaChart.artist.name;
                 let charts=`
                 
                         <li class="renglones">
                             <div class="listatracks"> 
-                                <a href="album.html"><img src=`+ rank +` alt="" class="imglista" ></a>
+                                <a href="album.html"><img src=`+ img +` alt="" class="imglista" ></a>
                                     <section class="dentrolista"><h4 class="titulos">`+titulo+`</h4><h5 class="nombredeartitas">`+artista+`</h5></section> 
                                     <span class="uk-margin-small-right" uk-icon="check"></span>
 
