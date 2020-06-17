@@ -17,6 +17,7 @@ window .addEventListener("load", function(){
         
     })
 
+<<<<<<< HEAD
 
 
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/302127")
@@ -34,3 +35,7 @@ window .addEventListener("load", function(){
     )
 })
 
+=======
+    
+})
+>>>>>>> d0e0e062adde9ea4bcb67c9f9bc6327ed469461d
