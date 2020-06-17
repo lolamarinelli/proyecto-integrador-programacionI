@@ -113,7 +113,7 @@ footer {
     border-radius: 20px 20px 0 0;
 }
 .fotofooter{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 10px;
 }
 .imgf{
@@ -127,9 +127,20 @@ footer {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
-    
-
 }
+
+.vinculos1{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+article.vinculos1 a{
+    color: black;
+    font-size: 16px;
+}
+
 .nombresf{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
@@ -221,7 +232,7 @@ footer {
     }
     
     li.logo img {
-        width: 60%%;
+        width: 60%;
     }
 
     .buscador{
@@ -233,9 +244,22 @@ footer {
     footer.footer2{
         display: block;
         display: grid;
-        grid-template-columns: 70% 30%;
-    
+        grid-template-columns: 12% 60% 25%;
+
     }
+
+    .vinculos2{
+        text-align: right;
+        text-decoration: none;
+        list-style-type: none;
+        margin-top: 7px;
+    }
+
+    div.vinculos2 a{
+        color: black;
+        font-size: 30px;
+    }
+    
     footer {
         background-color: white;
         border-radius: 20px 20px 0 0;
@@ -258,7 +282,10 @@ footer {
     .primero{
         border-left: 1px solid black;
     }
-    
+
+    div.nombres{
+        margin-top: 10px;
+    }
     
     ul.footer {
         display: grid;

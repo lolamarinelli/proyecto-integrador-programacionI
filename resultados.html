@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+      <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
     <script src="jsBuscador.js"></script>
+
+  
+   <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/js/uikit-icons.min.js"></script>
+<script src="./index.js"></script>
+
+
 </head>
 <body>
+    <!-- header MOBILE -->
+    <header class="headermobile">
+        
+        <ul class="Header">
+            <li class="logo" ><a href="index.html"><img src="img/WhatsApp Image 2020-04-16 at 21.39.52.jpeg" alt="" ></a></li>
+            
+               <nav>
+                   
+                <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-flip"><a href="#" class="toggle-nav"> <span class="fa fa-bars"></span></a></button>
+
+                <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                    <div class="uk-offcanvas-bar">
+                
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                
+                        <h3>Dale Play</h3>
+                        <ul class="navegacion">
+                            <li>
+                                <form class="buscador">
+                                    <span uk-search-icon></span>
+                                    <input class="lupa" type="search" placeholder="Search...">
+                                </form>
+                            </li>
+                            <li><a href="#" >Registrate</a></li>
+                            <li><a href="#">Iniciar Sesión</a></li>	
+                            <li><a href="#"><i class="fas fa-home">HOME</i></a></li>
+                            <li><a href=""><i class="fas fa-globe-americas">TOP 50's</i></a></li>
+                            <li><a href="#"> <i class="fas fa-heart">Tus Me Gusta</i></a></li>
+                        </ul>
+            
+                
+                    </div>
+                </div>
+                
+                </nav> 
+            </li>			
+            
+        </ul>
+    
+
+
+    </header>
+   
     <h1>Resultados de busqueda</h1>
     <div class="listadoDeResultados">
 
