@@ -1,6 +1,7 @@
 window .addEventListener("load", function(){
+    //Obtengo de la URL el código del artista
     let queryString = new URLSearchParams(location.search)
-    let codigoDeArtista = queryString.get("idDeArtista")
+    let codigoDeArtista = queryString.get("pepinito")
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoDeArtista)
     .then (
         function(respuesta){
@@ -19,16 +20,28 @@ window .addEventListener("load", function(){
             `
             <img class="centrobunny" src="`+ imgDelArtista +`" alt="">
             `
-            document.querySelector(".letrabunny")+= imagen;
+            document.querySelector(".letrabunny").innerHTML += imagen;
             let artista=
             `
             <h2><a class="letra" href="">`+ nombreDelArtista +`</a></h2>
             `
-            document.querySelector(".letrabunny")+= artista;
+            document.querySelector(".letrabunny").innerHTML+= artista;
             let seguidores=
             `
             <h6>`+ fansDelArtista+ `</h6>
             `
-            document.querySelector(".fans")+= seguidores;
+            document.querySelector(".fans").innerHTML+= seguidores;
+        })
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoDeArtista+ "/top")
+    .then (
+        function(respuesta){
+            return respuesta.json();
+        }
+    )
+    .then(
+        function(informacion){
+            let detalleArtista=informacion;
+            console.log(informacion)
+            
         })
 })
