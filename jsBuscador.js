@@ -22,14 +22,14 @@ window.addEventListener("load", function(){
                 let nombre = cadaResult.title
                 let foto = 
                 `
-                <section class="albums">
-                <div> 
+                
+                <div class="divDeJs"> 
                 <h4>`+ nombre + `</h4>
-                <img src="`+ img + `">
+                <img src="`+ img + `" class="imgDeBuscador">
                 </div>
-                </section>
+              
                 `
-                document.querySelector("body").innerHTML += foto
+                document.querySelector(".listadoDeResultados").innerHTML += foto
 
             }
             

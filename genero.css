@@ -113,7 +113,7 @@ h2.h2Genero{
     margin-top:3px;
     margin-bottom: 20%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 45%;
     justify-content: space-around;
 
 }
