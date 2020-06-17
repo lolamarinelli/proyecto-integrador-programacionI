@@ -101,38 +101,39 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-.section1{
-    margin-top: 25%;
-    display:grid;
-    display: block;
-}
+
 h2.h2Genero{
     color: white;
 }
-.listaDeResultados{
+section.listadoDeResultados{
     margin-top:3px;
-    margin-bottom: 20%;
+    margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 40%;
     justify-content: space-around;
+}
 
-}
-.divDeJs{
-    display: grid;
-}
 .imgDeBuscador{
     width: 100%;
     position: relative;
 }
-.h4js{
-    color: white;
-    top: 50%;
-    left: 0;
+h4.h4Js{
     color: white;
     text-decoration: none;
     width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
     text-align: center;
     padding: 5px 0;
+    font-size: medium;
+}
+
+h1.resultado{
+    margin-top: 82px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
 }
 footer {
     display: grid;

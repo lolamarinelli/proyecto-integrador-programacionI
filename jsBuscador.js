@@ -24,7 +24,7 @@ window.addEventListener("load", function(){
                 `
                 
                 <div class="divDeJs"> 
-                <h4>`+ nombre + `</h4>
+                <h4 class="h4Js">`+ nombre + `</h4>
                 <img src="`+ img + `" class="imgDeBuscador">
                 </div>
               
