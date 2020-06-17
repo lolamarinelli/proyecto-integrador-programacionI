@@ -108,11 +108,19 @@ h2.h2Genero{
 section.listadoDeResultados{
     margin-top:3px;
     margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: 40% 40%;
     justify-content: space-around;
 }
-
+.divDeJs{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: space-around;
+    width: 100%;
+    height: 5%;
+    
+}
+.fas.fa-play{
+    color: white;
+}
 .imgDeBuscador{
     width: 100%;
     position: relative;

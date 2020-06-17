@@ -24,8 +24,12 @@ window.addEventListener("load", function(){
                 `
                 
                 <div class="divDeJs"> 
-                <h4 class="h4Js">`+ nombre + `</h4>
+                
                 <img src="`+ img + `" class="imgDeBuscador">
+                <h4 class="h4Js">`+ nombre + `</h4>
+                <i class="fas fa-play" aria-hidden="true" ></i>
+
+
                 </div>
               
                 `
