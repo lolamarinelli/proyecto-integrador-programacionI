@@ -18,6 +18,7 @@ window .addEventListener("load", function(){
                 
                         <li class="renglones">
                             <div class="listatracks"> 
+                                <section> `+rank+`</section>
                                 <a href="album.html"><img src=`+ img +` alt="" class="imglista" ></a>
                                     <section class="dentrolista"><h4 class="titulos">`+titulo+`</h4><h5 class="nombredeartitas">`+artista+`</h5></section> 
                                     <span class="uk-margin-small-right" uk-icon="check"></span>
@@ -55,10 +56,13 @@ window .addEventListener("load", function(){
                 let minutos=duracion;
                
                 document.querySelector(".duracion").innerHTML += minutos
-
-                
+             
+                for (let index=0;index< chart.length;index+1) {
+                    
+                }
                 
         }
+       
         
     )
 
