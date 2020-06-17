@@ -113,13 +113,25 @@ li.fotobunny{
     width: 50%;
     margin: 0 auto;
 }
-
+.renglones{
+    background-color: white;
+}
+.listaTracks{
+    display: grid;
+    grid-template-columns: 10% 60% 10% 10%;
+    justify-content: space-around;
+    width: 100%;
+}
 .centrobunny{
     margin-top: 100px;
     border-radius: 50%;
     text-align: center;
 }
-
+.albums{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+}
 a.letra {
     color: white;
 }
