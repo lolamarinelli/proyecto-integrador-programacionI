@@ -109,6 +109,7 @@ section.listadoDeResultados{
     margin-top:3px;
     margin-bottom: 50px;
     justify-content: space-around;
+    height: 50px;
 }
 .divDeJs{
     display: grid;
@@ -116,6 +117,14 @@ section.listadoDeResultados{
     justify-content: space-around;
     width: 100%;
     height: 5%;
+    margin-right: 10px;
+    
+    
+}
+.renglon{
+    width: 100%;
+    margin-left:10px;
+   line-height: 25px;
     
 }
 .fas.fa-play{
@@ -136,13 +145,21 @@ h4.h4Js{
     font-size: medium;
 }
 
-h1.resultado{
+h1.titulo{
     margin-top: 82px;
     color: white;
     border: solid 2px white;
     border-radius: 50px 50px 50px 50px;
     text-align: center;
+    font-size: medium;
+    padding: 5px;
 }
+.contitulo{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 footer {
     display: grid;
     grid-template-columns: 35% 55%;

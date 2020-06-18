@@ -20,17 +20,19 @@ window.addEventListener("load", function(){
                 const cadaResult = resultado[index];
                 let img = cadaResult.album.cover
                 let nombre = cadaResult.title
+                let id = cadaResult.album.id
                 let foto = 
                 `
-                
+                <section class="renglon">
                 <div class="divDeJs"> 
                 
-                <img src="`+ img + `" class="imgDeBuscador">
+                <a href=album.html?pepito2`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
                 <h4 class="h4Js">`+ nombre + `</h4>
                 <i class="fas fa-play" aria-hidden="true" ></i>
 
 
                 </div>
+                </section>
               
                 `
                 document.querySelector(".listadoDeResultados").innerHTML += foto
@@ -39,6 +41,7 @@ window.addEventListener("load", function(){
             
         }
     )
+    
 
 
 
