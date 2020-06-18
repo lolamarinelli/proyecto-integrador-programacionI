@@ -199,9 +199,9 @@ article.todasplaylist{
 
 }
 h5.todaslasP{
-text-align: center;
-color:grey;
-text-decoration: none;
+    text-align: center;
+    color:grey;
+    text-decoration: none;
 }
 .topplaylist{
     margin-top: 20px;
@@ -285,9 +285,6 @@ main.maindesktop{
     display: none;
 }
 
-aside{
-    display: none;
-}
 
 .footer2{
     display: none;
