@@ -152,7 +152,16 @@ a {
     display: none;
 }
   
-.imgalbums{
+.imgalbums1{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: space-around;
+    gap:15px;
+    margin-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.imgalbums2{
     display: grid;
     grid-template-columns: 30% 30% 30% ;
     justify-content: space-around;
@@ -176,13 +185,26 @@ a {
     border: solid 2px white;
     border-radius: 50px 50px 50px 50px;
 }
-
+.imgplaylist{
+    width: 100%;
+}
 .playlistsm{
     display: grid;
     grid-template-columns: 35% 60%;
 }
+article.todasplaylist{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+
+}
+h5.todaslasP{
+text-align: center;
+color:grey;
+text-decoration: none;
+}
 .topplaylist{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 .topplaylist h3{

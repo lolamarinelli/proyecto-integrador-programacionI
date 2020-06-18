@@ -17,7 +17,7 @@ window .addEventListener("load", function(){
                 console.log(cadaArtista);
             // El paso 5 (con un console log de antemano) es revisar que datos necesitamos de cada item y ponerlo en variables
                 let nombre = cadaArtista.name;
-                let id = cadaArtista.id
+                let idA = cadaArtista.id
                 let img = cadaArtista.picture
             // El paso 6 es armar el HTML de cada elemento. En este caso, en su HTML original ustedes tenian un <li> por cada artista. Ese <li> lo trajimos acá a una variable
             // y lo importante es que donde va la imagen o el nombre lo reemplazamos POR LAS VARIABLES QUE DEFINIMOS EN EL PASO 5
@@ -26,7 +26,7 @@ window .addEventListener("load", function(){
                 <li>
                             <img src="`+ img +`" alt="" class="slider1">
                             <div class="uk-position-center uk-panel"><h1>
-                            <a href= "Artistas.html?pepinito=`+ id +`">`+ nombre +`</a>
+                            <a href= "Artistas.html?pepinito=`+ idA +`">`+ nombre +`</a>
                             </h1></div>
                 </li>
                 `
@@ -34,5 +34,43 @@ window .addEventListener("load", function(){
                 document.querySelector(".topartistas").innerHTML += nuevoHtml
             }
         })
+
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+        .then(
+            function(respuesta){
+                return respuesta.json();
+            }
+        )
+
+        .then(function (info){
+            console.log(info)
+            let cadaAlbum=info.albums.data
+            for (let index = 0; index < 3; index++) {
+             const cadaUno = cadaAlbum[index];
+             console.log(cadaUno);
+             let foto=cadaUno.cover
+             let idAlb=cadaUno.id
+             let portada=
+             `
+             <div><article><a href="album.html?pepinito2=`+idAlb+`"><img src="`+foto+`" alt="" class="imgalbum"></a></article></div>
+             `
+             document.querySelector(".imgalbums1").innerHTML += portada  
+             
+            }
+            for (let index = 4; index < 7; index++) {
+                const cadaUno = cadaAlbum[index];
+                console.log(cadaUno);
+                let foto=cadaUno.cover
+                let idAlb=cadaUno.id
+                let portada=
+                `
+                <div><article><a href="album.html?pepinito2=`+idAlb+`"><img src="`+foto+`" alt="" class="imgalbum"></a></article></div>
+                `
+                document.querySelector(".imgalbums2").innerHTML += portada  
+                
+               }
+        }
+        )
     })
+    
     
