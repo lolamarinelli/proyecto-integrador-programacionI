@@ -40,9 +40,9 @@
                         <h3>Dale Play</h3>
                         <ul class="navegacion">
                             <li>
-                                <form class="buscador">
-                                    <span uk-search-icon></span>
-                                    <input class="lupa" type="search" placeholder="Search...">
+                                <form action="resultados.html" method="GET">
+                                    <input type="text" name="buscador" placeholder="Buscador">
+                                    <input type="submit" value= "Buscar">
                                 </form>
                             </li>
                             <li><a href="#" >Registrate</a></li>
@@ -72,10 +72,10 @@
        <li class="vinculosh"><a href="">Iniciar Sesión</a></li>
        <li class="vinculosh"><a href="">Registrate</a></li>
        <li class="columna4">
-           <form class="buscador">
-               <span uk-search-icon class="lupita"></span>
-               <input class="lupa" type="search" placeholder="Search...">
-           </form>
+        <form action="resultados.html" method="GET">
+            <input type="text" name="buscador" placeholder="Buscador">
+            <input type="submit" value= "Buscar">
+        </form>
        </li>
    </ul>
 </header>
