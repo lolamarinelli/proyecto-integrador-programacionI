@@ -15,7 +15,6 @@ window .addEventListener("load", function(){
             let imgDelArtista= detalleArtista.picture
             let nombreDelArtista=detalleArtista.name;
             let fansDelArtista=detalleArtista.nb_fan;
-
             let imagen=
             `
             <img class="centrobunny" src="`+ imgDelArtista +`" alt="">
@@ -43,31 +42,29 @@ window .addEventListener("load", function(){
             let detalleLista=info.data;
             console.log(info)
             for (let index=0;index< detalleLista.length;index++){
-                cadaRenglon= detalleLista [index];
+            cadaRenglon= detalleLista [index];
             let canciones=cadaRenglon.title
             let imagenDeAlbum=cadaRenglon.album.cover;
             let nombreDeAlbum=cadaRenglon.album.title;
             let listadoDeCanciones=
             `
             <li class="renglones">
-                            <div class="listaTracks"> 
+                            <div class="listaTracks">
                               <div> <p>`+ (index+1) +`</p></div>
                               <div> <section class="dentrolista"><h4 class="titulos">`+canciones+`</h4> </div>
                               <div> <span class="uk-margin-small-right" uk-icon="check"></span></div>
-
                               <div> <a href="" uk-icon="heart" class="uk-margin-small-right"></a></div>
                             </div>
             </li>
             `
             document.querySelector(".canciones1").innerHTML+= listadoDeCanciones;
-            
             listaDeAlbums=
             `
             <div class="1">
                 <a href="./album.html">
                     <img class="foto" src="`+imagenDeAlbum+`" alt=""><p class="titulo">`+nombreDeAlbum+`</p>
                 </a>
-            </div> 
+            </div>
             `
             document.querySelector(".albums").innerHTML+= listaDeAlbums;
         }})

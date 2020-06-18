@@ -1,4 +1,6 @@
 window .addEventListener("load", function(){
+    let queryString = new URLSearchParams(location.search)
+    let codigoDeAlbum = queryString.get("pepinito3")
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
     .then (
         function(respuesta){
@@ -13,14 +15,15 @@ window .addEventListener("load", function(){
             console.log(cadaPlaylist)
             let img=cadaPlaylist.picture
             let nombre=cadaPlaylist.title
+            let idA= cadaPlaylist.id
             let lasPlaylists=
             `
             <div class="divDeJs" >
-                <img src="`+ img +`" alt="" class="imgDeGeneros">
+                <a href="detalleDeCharts.html?pepinito3=`+idA+`"><img src="`+ img +`" alt="" class="imgDeGeneros"></a>
                 <h4 class="h4js">`+ nombre +`</h4>
              </div>
             `
-            document.querySelector(".section2").innerHTML+= lasPlaylists
+            document.querySelector(".section2").innerHTML+= lasPlaylists;
         }
     })
     })

@@ -15,7 +15,6 @@ body{
     position: fixed;
     top: 0;
     z-index: 5;
-    border-bottom: solid 2px black;
     
    
 }
@@ -30,7 +29,7 @@ body{
     
 }
 li.logo img{
-    margin-top: 10%;
+    margin-top: 15px;
     margin-left: 0;
     display: block;
     width: 50%;
@@ -65,12 +64,11 @@ button.uk-button.uk-button-default{
     width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: larger;
     color: black;
     
 }
-
 
 ul .navegacion {
     display: none;
@@ -105,106 +103,6 @@ nav:hover ul.navegacion {
 }
 
 
-
-/*nuevo pueba*/
-.conteiner{
-    background-color: rgb(39, 39, 39);
-
-}
-.catalog-header{
-padding-top: 24%;
-display: grid;
-grid-template-columns: 40% 60%;
-width: 100%;
-height: 10%;
-justify-content: center;
-}
-.imgdelostops{
-    margin-left: 20%;
-    margin-top: 20%;
-}
-.infoarriba{
-    margin-top: 0;
-}
-h1.titulo{
-    margin-top: 10%;
-    margin-bottom: 0%;
-    margin-left: 10%;
-    color: white;
-   
-
-}
-.infoinfo{
-    margin-bottom: 0px;
-}
-.infolista{
-    display: grid;
-    grid-template-rows: 3;
-    
-}
-.toolbaritem{
-    display: inline-block;
-
-}
-.uk-button uk-button-secondary uk-button-small{
-    height: 4px;
-}
-.lista{
-    padding-left: 0px;
-    margin-left: 0px;
-}
-
-.listatracks{
-        display: grid;
-        grid-template-columns: 10% 20% 50% 10% 10% ;
-        justify-content: center;
-        margin-bottom: 10px;
-        
-}
-p.numeros{
-    margin-top: 20px;
-    text-align: center;
-}
-h4.titulos{
-    color: white;
-}
-h4.titulos,h5.nombredeartitas{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 5px;
-}
-h5.nombredeartitas{
-color: grey;
-}
-span.uk-margin-small-right,
-a.uk-margin-small-right{
-   margin-top: 30px;
-}
-span.iconitos{
-   display: inline-block;
-  padding-top: 20px;
-  margin-top: 20px;
-  color: thistle;
-}
-.h5.nombredeartitas{
-    margin-top: 0px;
-    padding-top: 0px;
-
-}
-
-.ncanciones,.duracion, .seguidores{
-    color: white;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.infoinfo{
-    margin-top: 0;
-    color: white;
-}
-
-
-/*hasta aca */
 footer {
     display: grid;
     grid-template-columns: 35% 55%;
@@ -212,11 +110,24 @@ footer {
     border-radius: 20px 20px 0 0;
 }
 .fotofooter{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 10px;
 }
+
+.vinculos1{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+article.vinculos1 a{
+    color: black;
+    font-size: 16px;
+}
+
 .imgf{
-    width: 100%;
+    width: 240px;
 }
 .ulfooter{
     list-style: none;
@@ -256,9 +167,7 @@ footer {
         width: 100%;
     }
  
-     main{
-         margin-top: 0;
-     }
+  
     ul.headerd {
         display: grid;
         grid-template-columns: 15% 25% 20% 40%;
@@ -319,7 +228,6 @@ footer {
     li.logo {
         margin-top: 20px;
         margin-right: 10px;
-        width: 100%;
     }
     
     li.logo img {
@@ -329,110 +237,66 @@ footer {
     .buscador{
         font-size: 25px;
     }
-   .primera{
-       width:100%;
-   }
-   img.imgtop {
-       margin-top: 10%;
-       display: grid;
-       justify-content: space-around;
-    margin-left: 100px;
-   }
-   img.imgdelostops{
-   padding-left: 40%;
-    margin-left: 30%;
+    footer.footer1{
+        display: none;
+    }
+    footer.footer2{
+        display: block;
+        display: grid;
+        grid-template-columns: 12% 60% 25%;
+
+    }
+
+    .vinculos2{
+        text-align: right;
+        text-decoration: none;
+        list-style-type: none;
+        margin-top: 7px;
+    }
+
+    div.vinculos2 a{
+        color: black;
+        font-size: 30px;
+    }
+    footer {
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+        height: 100px;
+        padding-top: 35px;
+        margin-top: 30px;
+    }
     
-
+    .lifooter {
+        background-color: white;
+        border-right: 1px solid black;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: black;
+        font-size: 25px;
+      list-style-type: none;
+        
+    }
     
-   }
-   div.imgtop{
-       padding-top: 220px;
-       margin-top: 5%;
-     margin-left: 25%;
-   }
-   .seguidores{
-     display: inline-block;
-    margin-left: 10%%;
-    padding-top: 0;
-   }
-   .numeros,.seguidores{
-       size: 10px;
-       color: white;
-   }
-   .seguir{
-       padding-left: 6%;
-       padding-right: 7%;
-       justify-content: space-around;
-       margin-left: 8%;
-       text-decoration: none;
-   }
-
-.listaalbum{
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.imglista{
-    width: 60%;
-    height: 80%;
-    margin: 1 1 4 4;
-    padding-left: 10px;
-}
-.uk-listuk-list-striped{
-margin-top: 2px;
-margin-bottom: 2px;
-}
-.renglones{
-    height: 40px;
-margin-bottom: 2px;
-margin-top: 2px;
-}
- footer.footer1{
-    display: none;
-}
-footer.footer2{
-    display: block;
-    display: grid;
-    grid-template-columns: 70% 30%;
-
-}
-footer {
-    background-color: white;
-    border-radius: 20px 20px 0 0;
-    height: 100px;
-    padding-top: 35px;
-    margin-top: 30px;
-}
-
-.lifooter {
-    background-color: white;
-    border-right: 1px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: black;
-    font-size: 25px;
-  list-style-type: none;
+    .primero{
+        border-left: 1px solid black;
+    }
     
+    div.nombres{
+        margin-top: 10px;
+    }
+    
+    ul.footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .deezer{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    
+    .deezerl{
+        margin-right: 20px;
+    
+    }
 }
-
-.primero{
-    border-left: 1px solid black;
-}
-
-
-ul.footer {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-}
-.deezer{
-    width:100%;
-    margin-bottom: 30px;
-}
-
-.deezerl{
-    margin-right: 20px;
-
-}
-}
-
-

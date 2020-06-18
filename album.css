@@ -100,8 +100,10 @@ main{
     margin-top: 80px;
     justify-content: space-around;
 }
-div.fotoalbum{
+.fotoalbum{
     text-align: center;
+    margin-top: 30px;
+    
 }
 
 div.albumdesk{
@@ -116,11 +118,14 @@ div.albumdesk{
     margin-bottom: 15px;
 
 }
-div .listaiconos{
+div .renglones{
     display: grid;
-    grid-template-columns: 75% 10% 10% ;
+    grid-template-columns: 10% 65% 10% 10% ;
+    color: white;
 }
-
+.titulos{
+    color: white;
+}
 h2,h3,h6{
     height: 10px;
     margin: 0;
@@ -366,7 +371,7 @@ article.vinculos1 a{
         width: 50%;
         margin-left: 280px;
     }
-
+    
     .footer1{
         display: none!important;
     }
