@@ -174,44 +174,17 @@ a.seguir{
     color: black;
     background-color: white;
 } 
-div.listacanciones{
-    display: grid;
-    grid-template-columns: 10% 10% 60% 10%;
-    grid-template-rows: auto auto auto auto auto auto;
-    justify-content: space-around;
-    width: 85%;
-    margin: auto;
-
+div .listacanciones{    
+    display: grid;    
+    grid-template-columns: 10% 65% 10% 10% ;    
+    color: white;
 }
+
 .unico1 div.listacanciones{
-    background-color: rgb(39, 39, 39);
-    color: white;
+    display: none;
 
 }
 
-.unico2 div.listacanciones{
-    background-color: white;
-}
-
-.unico3 div.listacanciones{
-    background-color: rgb(39, 39, 39);
-    color: white;
-
-}
-
-.unico4 div.listacanciones{
-    background-color: white;
-}
-
-.unico5 div.listacanciones{
-    background-color: rgb(39, 39, 39);
-    color: white;
-
-}
-
-.unico6 div.listacanciones{
-    background-color: white;
-}
 
 p.letra{
     margin: 0 0 0 0;
@@ -585,5 +558,11 @@ article.vinculos1 a{
    }
    .albumsd{
     display: block;
-}
+    }
+    .unico1 div.listacanciones{
+        display: block;
+        background-color: rgb(39, 39, 39);
+        color: white;
+    
+    }
 }

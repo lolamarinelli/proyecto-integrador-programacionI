@@ -59,7 +59,7 @@ window .addEventListener("load", function(){
             </li>
             `
             document.querySelector(".canciones1").innerHTML+= listadoDeCanciones;
-            listaDeAlbums=
+            let listaDeAlbums=
             `
             <div class="1">
                 <a href="./album.html?pepinito=`+ idA +`">
@@ -68,5 +68,72 @@ window .addEventListener("load", function(){
             </div>
             `
             document.querySelector(".albums").innerHTML+= listaDeAlbums;
+        }})
+
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoDeArtista )
+    .then (
+        function(respuesta){
+            return respuesta.json();
+        }
+    )
+    .then(
+        function(informacion){
+            let detalleArtista=informacion;
+            console.log(informacion)
+            let imgDelArtista= detalleArtista.picture
+            let nombreDelArtista=detalleArtista.name;
+            let fansDelArtista=detalleArtista.nb_fan;
+            let imagen=
+            `
+            <li class="fotobunny1">
+            <img class="centrobunny1" src="`+imgDelArtista+`" alt="">
+        </li>
+        <li class="letrabunny1">
+            <h2 class="letra1"><a class="letra2" href="">`+nombreDelArtista+`</a></h2>
+            <p class="fans1">`+fansDelArtista+` fans</p>
+            <h5 class="seguir1"><a class="seguir2" href="">Seguir</a></h5>
+        </li>
+        `
+            document.querySelector(".informacion").innerHTML += imagen;
+    })
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoDeArtista+ "/top")
+    .then (
+        function(respuesta){
+            return respuesta.json();
+        }
+    )
+    .then(
+        function(info){
+            let detalleLista=info.data;
+            console.log(info)
+            for (let index=0;index< detalleLista.length;index++){
+            cadaRenglon= detalleLista [index];
+            let canciones=cadaRenglon.title
+            let imagenDeAlbum=cadaRenglon.album.cover;
+            let nombreDeAlbum=cadaRenglon.album.title;
+            let idA= cadaRenglon.album.id
+            let listadoDeCanciones=
+            `
+        
+            <li class="unico1">
+                            <div class="listacanciones">
+                              <div class="letra"> <p>`+ (index+1) +`</p></div>
+                              <div class="letra"> <section class="dentrolista"><h4 class="titulos">`+canciones+`</h4> </div>
+                              <div class="letra"> <span class="uk-margin-small-right" uk-icon="check"></span></div>
+                              <div class="letra"> <a href="" uk-icon="heart" class="uk-margin-small-right"></a></div>
+                            </div>
+            </li>
+            `
+            document.querySelector(".canciones2").innerHTML+= listadoDeCanciones;
+            
+            let listaDeAlbums =
+            `
+            <div class="a">
+                <a href="./album.html?pepinito=`+ idA +`">
+                    <img class="foto1" src="`+imagenDeAlbum+`" alt=""><p class="titulo1">`+nombreDeAlbum+`</p>
+                </a>
+            </div>
+            `
+            document.querySelector(".albums1").innerHTML+= listaDeAlbums;
         }})
 })

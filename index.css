@@ -424,7 +424,7 @@ main.maindesktop{
     }
     
     .imgartistasd{
-        height: 300px;
+        width: 100%;
     }
 
     .albumsd{
@@ -477,6 +477,9 @@ main.maindesktop{
     .contplaylists{
          margin-top: 20px;
          margin-right: 90px;
+            display: grid;
+            grid-template-columns: 45% 45%;
+            justify-content: space-around;
     }
      
     .indplayd{
@@ -498,7 +501,7 @@ main.maindesktop{
     .imgplayd{
          width: 90%;
          border-radius: 30px 30px 30px 30px;
-         margin-left: 20px;
+         margin-left: 10px;
          margin-top: 20px;
     }
     
@@ -564,6 +567,10 @@ main.maindesktop{
     .deezerl{
         margin-right: 20px;
     
+    }
+    .vert{
+        text-align: center;
+        color: white;
     }
 
 

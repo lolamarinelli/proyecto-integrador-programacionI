@@ -40,7 +40,7 @@ window.addEventListener("load", function(){
             
         }
     )
-    fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=artist:" + loBuscado)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/artist?q=" + loBuscado)
     .then (
         function (respuesta) {
             return respuesta.json ();
