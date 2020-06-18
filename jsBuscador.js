@@ -56,9 +56,9 @@ window.addEventListener("load", function(){
             }
             for (let index = 0; index < result.length; index++) {
                 const cadaResultado = result[index];
-                let nombreArt = cadaResultado.artist.name;
-                let idArt = cadaResultado.artist.id;
-                let imgArt = cadaResultado.artist.picture;
+                let nombreArt = cadaResultado.name;
+                let idArt = cadaResultado.id;
+                let imgArt = cadaResultado.picture;
                 let artista = `
                 <section class="renglon2">
                 <div class="divDeJs2"> 

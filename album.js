@@ -1,4 +1,5 @@
 window .addEventListener("load", function(){
+    //MOBILE
     let queryString = new URLSearchParams(location.search)
     let codigoDeAlbum = queryString.get("pepinito")
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+ codigoDeAlbum)
@@ -14,16 +15,17 @@ window .addEventListener("load", function(){
             let foto= detalleAlbum.cover;
             let nombreDeArtista=detalleAlbum.artist.name
             let idA= detalleAlbum.artist.id
+            let release = detalleAlbum.release_date 
             let portada=
             `
             <div><img src="`+ foto +`" alt=""></div>
             <div class="h2"><a href=""><h2 class="h2letra"><b>`+nombreDeAlbum+`</b></h2></a></div>
             <div class="h3"><a href="Artistas.html?pepinito=`+ idA +`"><h3 class="h3letra">`+nombreDeArtista+`</h3></a></div>
-            
+            <div class="h3"> <h4>`+release+` </h4></div>
             `
             document.querySelector(".fotoalbum").innerHTML+= portada;
     })
- 
+    
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+ codigoDeAlbum )
     .then (
         function(respuesta){

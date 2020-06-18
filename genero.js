@@ -12,13 +12,14 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
         for (let index=1;index< genero.length;index++){
             cadaGenero= genero[index];
             let img=cadaGenero.picture;
+            let id = cadaGenero.id
             let nombre= cadaGenero.name;
        
             let generos=
              `
              <div class="divDeJs" >
                 <h4 class="h4js">`+ nombre +`</h4>
-                <img src="`+ img +`" alt="" class="imgDeGeneros">
+                <a href= "detallegeneros.html?pepito2=`+id+`"><img src="`+ img +`" alt="" class="imgDeGeneros">
              </div>
              `
       document.querySelector(".section2").innerHTML += generos 
