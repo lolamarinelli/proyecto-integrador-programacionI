@@ -2,7 +2,7 @@ window .addEventListener("load", function(){
     //Obtengo de la URL el código del artista
     let queryString = new URLSearchParams(location.search)
     let codigoDeArtista = queryString.get("pepinito")
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoDeArtista)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoDeArtista )
     .then (
         function(respuesta){
             return respuesta.json();
@@ -46,6 +46,7 @@ window .addEventListener("load", function(){
             let canciones=cadaRenglon.title
             let imagenDeAlbum=cadaRenglon.album.cover;
             let nombreDeAlbum=cadaRenglon.album.title;
+            let idA= cadaRenglon.album.id
             let listadoDeCanciones=
             `
             <li class="renglones">
@@ -61,7 +62,7 @@ window .addEventListener("load", function(){
             listaDeAlbums=
             `
             <div class="1">
-                <a href="./album.html">
+                <a href="./album.html?pepinito=`+ idA +`">
                     <img class="foto" src="`+imagenDeAlbum+`" alt=""><p class="titulo">`+nombreDeAlbum+`</p>
                 </a>
             </div>

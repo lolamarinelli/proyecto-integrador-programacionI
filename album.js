@@ -17,8 +17,8 @@ window .addEventListener("load", function(){
             let portada=
             `
             <div><img src="`+ foto +`" alt=""></div>
-            <div class="h2"><a href="Artistas.html?pepinito=`+ idA +`"><h2 class="h2letra"><b>`+nombreDeAlbum+`</b></h2></a></div>
-            <div class="h3"><a href="Artistas.html"><h3 class="h3letra">`+nombreDeArtista+`</h3></a></div>
+            <div class="h2"><a href=""><h2 class="h2letra"><b>`+nombreDeAlbum+`</b></h2></a></div>
+            <div class="h3"><a href="Artistas.html?pepinito=`+ idA +`"><h3 class="h3letra">`+nombreDeArtista+`</h3></a></div>
             
             `
             document.querySelector(".fotoalbum").innerHTML+= portada;
