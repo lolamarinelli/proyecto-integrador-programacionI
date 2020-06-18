@@ -281,7 +281,11 @@ article.vinculos1 a{
     display: none;
 }
 
-main .maindesktop{
+main.maindesktop{
+    display: none;
+}
+
+aside{
     display: none;
 }
 
