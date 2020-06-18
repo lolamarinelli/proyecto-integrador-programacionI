@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="resultados.css">
@@ -54,6 +55,28 @@
                         <li><a href="#"> <i class="fas fa-heart">Tus Me Gusta</i></a></li>	
                 </ul>
         
+               <nav>
+                   
+                <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-flip"><a href="#" class="toggle-nav"> <span class="fa fa-bars"></span></a></button>
+
+                <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                    <div class="uk-offcanvas-bar">
+                
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                
+                        <h3>Dale Play</h3>
+                        <ul class="navegacion">
+                            <li>
+                                <form class="buscador">
+                                    <span uk-search-icon></span>
+                                    <input class="lupa" type="search" placeholder="Search...">
+                                </form>
+                            </li>
+                            <li><a href="#">Registrate</a></li>
+                            <li><a href="#">Iniciar Sesión</a></li>
+                            <li><a href="genero.html">Generos</a></li>
+                            <li><a href="charts.html">Playlists</a></li>
+                        </ul>
             
                 </div>
             </div>

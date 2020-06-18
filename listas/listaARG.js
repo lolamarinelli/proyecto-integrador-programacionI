@@ -1,5 +1,7 @@
 window .addEventListener("load", function(){
-    fetch(" https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/1279119721")
+    let queryString = new URLSearchParams(location.search)
+    let codigoDeAlbum = queryString.get("pepinito2")
+    fetch(" https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/1279119721" + codigoDeAlbum)
     .then(
         function(respuesta){
             return respuesta.json();
@@ -14,14 +16,16 @@ window .addEventListener("load", function(){
                 let titulo= cadaChart.title;
                 let img=cadaChart.album.cover;
                 let artista=cadaChart.artist.name;
+                let id= cadaChart.id;
+                let idA= cadaChart.artist.id
 
                 let charts=`
                 
                         <li class="renglones">
                             <div class="listatracks"> 
                                <p class="numeros">`+ (index+1) +`</p>
-                                <a href="album.html"><img src=`+ img +` alt="" class="imglista" ></a>
-                                    <section class="dentrolista"><h4 class="titulos">`+titulo+`</h4><h5 class="nombredeartitas">`+artista+`</h5></section> 
+                                <a href="../album.html?pepinito2=`+ id+`"><img src=`+ img +` alt="" class="imglista" ></a>
+                                    <section class="dentrolista"><h4 class="titulos">`+titulo+`</h4><a href="../Artista.html?pepinito=`+idA+`"><h5 class="nombredeartitas">`+artista+`</h5></a></section> 
                                     <span class="uk-margin-small-right" uk-icon="check"></span>
 
                                 <a href="" uk-icon="heart" class="uk-margin-small-right"></a>
