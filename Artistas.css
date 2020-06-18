@@ -435,7 +435,7 @@ article.vinculos1 a{
     }
 
     li.letrabunny1{
-        margin-top: 100px;
+        margin-top: 30px;
     }
         
     a.seguir2{
@@ -561,8 +561,14 @@ article.vinculos1 a{
     }
     .unico1 div.listacanciones{
         display: block;
+        display: grid;
+        grid-template-columns: 10% 60% 10% 10%;
+        justify-content: space-around;
         background-color: rgb(39, 39, 39);
         color: white;
-    
+    }
+
+    h4.titulos{
+        color: white;
     }
 }
