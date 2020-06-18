@@ -119,6 +119,7 @@ div.contitulo{
     background-color:white;
     margin-top: 50px;
     color: black;
+
 }
 .toggle-nav {       
     
@@ -195,7 +196,9 @@ section .artistasm div{
     width: 100%;
     margin: 0 auto;
 }
-
+.uk-button.uk-button-default{
+display: none;
+}
 
 ul li{
     list-style-type: none;
