@@ -77,50 +77,59 @@ ul .navegacion {
     width: 100%;
     left: 0;
 }
+
 li{
     text-decoration: none;
     list-style-type: none;
 }
+
 input.lupa{
     border: black ;
     background:black;
 }
+
 svg{
     color: black;
 }
+
 li a{
     color: whitesmoke;
 }
+
 nav:hover ul.navegacion {
     display: block;
 }
 .uk-button-default{
     border: none; 
 }
+
 .section1{
     margin-top: 25%;
     display:grid;
     display: block;
 }
+
 h2.h2Genero{
     color: white;
 }
+
 .section2{
     margin-top:3px;
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: space-around;
+}
 
-}
 .divDeJs{
-    display: grid;
-    
+    display: grid;  
 }
+
 .imgDeGeneros{
     width: 100%;
     position: relative;
 }
+
 h4.h4js{
     color: white;
     top: 50%;
@@ -131,6 +140,7 @@ h4.h4js{
     text-align: center;
     margin: 10px 0 30px;
 }
+
 footer {
     display: grid;
     grid-template-columns: 35% 55%;
@@ -157,6 +167,7 @@ article.vinculos1 a{
 .imgf{
     width: 240px;
 }
+
 .ulfooter{
     list-style: none;
     text-decoration: none;
@@ -165,17 +176,18 @@ article.vinculos1 a{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
-    
-
 }
+
 .nombresf{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
     padding-left: 15px;
 }
+
 .headerdesktop{
     display: none;
 }
+
 .footer2{
     display: none;
 }

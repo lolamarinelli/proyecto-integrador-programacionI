@@ -25,7 +25,7 @@ window.addEventListener("load", function(){
                 <section class="renglon">
                 <div class="divDeJs"> 
                 
-                <a href=album.html?pepito2`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
+                <a href=album.html?pepinito=`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
                 <h4 class="h4Js">`+ nombre + `</h4>
                 <i class="fas fa-play" aria-hidden="true" ></i>
 
