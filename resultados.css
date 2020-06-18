@@ -48,9 +48,6 @@ ul.Header a{
     text-decoration: none;
 }
 
-.none {
-    display: none;
-}
 button.uk-button.uk-button-default{
     border: none;
     font-size: 17px;
@@ -118,22 +115,23 @@ section.listadoDeResultados{
     width: 100%;
     height: 5%;
     margin-right: 10px;
-    
-    
 }
+
 .renglon{
     width: 100%;
     margin-left:10px;
-   line-height: 25px;
-    
+   line-height: 25px; 
 }
+
 .fas.fa-play{
     color: white;
 }
+
 .imgDeBuscador{
     width: 100%;
     position: relative;
 }
+
 h4.h4Js{
     color: white;
     text-decoration: none;
@@ -165,7 +163,6 @@ footer {
     grid-template-columns: 35% 55%;
     background-color:rgb(247, 247, 247) ;
     border-radius: 20px 20px 0 0;
-    margin-block-end: 0;
 }
 .fotofooter{
     margin-top: 30px;
@@ -185,8 +182,9 @@ article.vinculos1 a{
 }
 
 .imgf{
-    width: 240px;
+    width: 100%;
 }
+
 .ulfooter{
     list-style: none;
     text-decoration: none;
@@ -195,17 +193,18 @@ article.vinculos1 a{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
-    
-
 }
+
 .nombresf{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
     padding-left: 15px;
 }
+
 .headerdesktop{
     display: none;
 }
+
 .footer2{
     display: none;
 }

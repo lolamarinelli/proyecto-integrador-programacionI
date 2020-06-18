@@ -7,7 +7,7 @@
 body{
     background-color: rgb(39, 39, 39);
 }
-.headermobile{
+header.headermobile{
     display: grid;
     background-color:white;
     width: 100%;
@@ -15,15 +15,13 @@ body{
     position: fixed;
     top: 0;
     z-index: 5;
-    
-   
 }
 
 .Header{
     text-decoration: none;
     list-style-type:none;
     width: 100%;
-    background-color: (247, 247, 247);
+    background-color: white;
     position: relative;
     
     
@@ -51,13 +49,11 @@ ul.Header a{
 .none {
     display: none;
 }
-button.uk-button.uk-button-default{
-    border: none;
-    font-size: 17px;
-    margin-right: 28px;
-    padding-left: 5px;
+.uk-button{
+    background-color:white;
+    
 }
-.toggle-nav {       
+a.toggle-nav {       
     padding: 7px;          
     display: block;    
     margin-top: 11px;    
@@ -125,7 +121,7 @@ h2.h2Genero{
     width: 100%;
     position: relative;
 }
-.h4js{
+h4.h4js{
     color: white;
     top: 50%;
     left: 0;
@@ -133,7 +129,7 @@ h2.h2Genero{
     text-decoration: none;
     width: 100%;
     text-align: center;
-    padding: 5px 0;
+    margin: 10px 0 30px;
 }
 footer {
     display: grid;
