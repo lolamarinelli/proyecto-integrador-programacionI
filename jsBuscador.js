@@ -1,6 +1,5 @@
 window.addEventListener("load", function(){
     let queryString = new URLSearchParams (location.search)
-
     let loBuscado = queryString.get("buscador");
     fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=" + loBuscado)
     .then (
