@@ -40,6 +40,44 @@ window.addEventListener("load", function(){
             
         }
     )
+    fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=artist:" + loBuscado)
+    .then (
+        function (respuesta) {
+            return respuesta.json ();
+        }
+    )
+    .then(
+        function (info) {
+            let result = info.data;
+            console.log(result);
+            
+            if (result.length == 0){
+                alert ("No hay resultados");
+            }
+            for (let index = 0; index < result.length; index++) {
+                const cadaResultado = result[index];
+                let nombreArt = cadaResultado.artist.name;
+                let idArt = cadaResultado.artist.id;
+                let imgArt = cadaResultado.artist.picture;
+                let artista = `
+                <section class="renglon2">
+                <div class="divDeJs2"> 
+                
+                <a href=album.html?pepito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador2"> </a>
+                <h4 class="h4Js2">`+ nombreArt + `</h4>
+                <i class="fas fa-play" aria-hidden="true" ></i>
+
+
+                </div>
+                </section>
+              
+                `
+                document.querySelector(".listadoDeArtistas").innerHTML += artista
+
+            }
+            
+        }
+    )
     
 
 

@@ -70,22 +70,19 @@ section.listadoDeResultados{
     
     
 }
-
 .renglon{
     width: 100%;
     margin-left:10px;
-   line-height: 25px; 
+   line-height: 25px;
+    
 }
-
 .fas.fa-play{
     color: white;
 }
-
 .imgDeBuscador{
     width: 100%;
     position: relative;
 }
-
 h4.h4Js{
     color: white;
     text-decoration: none;
@@ -119,7 +116,6 @@ div.contitulo{
     background-color:white;
     margin-top: 50px;
     color: black;
-
 }
 .toggle-nav {       
     
@@ -196,9 +192,7 @@ section .artistasm div{
     width: 100%;
     margin: 0 auto;
 }
-.uk-button.uk-button-default{
-display: none;
-}
+
 
 ul li{
     list-style-type: none;
@@ -314,7 +308,6 @@ article.vinculos1 a{
 .imgf{
     width: 100%;
 }
-
 .ulfooter{
     list-style: none;
     text-decoration: none;
@@ -323,8 +316,9 @@ article.vinculos1 a{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
-}
+    
 
+}
 .nombresf{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
@@ -641,3 +635,4 @@ aside{
     .deezerl{
         margin-right: 20px;
     }
+}
