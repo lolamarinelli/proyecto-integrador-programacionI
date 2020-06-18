@@ -1,6 +1,6 @@
 window .addEventListener("load", function(){
     let queryString = new URLSearchParams(location.search)
-    let codigoDeAlbum = queryString.get("pepinito2")
+    let codigoDeAlbum = queryString.get("pepinito")
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+ codigoDeAlbum)
     .then (
         function(respuesta){

@@ -52,7 +52,7 @@ window .addEventListener("load", function(){
              let idAlb=cadaUno.id
              let portada=
              `
-             <div><article><a href="album.html?pepinito2=`+idAlb+`"><img src="`+foto+`" alt="" class="imgalbum"></a></article></div>
+             <div><article><a href="album.html?pepinito=`+idAlb+`"><img src="`+foto+`" alt="" class="imgalbum"></a></article></div>
              `
              document.querySelector(".imgalbums1").innerHTML += portada  
              
