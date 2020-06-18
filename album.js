@@ -40,12 +40,14 @@ window .addEventListener("load", function(){
 
             let renglon=
             `
+            <li class="cadarenglon">
             <div class="renglones">
                               <div> <p>`+ (index+1) +`</p></div>
                               <div> <section class="dentrolista"><h4 class="titulos">`+nombreDeCancion+`</h4> </div>
                               <div> <span class=" iconos uk-margin-small-right" uk-icon="check"></span></div>
                               <div> <a href="" uk-icon="heart" class=" iconos uk-margin-small-right"></a></div>
             </div>
+            </li>
             `
             document.querySelector(".listadetracks").innerHTML+= renglon;
             
