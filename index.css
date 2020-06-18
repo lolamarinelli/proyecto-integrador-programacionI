@@ -152,7 +152,16 @@ a {
     display: none;
 }
   
-.imgalbums{
+.imgalbums1{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: space-around;
+    gap:15px;
+    margin-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.imgalbums2{
     display: grid;
     grid-template-columns: 30% 30% 30% ;
     justify-content: space-around;

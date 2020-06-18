@@ -111,14 +111,15 @@ h2.h2Genero{
 }
 .section2{
     margin-top:3px;
-    margin-bottom: 20%;
+    margin-bottom: 20px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 40%;
     justify-content: space-around;
 
 }
 .divDeJs{
     display: grid;
+    
 }
 .imgDeGeneros{
     width: 100%;
