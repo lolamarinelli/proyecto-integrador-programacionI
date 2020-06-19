@@ -64,6 +64,8 @@ section.listadoDeResultados{
     margin-bottom: 20px;   
 }
 .renglon{
+    display: grid;
+    grid-template-columns: 32% 32% 32% ;
     width: 100%;
     margin-left:10px;
    line-height: 25px;
@@ -89,19 +91,17 @@ h4.h4Js{
 }
 
 h1.titulo{
-    
+   
     color: white;
     border: solid 2px white;
     border-radius: 50px 50px 50px 50px;
     text-align: center;
-    font-size: 350;
-    padding: 5px;
-    margin-left: 250px;
-    margin-right: 250px;
+    text-align: center;
+    font-size: x-large;
 }
 div.contitulo{
-    padding-top: 65px;
-    margin-bottom: 30px;
+    padding-top: 25px;
+    margin-bottom: 25px;
 }
 
 .none {
@@ -166,32 +166,25 @@ ul .navegacion {
         font-size: 10px;
         
 }
-
 .hola{
    margin-top: 20px;
    border: solid 2px white;
     border-radius: 50px 50px 50px 50px;
     margin-right: 10px;
 }
-
-
-
 nav:hover ul.navegacion {
     display: block;
     
 }
-
 main{
     display: grid;
     grid-template-rows: auto;
     margin-top: 80px;
 }
-
 section .artistasm div{
     height: 100px;
     width: 50%;
 }
-
 .artistasfavoritos{
     font-family:'Roboto', sans-serif;
     color: white;
@@ -341,6 +334,9 @@ article.vinculos1 a{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
     padding-left: 15px;
+}
+.seccionestracks{
+    
 }
 
 .desktopheader{
@@ -680,5 +676,8 @@ aside{
         padding: 3px;
         font-size: 15px;
         margin-left: 10px;
+    }
+    .seccionestracks{
+
     }
 }

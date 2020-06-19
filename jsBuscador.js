@@ -22,13 +22,13 @@ window.addEventListener("load", function(){
                 let idA= cadaResult.id
                 let foto = 
                 
-                '<section class="renglon">'+
+                '<li class="renglon">'+
                 '<div class="divDeJs">'+
                 '<a href=album.html?pepinito='+ id +'> <img src="'+ img + '" class="imgDeBuscador"> </a>'+
                 '<h4 class="h4Js">'+ nombre + '</h4>'+
                 '</div>'+
                 '<div><button class="songRepro" id-song="'+ idA + '"><i class="fas fa-play"></i></button></div>' +
-                '</section>'
+                '</li>'
                 document.querySelector(".listadoDeResultados").innerHTML += foto
             }
             var cancionButtonRepro = document.querySelectorAll("button.songRepro")
@@ -97,7 +97,7 @@ window.addEventListener("load", function(){
                 </div>
                 </section>
                 `
-                document.querySelector(".listadoDeResultados").innerHTML += foto
+                document.querySelector(".listadoDeAlbums").innerHTML += foto
             }
         }
     )
