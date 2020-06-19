@@ -67,8 +67,46 @@ button.uk-button.uk-button-default{
     margin-left: 0;
     font-size: larger;
     color: black;
-    
 }
+
+img.fotochart{
+    margin-top: 100px;
+}
+
+div.divchart{
+    text-align: center;
+}
+
+h2.h2letra{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h3.h3letra{
+    text-align: center;
+    color: gray;
+    font-size: medium;
+}
+div.renglones{
+    display: grid;
+    grid-template-columns: 10% 65% 10% 10%;
+    justify-content: space-around;
+    color: white;
+}
+
+h4.titulos,p.numeros{
+    color: black;
+    margin: 0 0 0 0;
+}
+
+ul.listado2{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background-color: white;
+}
+
 
 ul .navegacion {
     display: none;
@@ -101,18 +139,7 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-section.listado{
-    margin-top: 50px;
-    margin-left: 70px;
-    align-items: center;
-}
-section.listado2{
-    display: grid;
-    grid-template-columns: 10% 40% 20% 20%;
-    align-items: center;
-    justify-content: space-around; /*esto hay que arreglar no anda en la pagina queda horrible*/
 
-}
 footer {
     display: grid;
     grid-template-columns: 35% 55%;
@@ -171,6 +198,7 @@ article.vinculos1 a{
         display: block;
         width: 100%;
         position: fixed;
+        z-index: 5;
     }
     header{
         background-color:white;
@@ -192,7 +220,6 @@ article.vinculos1 a{
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         font-weight: 500;
-        
 
     }
     
@@ -257,6 +284,20 @@ article.vinculos1 a{
 
     }
 
+    img.fotochart{
+        margin-top: 150px;
+        width: 20%;
+    }
+
+    ul.listado2{
+        width: 75%;
+        margin-left: 157px;
+    }
+
+    svg{
+        color: black;
+        z-index: -1;
+    }
     .vinculos2{
         text-align: right;
         text-decoration: none;
