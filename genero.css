@@ -63,9 +63,19 @@ button.uk-button.uk-button-default{
     align-content: end;
     text-align: end;
     margin-left: 0;
-    font-size: larger;
+    font-size: medium;
     color: black;
-    
+}
+
+button.uk-button.uk-button-default{
+    border: none;
+    font-size: 17px;
+    margin-right: 28px;
+    padding-left: 31px;
+}
+
+main{
+    margin-top: 83px;
 }
 
 ul .navegacion {
@@ -102,12 +112,9 @@ nav:hover ul.navegacion {
 
 h2.h2Genero{
     color: white;
-    padding-top: 100px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 section.section2{
-    margin-top:3px;
-    margin-bottom: 20%;
     display: grid;
     grid-template-columns: 45% 45%;
     justify-content: space-around;
@@ -117,6 +124,11 @@ section.section2{
 .imgDeGeneros{
     width: 100%;
     position: relative;
+    text-align: center;
+}
+
+img.imgDeGeneros{
+    text-align: center;
 }
 .h4js{
     color: white;
@@ -191,12 +203,16 @@ ul.headerd{
         display: grid;
         grid-template-columns: 20% 80%;
         margin-top: 115px;
+        background-color: white;
     }
     header{
         background-color:white;
         width: 100%;
     }
- 
+
+    main{
+        margin-top: 50px;
+    }
   
     ul.headerd {
         display: grid;
@@ -204,6 +220,8 @@ ul.headerd{
         width: 100%;
         list-style: none;
         padding-left: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
     }
     
     ul.headerd a{
@@ -268,24 +286,28 @@ ul.headerd{
         font-size: 25px;
     }
     img.imgDeGeneros{
+        text-align: center;
         width: 70%;
-       margin-left: 35px;
-       margin-bottom: 20px;
+    }
+
+    div.divDeJs{
+        text-align: center;
     }
     section.section1{
-        padding: 130px;
+        margin-top: 50px;
     }
 
     section.section2{
-        margin-top: 3px;
-        margin-bottom: 20%;
         display: grid;
         grid-template-columns: 32% 32% 32%;
         justify-content: space-around;
         align-items: center;
     }
-    .h4js{
+
+    h4.h4js{
         font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
     }
     footer.footer1{
         display: none;
@@ -294,7 +316,6 @@ ul.headerd{
         display: block;
         display: grid;
         grid-template-columns: 17% 55% 25%;
-
     }
     
     .vinculos2{
