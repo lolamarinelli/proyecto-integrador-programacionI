@@ -60,15 +60,7 @@ window .addEventListener("load", function(){
             </li>
             `
             document.querySelector(".canciones1").innerHTML+= listadoDeCanciones;
-            let listaDeAlbums=
-            `
-            <div class="1">
-                <a href="./album.html?pepinito=`+ idA +`">
-                    <img class="foto" src="`+imagenDeAlbum+`" alt=""><p class="titulo">`+nombreDeAlbum+`</p>
-                </a>
-            </div>
-            `
-            document.querySelector(".albums").innerHTML+= listaDeAlbums;
+            
         }})
         //empieza fetchs xa desktop
         fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoDeArtista )// primera parte 
@@ -128,27 +120,6 @@ window .addEventListener("load", function(){
             document.querySelector(".canciones2").innerHTML+= listadoDeCanciones;
                 
         }})
-        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + codigoDeArtista+ "/album")//albunes de cada artista
-        .then (
-            function(respuesta){
-                return respuesta.json();
-            }
-        )
-        .then(function(info){
-            console.log(info)
-            cadaAlbum=info.data.album
-            imagenDeAlbum=cadaAlbum.cover
-            nombreDeAlbum=cadaAlbum.title
-            idA=CadaAlbum.id
-            let listaDeAlbums =
-                `
-                <div class="a">
-                    <a href="./album.html?pepinito=`+ idA +`">
-                    <img class="foto1" src="`+imagenDeAlbum+`" alt=""><p class="titulo1">`+nombreDeAlbum+`</p>
-                    </a>
-                </div>
-                `
-                document.querySelector(".albums1").innerHTML+= listaDeAlbums;
-})
+        
 })
 
