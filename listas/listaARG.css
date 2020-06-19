@@ -44,9 +44,31 @@ ul.Header{
     
 
 }
-ul.Header a{
-    color: black;
+ul.Header a.hiper{
+    color: white;
     text-decoration: none;
+}
+
+.formB{
+    border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+    padding: 7px;
+}
+.cuadrado{
+    border-radius: 50px 50px 50px 50px;
+    padding: 5px;
+}
+.boton{
+    border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: 10px;
+}
+.hola{
+   margin-top: 20px;
+   border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
 }
 
 .none {
@@ -73,7 +95,6 @@ button.uk-button.uk-button-default{
 
 
 ul .navegacion {
-    display: none;
     text-decoration: none;
     list-style-type: none;
     text-align: center;
@@ -323,7 +344,7 @@ footer {
    }
    .seguidores{
      display: inline-block;
-    margin-left: 10%%;
+    margin-left: 10%;
     padding-top: 0;
    }
    .numeros,.seguidores{

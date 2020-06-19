@@ -43,8 +43,8 @@ ul.Header{
     padding-left: 10px;
 
 }
-ul.Header a{
-    color:black;
+ul.Header a.hiper{
+    color:white;
     text-decoration: none;
 }
 
@@ -88,6 +88,33 @@ ul .navegacion {
     background-color:#222;
     width: 100%;
     left: 0;
+}
+
+
+.formB{
+    border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+    padding: 7px;
+}
+
+.cuadrado{
+    border-radius: 50px 50px 50px 50px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.boton{
+    border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: 10px;
+}
+
+.hola{
+   margin-top: 20px;
+   border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
 }
 
 nav:hover ul.navegacion {
