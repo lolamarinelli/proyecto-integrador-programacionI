@@ -25,7 +25,7 @@ window.addEventListener("load", function(){
                 <section class="renglon">
                 <div class="divDeJs"> 
                 
-                <a href=album.html?pepinito=`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
+                <a href=album.html?pepinito=`+ cadaResult.album.id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
                 <h4 class="h4Js">`+ nombre + `</h4>
                 <i class="fas fa-play" aria-hidden="true" ></i>
 
@@ -63,7 +63,7 @@ window.addEventListener("load", function(){
                 <section class="renglon2">
                 <div class="divDeJs2"> 
                 
-                <a href=album.html?pepinito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador2"> </a>
+                <a href=Artistas.html?pepinito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador2"> </a>
                 <h4 class="h4Js2">`+ nombreArt + `</h4>
                 <i class="fas fa-play" aria-hidden="true" ></i>
 
