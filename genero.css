@@ -63,9 +63,15 @@ button.uk-button.uk-button-default{
     align-content: end;
     text-align: end;
     margin-left: 0;
-    font-size: larger;
+    font-size: medium;
     color: black;
-    
+}
+
+button.uk-button.uk-button-default{
+    border: none;
+    font-size: 17px;
+    margin-right: 28px;
+    padding-left: 31px;
 }
 
 main{
@@ -109,8 +115,6 @@ h2.h2Genero{
     margin-left: 10px;
 }
 section.section2{
-    margin-top:3px;
-    margin-bottom: 20%;
     display: grid;
     grid-template-columns: 45% 45%;
     justify-content: space-around;
@@ -199,6 +203,7 @@ ul.headerd{
         display: grid;
         grid-template-columns: 20% 80%;
         margin-top: 115px;
+        background-color: white;
     }
     header{
         background-color:white;
@@ -215,6 +220,8 @@ ul.headerd{
         width: 100%;
         list-style: none;
         padding-left: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
     }
     
     ul.headerd a{
@@ -291,8 +298,6 @@ ul.headerd{
     }
 
     section.section2{
-        margin-top: 3px;
-        margin-bottom: 20%;
         display: grid;
         grid-template-columns: 32% 32% 32%;
         justify-content: space-around;
