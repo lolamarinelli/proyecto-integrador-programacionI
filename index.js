@@ -25,8 +25,8 @@ window .addEventListener("load", function(){
                 let nuevoHtml= `
                 <li>
                             <img src="`+ img +`" alt="" class="slider1">
-                            <div class="uk-position-center uk-panel"><h1>
-                            <a href= "Artistas.html?pepinito=`+ idA +`">`+ nombre +`</a>
+                            <div class="uk-position-bottom uk-panel"><h1>
+                            <a class="nombreartistas" href= "Artistas.html?pepinito=`+ idA +`">`+ nombre +`</a>
                             </h1></div>
                 </li>
                 `
