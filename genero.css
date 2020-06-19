@@ -188,8 +188,10 @@ article.vinculos1 a{
     }
     .headerdesktop{
         display: block;
-        width: 100%;
-        position: fixed;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-top: 115px;
     }
     header{
         background-color:white;
@@ -266,16 +268,39 @@ article.vinculos1 a{
     .buscador{
         font-size: 25px;
     }
+    img.imgDeGeneros{
+        width: 70%;
+       margin-left: 35px;
+       margin-bottom: 20px;
+    }
+    .section1{
+        margin-top: 0;
+        justify-content: center;
+    }
+    .h2Genero{
+        font-size: 80px;
+    }
+    section.section2{
+        margin-top: 3px;
+    margin-bottom: 20%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .h4js{
+        font-size: 30px;
+    }
     footer.footer1{
         display: none;
     }
     footer.footer2{
         display: block;
         display: grid;
-        grid-template-columns: 12% 60% 25%;
+        grid-template-columns: 17% 55% 25%;
 
     }
-
+    
     .vinculos2{
         text-align: right;
         text-decoration: none;
