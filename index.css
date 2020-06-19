@@ -149,6 +149,9 @@ a {
     user-select: none;
 }
 
+h5.todasplaylist{
+    text-align: center;
+}
 .tituloart {
     padding-top: 20px;
 }
