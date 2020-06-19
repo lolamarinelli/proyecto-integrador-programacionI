@@ -397,9 +397,6 @@ article.vinculos1 a{
     border-right:solid 0.5px black;
     padding-left: 15px;
 }
-.seccionestracks{
-    
-}
 
 .desktopheader{
     display: none;
@@ -628,13 +625,49 @@ aside{
          margin-top: 20px;
          margin-right: 90px;
     }
-    .imgDeBuscador3{
+    img.imgDeBuscador3{
         border-radius: 50%;
-        width: 25%;
+        width: 15%;
+        text-align: left;
     }
     h4.h4Js2{
-        font-size: 50px;
+        color: gray;
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: x-large;
     }
+
+    li.renglon{
+        width: 70%;
+        margin-left: 190px;
+    }
+
+    img.imgDeBuscador{
+        width: 60%;
+        text-align: center;
+    }
+
+    h4.h4Js{
+        margin-top: 35px;
+        font-size: x-large;
+    }
+
+
+    i.fas.fa-play{
+        margin-top: 45px;
+        margin-bottom: 0px;
+        color: black;
+    }
+
+    ul.listadoDeAlbums{
+        display: grid;
+        grid-template-columns: 22% 22% 22% 22%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+
     .indplayd{
         background-color: rgba(103, 106, 110, 0.3);
         border-radius: 30px 30px 30px 30px;
@@ -675,6 +708,11 @@ aside{
     div.vinculos2 a{
         color: black;
         font-size: 30px;
+    }
+
+    div.contitulo{
+        margin-top: 133px;
+        margin-bottom: 25px;
     }
 
     footer {
