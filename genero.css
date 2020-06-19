@@ -74,9 +74,7 @@ button.uk-button.uk-button-default{
     padding-left: 31px;
 }
 
-main{
-    margin-top: 83px;
-}
+
 
 ul .navegacion {
     display: none;
@@ -191,6 +189,9 @@ ul.headerd{
 .footer2{
     display: none;
 }
+.desplegable{
+    display: none;
+}
 
 /* stylesheet  DESKTOP*/
 @media(min-width: 1024px){
@@ -209,11 +210,15 @@ ul.headerd{
         background-color:white;
         width: 100%;
     }
-
-    main{
-        margin-top: 50px;
+    
+     main.principal{
+        display: block;
+        background-color: rgb(39, 39, 39);
+        display: grid;
+        grid-template-columns: 20% 80%;
     }
-  
+        
+
     ul.headerd {
         display: grid;
         grid-template-columns: 15% 25% 20% 40%;
@@ -288,6 +293,33 @@ ul.headerd{
     img.imgDeGeneros{
         text-align: center;
         width: 70%;
+    }
+
+    .desplegable{
+        display: block;
+        background-color:rgb(39, 39, 39);
+        border: solid 2px  white;
+        border-bottom: none;
+        border-left: none;
+        margin-bottom: 0;
+        
+        
+    }
+
+    .uldesp{
+        margin-top: 35px;
+        list-style-type: none;
+        position: fixed;
+        
+    }
+    .dli{
+        margin-bottom:35px;
+    }
+    .dli a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        font-weight: 530;
     }
 
     div.divDeJs{

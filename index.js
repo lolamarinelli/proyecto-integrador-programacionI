@@ -129,7 +129,7 @@ window .addEventListener("load", function(){
              
             }
         })
-
+        let saludo= alert("Bienvenidos a Play")
     })
     
     

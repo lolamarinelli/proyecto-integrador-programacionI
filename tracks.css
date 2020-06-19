@@ -15,8 +15,6 @@ body{
     position: fixed;
     top: 0;
     z-index: 5;
-    
-   
 }
 
 .Header{
@@ -64,10 +62,20 @@ button.uk-button.uk-button-default{
     width: 15px;
     align-content: end;
     text-align: end;
-    margin-left: 0px;
-    font-size: larger;
+    margin-left: 0;
+    font-size: medium;
     color: black;
-    
+}
+
+button.uk-button.uk-button-default{
+    border: none;
+    font-size: 17px;
+    margin-right: 28px;
+    padding-left: 31px;
+}
+
+main{
+    margin-top: 83px;
 }
 
 ul .navegacion {
@@ -85,13 +93,6 @@ li{
     text-decoration: none;
     list-style-type: none;
 }
-input.lupa{
-    border: black ;
-    background:black;
-}
-svg{
-    color: black;
-}
 li a{
     color: whitesmoke;
 }
@@ -101,11 +102,27 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-.section1{
-    margin-top: 25%;
-    
+
+h2.h2Genero{
+    color: white;
+    margin-left: 10px;
+}
+section.section2{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+
 }
 
+.h4js{
+    color: white;
+    margin-top: 0;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
 footer {
     display: grid;
     grid-template-columns: 35% 55%;
@@ -115,18 +132,6 @@ footer {
 .fotofooter{
     margin-top: 30px;
     margin-left: 10px;
-}
-.imgf{
-    width: 240px;
-}
-.ulfooter{
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    background-color:rgb(247, 247, 247) ;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;;
-    margin-top: 20px;
 }
 
 .vinculos1{
@@ -141,12 +146,30 @@ article.vinculos1 a{
     font-size: 16px;
 }
 
+.imgf{
+    width: 240px;
+}
+.ulfooter{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-color:rgb(247, 247, 247) ;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;;
+    margin-top: 20px;
+    
+
+}
 .nombresf{
     border-left: solid 0.5px black;
     border-right:solid 0.5px black;
     padding-left: 15px;
 }
 .headerdesktop{
+    display: none;
+}
+
+ul.headerd{
     display: none;
 }
 .footer2{
@@ -160,14 +183,20 @@ article.vinculos1 a{
     }
     .headerdesktop{
         display: block;
-        width: 100%;
-        position: fixed;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-top: 115px;
+        background-color: white;
     }
     header{
         background-color:white;
         width: 100%;
     }
- 
+
+    main{
+        margin-top: 50px;
+    }
   
     ul.headerd {
         display: grid;
@@ -175,6 +204,8 @@ article.vinculos1 a{
         width: 100%;
         list-style: none;
         padding-left: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
     }
     
     ul.headerd a{
@@ -232,11 +263,35 @@ article.vinculos1 a{
     }
     
     li.logo img {
-        width: 60%;
+        width: 100%;
     }
 
     .buscador{
         font-size: 25px;
+    }
+    img.imgDeGeneros{
+        text-align: center;
+        width: 70%;
+    }
+
+    div.divDeJs{
+        text-align: center;
+    }
+    section.section1{
+        margin-top: 50px;
+    }
+
+    section.section2{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h4.h4js{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
     }
     footer.footer1{
         display: none;
@@ -245,9 +300,8 @@ article.vinculos1 a{
         display: block;
         display: grid;
         grid-template-columns: 17% 55% 25%;
-
     }
-
+    
     .vinculos2{
         text-align: right;
         text-decoration: none;
@@ -259,7 +313,6 @@ article.vinculos1 a{
         color: black;
         font-size: 30px;
     }
-    
     footer {
         background-color: white;
         border-radius: 20px 20px 0 0;
@@ -282,7 +335,7 @@ article.vinculos1 a{
     .primero{
         border-left: 1px solid black;
     }
-
+    
     div.nombres{
         margin-top: 10px;
     }
@@ -321,3 +374,5 @@ article.vinculos1 a{
         margin-left: 10px;
     }
 }
+    
+    

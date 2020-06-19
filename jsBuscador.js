@@ -21,20 +21,20 @@ window.addEventListener("load", function(){
                 let id = cadaResult.album.id
                 let idA= cadaResult.id
                 let foto = 
-                `
-                <li class="renglon">
-                    <div class="divDeJs">
-                        <div> <a href=album.html?pepinito="`+ id +`"><img class="imgDeBuscador" src="`+ img + `" alt=""></a></div>
-                        <div class"centrar"> <section class="dentrolista"><h4 class="h4Js">"`+ nombre +`"</h4></div>
-                        <div class"centrar"> <i class="fas fa-play"></i></button></div>
-                    </div>
-                </li>
-                `
+                
+                '<li class="renglon">'+
+                '<div class="divDeJs">'+
+                '<a href=album.html?pepinito='+ id +'> <img src="'+ img + '" class="imgDeBuscador"> </a>'+
+                '<h4 class="h4Js">'+ nombre + '</h4>'+
+                '</div>'+
+                '<div><button class="songRepro" id-song="'+ idA + '"><i class="fas fa-play"></i></button></div>' +
+                '</>'
                 document.querySelector(".listadoDeResultados").innerHTML += foto
             }
             var cancionButtonRepro = document.querySelectorAll("button.songRepro")
                 for (let i = 0; i < cancionButtonRepro.length; i++) {
-                    cancionButtonRepro[i].onclick = function (){
+                    const cancionButtonRepro2=cancionButtonRepro[i]
+                    cancionButtonRepro2[i].onclick = function (){
                      document.querySelector("nav.miniPlayer").innerHTML = '<iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=clasic&autoplay=true&playlist=false&width=350&height=350&color=de00ff&layout=light&size=small&type=tracks&id=' + this.getAttribute("id-song") +'&app_id=1" width="350" height="350"></iframe>'
                     }
                 }

@@ -188,9 +188,21 @@ article.vinculos1 a{
 .footer2{
     display: none;
 }
+.desplegable{
+    display: none;
+}
 
 /* stylesheet  DESKTOP*/
 @media(min-width: 1024px){
+    
+    main{
+    display: block;
+    background-color: rgb(39, 39, 39);
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    }
+
     .headermobile{
         display: none;
     }
@@ -269,6 +281,26 @@ article.vinculos1 a{
     
     li.logo img {
         width: 100%;
+    }
+    .desplegable{
+        display: block;
+        
+    }
+
+    .uldesp{
+        margin-top: 150px;
+        list-style-type: none;
+        position: fixed;
+        
+    }
+    .dli{
+        margin-bottom:35px;
+    }
+    .dli a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        font-weight: 530;
     }
 
     .buscador{
