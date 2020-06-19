@@ -1,15 +1,19 @@
 window .addEventListener("load", function(){
+    // es la manera de identificar lo escrito en el buscador
     let queryString = new URLSearchParams(location.search)
+    //lo creaamos para utilizar lo que el usuario introdujo en la barra del buscador y darle un atributo
     let codigoDeAlbum = queryString.get("pepinito3")
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/"+ codigoDeAlbum)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/"+ codigoDeAlbum)// muestra la ibnformacion del artista
+    // desempaqueta la respuesta 
     .then (
         function(respuesta){
             return respuesta.json();
         }
     )
+    // procesa, recorre la informacion para poder luego volcarla en donde deseemos
     .then(function(informacion){
             console.log(informacion)
-            let detalleAlbum=informacion;
+            let detalleAlbum=informacion;// aca definimos esplicitamente que parte de este array vamos a usar
             let nombreDeAlbum=detalleAlbum.title;
             let foto= detalleAlbum.picture;
             let nombreDeArtista=detalleAlbum.creator.name
@@ -24,7 +28,7 @@ window .addEventListener("load", function(){
             document.querySelector(".listado").innerHTML+= portada;
     })
  
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/"+ codigoDeAlbum )
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/"+ codigoDeAlbum )//muestra listado de tracks
     .then (
         function(respuesta){
             return respuesta.json();
