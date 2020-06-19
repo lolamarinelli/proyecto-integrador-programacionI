@@ -22,18 +22,19 @@ window.addEventListener("load", function(){
                 let idA= cadaResult.id
                 let foto = 
                 
-                '<section class="renglon">'+
+                '<li class="renglon">'+
                 '<div class="divDeJs">'+
                 '<a href=album.html?pepinito='+ id +'> <img src="'+ img + '" class="imgDeBuscador"> </a>'+
                 '<h4 class="h4Js">'+ nombre + '</h4>'+
                 '</div>'+
                 '<div><button class="songRepro" id-song="'+ idA + '"><i class="fas fa-play"></i></button></div>' +
-                '</section>'
+                '</>'
                 document.querySelector(".listadoDeResultados").innerHTML += foto
             }
             var cancionButtonRepro = document.querySelectorAll("button.songRepro")
                 for (let i = 0; i < cancionButtonRepro.length; i++) {
-                    cancionButtonRepro[i].onclick = function (){
+                    const cancionButtonRepro2=cancionButtonRepro[i]
+                    cancionButtonRepro2[i].onclick = function (){
                      document.querySelector("nav.miniPlayer").innerHTML = '<iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=clasic&autoplay=true&playlist=false&width=350&height=350&color=de00ff&layout=light&size=small&type=tracks&id=' + this.getAttribute("id-song") +'&app_id=1" width="350" height="350"></iframe>'
                     }
                 }
@@ -58,10 +59,9 @@ window.addEventListener("load", function(){
                 let imgArt = cadaResultado.picture;
                 let artista = `
                 <section class="renglon2">
-                <div class="divDeJs2">
+                <div class="divDeJs0">
                 <a href=album.html?pepinito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador3"> </a>
                 <a href=Artista.html?pepinito=`+idArt+`><h4 class="h4Js2">`+ nombreArt + `</h4>
-                <i class="fas fa-play" aria-hidden="true" ></i>
                 </div>
                 </section>
                 `
@@ -90,14 +90,13 @@ window.addEventListener("load", function(){
                 let foto =
                 `
                 <section class="renglon">
-                <div class="divDeJs">
-                <a href=album.html?pepinito=`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
-                <h4 class="h4Js">`+ nombre + `</h4>
-                <i class="fas fa-play" aria-hidden="true" ></i>
-                </div>
+                    <div class="divDeJs2">
+                        <a href=album.html?pepinito=`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
+                        <h4 class="h4JS">`+ nombre + `</h4>
+                    </div>
                 </section>
                 `
-                document.querySelector(".listadoDeResultados").innerHTML += foto
+                document.querySelector(".listadoDeAlbums").innerHTML += foto
             }
         }
     )

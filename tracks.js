@@ -7,5 +7,6 @@ window .addEventListener("load", function(){
     )
     .then(function(info){
         console.log(info)
+        
     })
 })

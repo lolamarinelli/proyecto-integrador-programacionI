@@ -40,8 +40,6 @@ ul.Header{
     display: grid;
     grid-template-columns: 75% 20% ;
     padding-left: 10px;
-    
-
 }
 ul.Header a{
     color: black;
@@ -53,9 +51,9 @@ ul.Header a{
 }
 button.uk-button.uk-button-default{
     border: none;
-    font-size: 17px;
-    margin-right: 28px;
-    padding-left: 5px;
+    font-size: small;
+    padding: 0 30px;
+
 }
 .toggle-nav {       
     padding: 7px;          
