@@ -112,6 +112,7 @@ li.fotobunny{
     list-style-type: none;
     width: 50%;
     margin: 0 auto;
+    text-align: right;
 }
 .renglones{
     background-color: white;
@@ -145,6 +146,9 @@ ul.info{
     margin-bottom: 0px;
 }
 
+h2.nombreartista{
+    margin-top: 20px;
+}
 .fans h6{
     margin-bottom: 0px;
     color: gray;
@@ -409,13 +413,16 @@ article.vinculos1 a{
         list-style-type: none;
         width: 50%;
         margin:0 0 0 0;
+        text-align: right;
+        margin-left: 300px;
+        margin-top: 20px;
     }
 
     
-    .centrobunny1{
-        margin-top: 70px;
+    img.centrobunny1{
         border-radius: 50%;
-        margin-left: 250px;
+        width: 70%;
+        text-align: right;
     }
 
     ul.info{
@@ -425,9 +432,8 @@ article.vinculos1 a{
         display: grid;
         grid-template-columns: 45% 45%;
         grid-template-rows: auto auto auto auto;
-        justify-content: space-around;
-        text-align: left;
-        margin-top: 80px;
+        justify-content: space-between;
+        margin-top: 130px;
     }
 
     h2.letra1,h6.fans1,h5.seguir1{
@@ -435,7 +441,7 @@ article.vinculos1 a{
     }
 
     li.letrabunny1{
-        margin-top: 30px;
+        text-align: left;
     }
         
     a.seguir2{

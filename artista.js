@@ -23,7 +23,7 @@ window .addEventListener("load", function(){
             document.querySelector(".letrabunny").innerHTML += imagen;
             let artista=
             `
-            <h2><a class="letra" href="">`+ nombreDelArtista +`</a></h2>
+            <h2 class="nombreartista"><a class="letra" href="">`+ nombreDelArtista +`</a></h2>
             `
             document.querySelector(".letrabunny").innerHTML+= artista;
             let seguidores=
@@ -86,7 +86,7 @@ window .addEventListener("load", function(){
             let fansDelArtista=detalleArtista.nb_fan;
             let imagen=
             `
-            <li class="fotobunny1">
+        <li class="fotobunny1">
             <img class="centrobunny1" src="`+imgDelArtista+`" alt="">
         </li>
         <li class="letrabunny1">
