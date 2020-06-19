@@ -601,7 +601,7 @@ aside{
     footer.footer2{
         display: block;
         display: grid;
-        grid-template-columns: 12% 60% 25%;
+        grid-template-columns: 17% 55% 25%;
 
     }
 
