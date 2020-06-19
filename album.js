@@ -18,10 +18,10 @@ window .addEventListener("load", function(){
             let release = detalleAlbum.release_date 
             let portada=
             `
-            <div><img src="`+ foto +`" alt=""></div>
-            <div class="h2"><a href=""><h2 class="h2letra"><b>`+nombreDeAlbum+`</b></h2></a></div>
+            <div><img class="fotoalbum" src="`+ foto +`" alt=""></div>
+            <div class="h2"><a href=""><h2 class="h2letra">`+nombreDeAlbum+`</h2></a></div>
             <div class="h3"><a href="Artistas.html?pepinito=`+ idA +`"><h3 class="h3letra">`+nombreDeArtista+`</h3></a></div>
-            <div class="h3"> <h4>`+release+` </h4></div>
+            <div class="h3"> <h4 class="fecha">`+release+` </h4></div>
             `
             document.querySelector(".fotoalbum").innerHTML+= portada;
     })
@@ -44,7 +44,7 @@ window .addEventListener("load", function(){
             `
             <li class="cadarenglon">
             <div class="renglones">
-                              <div> <p>`+ (index+1) +`</p></div>
+                              <div> <p class="numeros">`+ (index+1) +`</p></div>
                               <div> <section class="dentrolista"><h4 class="titulos">`+nombreDeCancion+`</h4> </div>
                               <div> <span class=" iconos uk-margin-small-right" uk-icon="check"></span></div>
                               <div> <a href="" uk-icon="heart" class=" iconos uk-margin-small-right"></a></div>

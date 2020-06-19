@@ -15,10 +15,8 @@ window.addEventListener("load", function(){
        let id=datos.id
        let portada=
             `
-            <div><img src="`+ img +`" alt=""></div>
+            <div class="fotogenero"><img class="fotito" src="`+ img +`" alt=""></div>
             <div class="h2"><a href=""><h2 class="h2letra"><b>`+nombre+`</b></h2></a></div>
-            <div class="h3"><a href="Artistas.html?pepinito=`+ id +`"></a></div>
-            
             `
             document.querySelector(".parte2").innerHTML+= portada;
    })     

@@ -110,8 +110,9 @@ ul.listadetracks{
     margin: 0 0 0 0;
     background-color: white;
 }
-h4.titulos,p{
-color: black;
+h4.titulos,p.numeros{
+    color: black;
+    margin: 0 0 0 0;
 }
 div.albumdesk{
     display: none;
@@ -133,6 +134,7 @@ div.albumdesk{
 div .renglones{
     display: grid;
     grid-template-columns: 10% 65% 10% 10% ;
+    justify-content: space-around;
     color: white;
 }
 .titulos{
@@ -151,15 +153,24 @@ h2,h3,h6{
     color: black;
 }
 
-h2.h2letra{
+b{
     color: white;
     text-align: center;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 h3.h3letra{
+    color: gray;
+    text-align: center;
+    font-size: medium;
+}
+
+h4.fecha{
     color: white;
     text-align: center;
+    font-size: medium;
 }
 
 h6.h6letra{
@@ -179,6 +190,7 @@ li.lista2{
 h5.h5b{
     margin: 30px 0 10px 35px;
 }
+
 
 a.escuchar{
     color: black;
@@ -379,6 +391,37 @@ article.vinculos1 a{
         color: black;
     }
 
+    img.fotoalbum{
+        margin-top: 150px;
+        width: 20%;
+    }
+
+    h2.h2letra{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: white;
+        font-weight: bold;
+    }
+
+    h3.h3letra{
+        margin-bottom: 10px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    h4.fecha{
+        margin-top: 20px;
+    }
+
+    h5.h5b{
+        margin: 10px 0 10px 90px;
+    }
+
+    ul.listadetracks{
+        width: 75%;
+        margin-left: 157px;
+    }
     .imgalbum1{
         width: 50%;
         margin-left: 280px;

@@ -15,8 +15,6 @@ body{
     position: fixed;
     top: 0;
     z-index: 5;
-    
-   
 }
 
 .Header{
@@ -128,7 +126,20 @@ footer {
     font-family: 'Roboto', sans-serif;;
     margin-top: 20px;
 }
+img.fotito{
+    margin-top: 100px;
+}
+div.h3{
+    color: white;
+}
+div.fotogenero{
+    text-align: center;
+}
 
+h2.h2letra{
+    color: white;
+    text-align: center;
+}
 .vinculos1{
     text-align: center;
     text-decoration: none;
@@ -168,7 +179,6 @@ article.vinculos1 a{
         width: 100%;
     }
  
-  
     ul.headerd {
         display: grid;
         grid-template-columns: 15% 25% 20% 40%;
@@ -183,8 +193,6 @@ article.vinculos1 a{
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         font-weight: 500;
-        
-
     }
     
     li.vinculosh {
@@ -210,7 +218,9 @@ article.vinculos1 a{
     svg{
         color: white;
     }
-
+    img.fotito{
+        margin-top: 150px;
+    }
     input.lupa{
         background-color:black;
         border: none;
@@ -232,11 +242,18 @@ article.vinculos1 a{
     }
     
     li.logo img {
-        width: 60%;
+        width: 100%;
     }
 
     .buscador{
         font-size: 25px;
+    }
+
+    .fotito{
+        width: 30%;
+    }
+    h2.letra{
+        font-size: 50px;
     }
     footer.footer1{
         display: none;
@@ -244,7 +261,7 @@ article.vinculos1 a{
     footer.footer2{
         display: block;
         display: grid;
-        grid-template-columns: 12% 60% 25%;
+        grid-template-columns: 17% 55% 25%;
 
     }
 
@@ -276,7 +293,6 @@ article.vinculos1 a{
         color: black;
         font-size: 25px;
       list-style-type: none;
-        
     }
     
     .primero{

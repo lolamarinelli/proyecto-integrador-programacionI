@@ -16,7 +16,7 @@ window .addEventListener("load", function(){
             let idA= detalleAlbum.id
             let portada=
             `
-            <div><img src="`+ foto +`" alt=""></div>
+            <div class="divchart"><img class="fotochart" src="`+ foto +`" alt=""></div>
             <div class="h2"><a href="Artistas.html?pepinito3=`+ idA +`"><h2 class="h2letra"><b>`+nombreDeAlbum+`</b></h2></a></div>
             <div class="h3"><a href="Artistas.html"><h3 class="h3letra">`+nombreDeArtista+`</h3></a></div>
             
@@ -40,12 +40,15 @@ window .addEventListener("load", function(){
 
             let renglon=
             `
-            <div class="renglones">
-                              <div> <p>`+ (index+1) +`</p></div>
+             <li>
+             <div class="renglones">
+           
+                              <div> <p class="numeros">`+ (index+1) +`</p></div>
                               <div> <section class="dentrolista"><h4 class="titulos">`+nombreDeCancion+`</h4> </div>
                               <div> <span class=" iconos uk-margin-small-right" uk-icon="check"></span></div>
                               <div> <a href="" uk-icon="heart" class=" iconos uk-margin-small-right"></a></div>
             </div>
+            </li>
             `
             document.querySelector(".listado2").innerHTML+= renglon;
             
