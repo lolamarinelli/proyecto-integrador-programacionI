@@ -28,12 +28,13 @@ window.addEventListener("load", function(){
                 '<h4 class="h4Js">'+ nombre + '</h4>'+
                 '</div>'+
                 '<div><button class="songRepro" id-song="'+ idA + '"><i class="fas fa-play"></i></button></div>' +
-                '</li>'
+                '</>'
                 document.querySelector(".listadoDeResultados").innerHTML += foto
             }
             var cancionButtonRepro = document.querySelectorAll("button.songRepro")
                 for (let i = 0; i < cancionButtonRepro.length; i++) {
-                    cancionButtonRepro[i].onclick = function (){
+                    const cancionButtonRepro2=cancionButtonRepro[i]
+                    cancionButtonRepro2[i].onclick = function (){
                      document.querySelector("nav.miniPlayer").innerHTML = '<iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=clasic&autoplay=true&playlist=false&width=350&height=350&color=de00ff&layout=light&size=small&type=tracks&id=' + this.getAttribute("id-song") +'&app_id=1" width="350" height="350"></iframe>'
                     }
                 }
