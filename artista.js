@@ -23,7 +23,7 @@ window .addEventListener("load", function(){
             document.querySelector(".letrabunny").innerHTML += imagen;
             let artista=
             `
-            <h2><a class="letra" href="">`+ nombreDelArtista +`</a></h2>
+            <h2 class="nombreartista"><a class="letra" href="">`+ nombreDelArtista +`</a></h2>
             `
             document.querySelector(".letrabunny").innerHTML+= artista;
             let seguidores=
@@ -52,7 +52,7 @@ window .addEventListener("load", function(){
             `
             <li class="renglones">
                             <div class="listaTracks">
-                              <div> <p>`+ (index+1) +`</p></div>
+                              <div> <p class="numerito">`+ (index+1) +`</p></div>
                               <div> <section class="dentrolista"><h4 class="titulos">`+canciones+`</h4> </div>
                               <div> <span class="uk-margin-small-right" uk-icon="check"></span></div>
                               <div> <a href="" uk-icon="heart" class="uk-margin-small-right"></a></div>
@@ -86,7 +86,7 @@ window .addEventListener("load", function(){
             let fansDelArtista=detalleArtista.nb_fan;
             let imagen=
             `
-            <li class="fotobunny1">
+        <li class="fotobunny1">
             <img class="centrobunny1" src="`+imgDelArtista+`" alt="">
         </li>
         <li class="letrabunny1">
@@ -117,12 +117,12 @@ window .addEventListener("load", function(){
             `
         
             <li class="unico1">
-                            <div class="listacanciones">
-                              <div class="letra"> <p>`+ (index+1) +`</p></div>
-                              <div class="letra"> <section class="dentrolista"><h4 class="titulos">`+canciones+`</h4> </div>
-                              <div class="letra"> <span class="uk-margin-small-right" uk-icon="check"></span></div>
-                              <div class="letra"> <a href="" uk-icon="heart" class="uk-margin-small-right"></a></div>
-                            </div>
+                <div class="listacanciones">
+                              <div> <p class="numero">`+ (index+1) +`</p></div>
+                              <div> <section class="dentrolista"><h4 class="titulos">`+canciones+`</h4> </div>
+                              <div> <span class="uk-margin-small-right" uk-icon="check"></span></div>
+                              <div> <a href="" uk-icon="heart" class="uk-margin-small-right"></a></div>
+                </div>
             </li>
             `
             document.querySelector(".canciones2").innerHTML+= listadoDeCanciones;
@@ -144,12 +144,11 @@ window .addEventListener("load", function(){
                 `
                 <div class="a">
                     <a href="./album.html?pepinito=`+ idA +`">
-                        <img class="foto1" src="`+imagenDeAlbum+`" alt=""><p class="titulo1">`+nombreDeAlbum+`</p>
+                    <img class="foto1" src="`+imagenDeAlbum+`" alt=""><p class="titulo1">`+nombreDeAlbum+`</p>
                     </a>
                 </div>
                 `
                 document.querySelector(".albums1").innerHTML+= listaDeAlbums;
 })
 })
-
 

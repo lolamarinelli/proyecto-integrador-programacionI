@@ -112,6 +112,7 @@ li.fotobunny{
     list-style-type: none;
     width: 50%;
     margin: 0 auto;
+    text-align: right;
 }
 .renglones{
     background-color: white;
@@ -145,12 +146,15 @@ ul.info{
     margin-bottom: 0px;
 }
 
+h2.nombreartista{
+    margin-top: 20px;
+}
 .fans h6{
     margin-bottom: 0px;
     color: gray;
 }
 h5.cancionespopulares {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     margin-left: 15px;
     text-align: left;
     color: white;
@@ -176,7 +180,8 @@ a.seguir{
 } 
 div .listacanciones{    
     display: grid;    
-    grid-template-columns: 10% 65% 10% 10% ;    
+    grid-template-columns: 10% 65% 10% 10% ;
+    justify-content: space-around; 
     color: white;
 }
 
@@ -200,7 +205,11 @@ ul.canciones1{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
-
+   ul.canciones2{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        background-color: white;
+    }
 a.uk-margin-small-right{
     margin-top: 6px;
 }
@@ -227,14 +236,16 @@ h5.albums-todos{
     font-size: 20px;
 }
 
-div.albums1{
-    display: none;
-}
-
 .foto{
     width: 100%;
 }
+    p.numerito{
+        margin: 0 0 0 0;
+    }
 
+    h4.titulos{
+        margin: 0 0 0 0;
+    }
 p.titulo{
     text-align: center;
     margin-top: 5px;
@@ -358,7 +369,7 @@ article.vinculos1 a{
     }
 
     svg{
-        color: white;
+        color: black;
     }
 
     form{
@@ -409,13 +420,16 @@ article.vinculos1 a{
         list-style-type: none;
         width: 50%;
         margin:0 0 0 0;
+        text-align: right;
+        margin-left: 300px;
+        margin-top: 20px;
     }
 
     
-    .centrobunny1{
-        margin-top: 70px;
+    img.centrobunny1{
         border-radius: 50%;
-        margin-left: 250px;
+        width: 70%;
+        text-align: right;
     }
 
     ul.info{
@@ -425,9 +439,8 @@ article.vinculos1 a{
         display: grid;
         grid-template-columns: 45% 45%;
         grid-template-rows: auto auto auto auto;
-        justify-content: space-around;
-        text-align: left;
-        margin-top: 80px;
+        justify-content: space-between;
+        margin-top: 130px;
     }
 
     h2.letra1,h6.fans1,h5.seguir1{
@@ -435,7 +448,7 @@ article.vinculos1 a{
     }
 
     li.letrabunny1{
-        margin-top: 30px;
+        text-align: left;
     }
         
     a.seguir2{
@@ -469,14 +482,19 @@ article.vinculos1 a{
         margin-left: 60px;
     }
 
+
     div.albums{
         display: none;
     }
 
-    div.albums1{
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20%;
-        justify-content: space-evenly;
+    div.letra{
+        text-align: left;
+        color: black;
+    }
+
+    ul.canciones2{
+        width: 75%;
+        margin-left: 157px;
     }
 
     p.titulo1{
@@ -561,16 +579,23 @@ article.vinculos1 a{
     display: block;
     }
     
-    .unico1 div.listacanciones{
+    .albums1{
+        margin-bottom: 100px;
+    }
+    .unico1 div.listacanciones {
         display: block;
         display: grid;
         grid-template-columns: 10% 60% 10% 10%;
         justify-content: space-around;
-        background-color: rgb(39, 39, 39);
         color: white;
     }
 
+    p.numero{
+        color: black;
+        margin: 0 0 0 0;
+    }
     h4.titulos{
-        color: white;
+        color: black;
+        margin: 0 0 0 0;
     }
 }

@@ -24,9 +24,9 @@ window .addEventListener("load", function(){
             // No olviden tambien que los hipervinculos deben contener el id del item que lo identifica
                 let nuevoHtml= `
                 <li>
-                            <img src="`+ img +`" alt="" class="slider1">
-                            <div class="uk-position-center uk-panel"><h1>
-                            <a href= "Artistas.html?pepinito=`+ idA +`">`+ nombre +`</a>
+                            <a href="Artistas.html?pepinito=`+ idA +`"><img src="`+ img +`" alt="" class="slider1"></a>
+                            <div class="uk-position-bottom uk-panel"><h1>
+                            <a class="nombreartistas" href= "Artistas.html?pepinito=`+ idA +`">`+ nombre +`</a>
                             </h1></div>
                 </li>
                 `
