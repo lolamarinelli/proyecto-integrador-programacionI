@@ -392,6 +392,11 @@ article.vinculos1 a{
         width:100%;
         margin-bottom: 30px;
     }
+
+    img.imgDeGeneros{
+        width: 70%;
+        text-align: center;
+    }
     
     .deezerl{
         margin-right: 20px;

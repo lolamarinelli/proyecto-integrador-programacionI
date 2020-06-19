@@ -17,7 +17,7 @@ window .addEventListener("load", function(){
             let lasPlaylists=
             `
             <div class="divDeJs" >
-                <a href="detalleDeCharts.html?pepinito3=`+idA+`"><img src="`+ img +`" alt="" class="imgDeGeneros"></a>
+                <a href="detalleDeCharts.html?pepinito3=`+idA+`"><img class="imgDeGeneros" src="`+ img +`" alt="" ></a>
                 <h4 class="h4js">`+ nombre +`</h4>
              </div>
             `
