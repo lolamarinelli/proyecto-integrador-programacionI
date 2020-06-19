@@ -1,7 +1,7 @@
 window .addEventListener("load", function(){
     let queryString = new URLSearchParams(location.search)
     let codigoDeAlbum = queryString.get("pepinito3")
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart"+ codigoDeAlbum)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/"+ codigoDeAlbum)
     .then (
         function(respuesta){
             return respuesta.json();
@@ -24,14 +24,14 @@ window .addEventListener("load", function(){
             document.querySelector(".listado").innerHTML+= portada;
     })
  
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+ codigoDeAlbum )
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/"+ codigoDeAlbum )
     .then (
         function(respuesta){
             return respuesta.json();
         }
     )
     .then(function(info){
-    console.log(info)
+        console.log(info)
         listaTracks=info.tracks.data
         console.log(listaTracks)
         for (let index = 0; index < listaTracks.length; index++) {
