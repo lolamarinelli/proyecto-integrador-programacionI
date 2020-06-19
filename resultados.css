@@ -19,8 +19,6 @@ header{
     position: fixed;
     top: 0;
     z-index: 5;
-    
-   
 }
 
 .Header{
@@ -36,19 +34,16 @@ li.logo img{
     margin-left: 0;
     display: block;
     width: 50%;
-    
-    
 }
 ul.Header{
     display: grid;
     grid-template-columns: 75% 20% ;
     padding-left: 10px;
-    
-
 }
-ul.Header a{
-    color:black;
+ul.Header a.hiper{
+    color:white;
     text-decoration: none;
+
 }
 h2.h2Genero{
     color: white;
@@ -66,9 +61,7 @@ section.listadoDeResultados{
     width: 100%;
     height: 5%;
     margin-right: 10px;
-    margin-bottom: 20px;
-    
-    
+    margin-bottom: 20px;   
 }
 .renglon{
     width: 100%;
@@ -100,16 +93,18 @@ h1.titulo{
     border: solid 2px white;
     border-radius: 50px 50px 50px 50px;
     text-align: center;
-    font-size: medium;
+    font-size: 350;
     padding: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 div.contitulo{
-    padding-top: 10px;
+    padding-top: 65px;
+    margin-bottom: 30px;
 }
 
 .none {
     display: none;
-
 }
 
 .uk-button{
@@ -129,8 +124,6 @@ div.contitulo{
     font-size: larger;
     color:black;
     width: 100%;
-   
-    
 }
 .hamburguesa{
     color: black;
@@ -153,7 +146,34 @@ ul .navegacion {
     background-color:#222;
     width: 100%;
     left: 0;
+    
 }
+.formB{
+    border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+    padding: 7px;
+
+}
+.cuadrado{
+    border-radius: 50px 50px 50px 50px;
+    padding: 5px;
+}
+.boton{
+    border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: 10px;
+        
+}
+
+.hola{
+   margin-top: 20px;
+   border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+}
+
+
 
 nav:hover ul.navegacion {
     display: block;
@@ -199,12 +219,6 @@ section .artistasm div{
 
 ul li{
     list-style-type: none;
-    user-select: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
     user-select: none;
 }
 
@@ -424,8 +438,8 @@ aside{
     form{
         background-color: black;
         color: white;
-        margin-right: 45px;
-        padding: 5px;
+        margin-right: 50px;
+        padding: 10px;
         border-radius: 10px 10px 10px 10px;
     }
 
@@ -440,7 +454,15 @@ aside{
     }
 
     .buscador{
-        font-size: 25px;
+        font-size: 18px;
+
+    }
+    .botbuscar{
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: 15px;
+        margin-left: 10px;
     }
     
     .playlistsm, .artistasm, .albumsm, .footer1{

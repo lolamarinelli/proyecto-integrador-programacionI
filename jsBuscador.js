@@ -11,7 +11,6 @@ window.addEventListener("load", function(){
         function (informacion) {
             let resultado = informacion.data;
             console.log(resultado);
-            
             if (resultado.length == 0){
                 alert ("No hay resultados");
             }
@@ -21,17 +20,7 @@ window.addEventListener("load", function(){
                 let nombre = cadaResult.title
                 let id = cadaResult.album.id
                 let idA= cadaResult.id
-                let foto = 
-                
-<<<<<<< HEAD
-                <a href=album.html?pepinito=`+ cadaResult.album.id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
-                <h4 class="h4Js">`+ nombre + `</h4>
-                <i class="fas fa-play" aria-hidden="true" ></i>
-
-
-                </div>
-                </section>
-=======
+                let foto =
                 '<section class="renglon">'+
                 '<div class="divDeJs">'+
                 '<a href=album.html?pepinito='+ id +'> <img src="'+ img + '" class="imgDeBuscador"> </a>'+
@@ -39,8 +28,6 @@ window.addEventListener("load", function(){
                 '</div>'+
                 '<div><button class="songRepro" id-song="'+ idA + '"><i class="fas fa-play"></i></button></div>' +
                 '</section>'
->>>>>>> afec8037cbfc2183ae4d222a7b41f202159a94df
-              
                 document.querySelector(".listadoDeResultados").innerHTML += foto
             }
             var cancionButtonRepro = document.querySelectorAll("button.songRepro")
@@ -50,8 +37,6 @@ window.addEventListener("load", function(){
                     }
                 }
         })
-        
-    
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/artist?q=" + loBuscado)
     .then (
         function (respuesta) {
@@ -62,7 +47,6 @@ window.addEventListener("load", function(){
         function (info) {
             let result = info.data;
             console.log(result);
-            
             if (result.length == 0){
                 alert ("No hay resultados");
             }
@@ -73,21 +57,15 @@ window.addEventListener("load", function(){
                 let imgArt = cadaResultado.picture;
                 let artista = `
                 <section class="renglon2">
-                <div class="divDeJs2"> 
-                
+                <div class="divDeJs2">
                 <a href=album.html?pepinito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador3"> </a>
                 <h4 class="h4Js2">`+ nombreArt + `</h4>
                 <i class="fas fa-play" aria-hidden="true" ></i>
-
-
                 </div>
                 </section>
-              
                 `
                 document.querySelector(".listadoDeArtistas").innerHTML += artista
-
             }
-            
         }
     )
     fetch ("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/album?q=" + loBuscado)
@@ -100,7 +78,6 @@ window.addEventListener("load", function(){
         function (informacion) {
             let resultado = informacion.data;
             console.log(resultado);
-            
             if (resultado.length == 0){
                 alert ("No hay resultados");
             }
@@ -109,26 +86,26 @@ window.addEventListener("load", function(){
                 let img = cadaResult.cover
                 let nombre = cadaResult.title
                 let id = cadaResult.id
-                let foto = 
+                let foto =
                 `
                 <section class="renglon">
-                <div class="divDeJs"> 
-                
+                <div class="divDeJs">
                 <a href=album.html?pepinito=`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
                 <h4 class="h4Js">`+ nombre + `</h4>
                 <i class="fas fa-play" aria-hidden="true" ></i>
-
-
                 </div>
                 </section>
-              
                 `
                 document.querySelector(".listadoDeResultados").innerHTML += foto
-
             }
-            
         }
     )
- 
-
 })
+
+
+
+
+
+
+
+
