@@ -109,7 +109,7 @@ nav:hover ul.navegacion {
 h2.h2Genero{
     color: white;
 }
-.section2{
+section.section2{
     margin-top:3px;
     margin-bottom: 20%;
     display: grid;
@@ -117,9 +117,7 @@ h2.h2Genero{
     justify-content: space-around;
 
 }
-.divDeJs{
-    display: grid;
-}
+
 .imgDeGeneros{
     width: 100%;
     position: relative;

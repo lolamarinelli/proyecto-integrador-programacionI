@@ -330,7 +330,7 @@ article.vinculos1 a{
         font-size: 25px;
     }
     main div.fotoalbum{
-        display: none;
+        display: block;
     }
    
     div.albumdesk{

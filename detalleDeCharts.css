@@ -101,8 +101,18 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
+section.listado{
+    margin-top: 50px;
+    margin-left: 70px;
+    align-items: center;
+}
+section.listado2{
+    display: grid;
+    grid-template-columns: 10% 40% 20% 20%;
+    align-items: center;
+    justify-content: space-around; /*esto hay que arreglar no anda en la pagina queda horrible*/
 
-
+}
 footer {
     display: grid;
     grid-template-columns: 35% 55%;

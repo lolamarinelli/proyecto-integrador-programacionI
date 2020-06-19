@@ -1,18 +1,25 @@
-window .addEventListener("load", function(){
+window.addEventListener("load", function(){
     let queryString = new URLSearchParams(location.search)
     let codigoDeGenero = queryString.get("pepinito2")
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre"+ codigoDeGenero)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+ codigoDeGenero)
     .then (
         function(respuesta){
             return respuesta.json();
         }
     )
-    .then(function(informacion){
-        console.log(informacion)
-        
-
-        })
-        
-     
-        
+   .then(function(datos){
+       console.log(datos)
+       let informacion=datos
+       let nombre=informacion.name
+       let img=datos.picture
+       let id=datos.id
+       let portada=
+            `
+            <div><img src="`+ img +`" alt=""></div>
+            <div class="h2"><a href=""><h2 class="h2letra"><b>`+nombre+`</b></h2></a></div>
+            <div class="h3"><a href="Artistas.html?pepinito=`+ id +`"></a></div>
+            
+            `
+            document.querySelector(".parte2").innerHTML+= portada;
+   })     
     })

@@ -9,11 +9,11 @@ window .addEventListener("load", function(){
     )
     .then(function(informacion){
             console.log(informacion)
-            let detalleAlbum=informacion.playlist;
+            let detalleAlbum=informacion;
             let nombreDeAlbum=detalleAlbum.title;
-            let foto= detalleAlbum.cover;
-            let nombreDeArtista=detalleAlbum.artist.name
-            let idA= detalleAlbum.artist.id
+            let foto= detalleAlbum.picture;
+            let nombreDeArtista=detalleAlbum.creator.name
+            let idA= detalleAlbum.id
             let portada=
             `
             <div><img src="`+ foto +`" alt=""></div>
@@ -47,7 +47,7 @@ window .addEventListener("load", function(){
                               <div> <a href="" uk-icon="heart" class=" iconos uk-margin-small-right"></a></div>
             </div>
             `
-            document.querySelector(".listadetracks").innerHTML+= renglon;
+            document.querySelector(".listado2").innerHTML+= renglon;
             
         }
     })

@@ -180,6 +180,9 @@ section .artistasm div{
     border: solid 2px white;
     border-radius: 50px 50px 50px 50px;
 }
+.imgDeBuscador3{
+    border-radius: 50%;
+}
 .contartistas{
     display: grid;
     grid-template-columns: 100%;
