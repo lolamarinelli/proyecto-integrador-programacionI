@@ -129,7 +129,7 @@ nav:hover ul.navegacion {
 }
 
 .section1{
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 h2.h2Genero{
@@ -391,6 +391,12 @@ article.vinculos1 a{
     .deezer{
         width:100%;
         margin-bottom: 30px;
+    }
+
+    img.imgDeGeneros{
+        width: 70%;
+        text-align: center;
+        margin-left: 50px;
     }
     
     .deezerl{
