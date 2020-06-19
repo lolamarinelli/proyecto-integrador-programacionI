@@ -123,6 +123,15 @@ section .artistasm div{
     justify-content: space-evenly;
 }
 
+a.nombreartistas{
+    font-size: medium;
+    margin-left: 30px;
+}
+
+img.slider1{
+    width: 80%;
+    margin-left: 15px;
+}
 .slidec{
     width: 100%;
     margin: 0 auto;
