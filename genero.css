@@ -15,8 +15,6 @@ body{
     position: fixed;
     top: 0;
     z-index: 5;
-    
-   
 }
 
 .Header{
@@ -65,9 +63,19 @@ button.uk-button.uk-button-default{
     align-content: end;
     text-align: end;
     margin-left: 0;
-    font-size: larger;
+    font-size: medium;
     color: black;
-    
+}
+
+button.uk-button.uk-button-default{
+    border: none;
+    font-size: 17px;
+    margin-right: 28px;
+    padding-left: 31px;
+}
+
+main{
+    margin-top: 83px;
 }
 
 ul .navegacion {
@@ -101,17 +109,12 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-.section1{
-    margin-top: 25%;
-    display:grid;
-    display: block;
-}
+
 h2.h2Genero{
     color: white;
+    margin-left: 10px;
 }
 section.section2{
-    margin-top:3px;
-    margin-bottom: 20%;
     display: grid;
     grid-template-columns: 45% 45%;
     justify-content: space-around;
@@ -121,11 +124,15 @@ section.section2{
 .imgDeGeneros{
     width: 100%;
     position: relative;
+    text-align: center;
+}
+
+img.imgDeGeneros{
+    text-align: center;
 }
 .h4js{
     color: white;
-    top: 50%;
-    left: 0;
+    margin-top: 0;
     color: white;
     text-decoration: none;
     width: 100%;
@@ -177,6 +184,10 @@ article.vinculos1 a{
 .headerdesktop{
     display: none;
 }
+
+ul.headerd{
+    display: none;
+}
 .footer2{
     display: none;
 }
@@ -192,12 +203,16 @@ article.vinculos1 a{
         display: grid;
         grid-template-columns: 20% 80%;
         margin-top: 115px;
+        background-color: white;
     }
     header{
         background-color:white;
         width: 100%;
     }
- 
+
+    main{
+        margin-top: 50px;
+    }
   
     ul.headerd {
         display: grid;
@@ -205,6 +220,8 @@ article.vinculos1 a{
         width: 100%;
         list-style: none;
         padding-left: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
     }
     
     ul.headerd a{
@@ -269,27 +286,28 @@ article.vinculos1 a{
         font-size: 25px;
     }
     img.imgDeGeneros{
+        text-align: center;
         width: 70%;
-       margin-left: 35px;
-       margin-bottom: 20px;
     }
-    .section1{
-        margin-top: 0;
-        justify-content: center;
+
+    div.divDeJs{
+        text-align: center;
     }
-    .h2Genero{
-        font-size: 80px;
+    section.section1{
+        margin-top: 50px;
     }
+
     section.section2{
-        margin-top: 3px;
-    margin-bottom: 20%;
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    justify-content: space-around;
-    align-items: center;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-around;
+        align-items: center;
     }
-    .h4js{
+
+    h4.h4js{
         font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
     }
     footer.footer1{
         display: none;
@@ -298,7 +316,6 @@ article.vinculos1 a{
         display: block;
         display: grid;
         grid-template-columns: 17% 55% 25%;
-
     }
     
     .vinculos2{
