@@ -242,11 +242,18 @@ article.vinculos1 a{
     }
     
     li.logo img {
-        width: 60%;
+        width: 100%;
     }
 
     .buscador{
         font-size: 25px;
+    }
+
+    .fotito{
+        width: 30%;
+    }
+    h2.letra{
+        font-size: 50px;
     }
     footer.footer1{
         display: none;
@@ -254,7 +261,7 @@ article.vinculos1 a{
     footer.footer2{
         display: block;
         display: grid;
-        grid-template-columns: 12% 60% 25%;
+        grid-template-columns: 17% 55% 25%;
 
     }
 
