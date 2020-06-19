@@ -60,7 +60,7 @@ window.addEventListener("load", function(){
                 <section class="renglon2">
                 <div class="divDeJs2">
                 <a href=album.html?pepinito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador3"> </a>
-                <h4 class="h4Js2">`+ nombreArt + `</h4>
+                <a href=Artista.html?pepinito=`+idArt+`><h4 class="h4Js2">`+ nombreArt + `</h4>
                 <i class="fas fa-play" aria-hidden="true" ></i>
                 </div>
                 </section>
