@@ -15,8 +15,6 @@ body{
     position: fixed;
     top: 0;
     z-index: 5;
-    
-   
 }
 
 .Header{
@@ -101,13 +99,11 @@ nav:hover ul.navegacion {
 .uk-button-default{
     border: none; 
 }
-.section1{
-    margin-top: 25%;
-    display:grid;
-    display: block;
-}
+
 h2.h2Genero{
     color: white;
+    padding-top: 100px;
+    margin-left: 20px;
 }
 section.section2{
     margin-top:3px;
@@ -124,8 +120,7 @@ section.section2{
 }
 .h4js{
     color: white;
-    top: 50%;
-    left: 0;
+    margin-top: 0;
     color: white;
     text-decoration: none;
     width: 100%;
@@ -175,6 +170,10 @@ article.vinculos1 a{
     padding-left: 15px;
 }
 .headerdesktop{
+    display: none;
+}
+
+ul.headerd{
     display: none;
 }
 .footer2{
@@ -273,20 +272,17 @@ article.vinculos1 a{
        margin-left: 35px;
        margin-bottom: 20px;
     }
-    .section1{
-        margin-top: 0;
-        justify-content: center;
+    section.section1{
+        padding: 130px;
     }
-    .h2Genero{
-        font-size: 80px;
-    }
+
     section.section2{
         margin-top: 3px;
-    margin-bottom: 20%;
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    justify-content: space-around;
-    align-items: center;
+        margin-bottom: 20%;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-around;
+        align-items: center;
     }
     .h4js{
         font-size: 30px;

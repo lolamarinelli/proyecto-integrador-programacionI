@@ -18,8 +18,8 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
             let generos=
              `
              <div class="divDeJs" >
-                <h4 class="h4js">`+ nombre +`</h4>
                 <a href= "detallegeneros.html?pepinito2=`+id+`"><img src="`+ img +`" alt="" class="imgDeGeneros"></a>
+                <h4 class="h4js">`+ nombre +`</h4>
              </div>
              `
       document.querySelector(".section2").innerHTML += generos 
