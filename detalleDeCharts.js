@@ -40,9 +40,8 @@ window .addEventListener("load", function(){
 
             let renglon=
             `
-             <li>
-             <div class="renglones">
-           
+            <li>
+            <div class="renglones">
                               <div> <p class="numeros">`+ (index+1) +`</p></div>
                               <div> <section class="dentrolista"><h4 class="titulos">`+nombreDeCancion+`</h4> </div>
                               <div> <span class=" iconos uk-margin-small-right" uk-icon="check"></span></div>

@@ -154,7 +154,7 @@ h2.nombreartista{
     color: gray;
 }
 h5.cancionespopulares {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     margin-left: 15px;
     text-align: left;
     color: white;
@@ -180,7 +180,8 @@ a.seguir{
 } 
 div .listacanciones{    
     display: grid;    
-    grid-template-columns: 10% 65% 10% 10% ;    
+    grid-template-columns: 10% 65% 10% 10% ;
+    justify-content: space-around; 
     color: white;
 }
 
@@ -204,7 +205,11 @@ ul.canciones1{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
-
+   ul.canciones2{
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        background-color: white;
+    }
 a.uk-margin-small-right{
     margin-top: 6px;
 }
@@ -231,14 +236,16 @@ h5.albums-todos{
     font-size: 20px;
 }
 
-div.albums1{
-    display: none;
-}
-
 .foto{
     width: 100%;
 }
+    p.numerito{
+        margin: 0 0 0 0;
+    }
 
+    h4.titulos{
+        margin: 0 0 0 0;
+    }
 p.titulo{
     text-align: center;
     margin-top: 5px;
@@ -362,7 +369,7 @@ article.vinculos1 a{
     }
 
     svg{
-        color: white;
+        color: black;
     }
 
     form{
@@ -475,14 +482,19 @@ article.vinculos1 a{
         margin-left: 60px;
     }
 
+
     div.albums{
         display: none;
     }
 
-    div.albums1{
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20%;
-        justify-content: space-evenly;
+    div.letra{
+        text-align: left;
+        color: black;
+    }
+
+    ul.canciones2{
+        width: 75%;
+        margin-left: 157px;
     }
 
     p.titulo1{
@@ -567,16 +579,23 @@ article.vinculos1 a{
     display: block;
     }
     
-    .unico1 div.listacanciones{
+    .albums1{
+        margin-bottom: 100px;
+    }
+    .unico1 div.listacanciones {
         display: block;
         display: grid;
         grid-template-columns: 10% 60% 10% 10%;
         justify-content: space-around;
-        background-color: rgb(39, 39, 39);
         color: white;
     }
 
+    p.numero{
+        color: black;
+        margin: 0 0 0 0;
+    }
     h4.titulos{
-        color: white;
+        color: black;
+        margin: 0 0 0 0;
     }
 }
