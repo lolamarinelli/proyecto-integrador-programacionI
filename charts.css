@@ -41,8 +41,8 @@ ul.Header{
     
 
 }
-ul.Header a{
-    color: black;
+ul.Header a.hola{
+    color: white;
     text-decoration: none;
 }
 
@@ -103,14 +103,42 @@ nav:hover ul.navegacion {
     border: none; 
 }
 
+.formB{
+    border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+    padding: 7px;
+
+}
+.cuadrado{
+    border-radius: 50px 50px 50px 50px;
+    padding: 5px;
+}
+.boton{
+    border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: 10px;
+        
+}
+
+.hola{
+   margin-top: 20px;
+   border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+}
+
 .section1{
-    margin-top: 25%;
-    display:grid;
-    display: block;
+    padding-top: 130px;
 }
 
 h2.h2Genero{
     color: white;
+        border: solid 2px white;
+        border-radius: 50px 50px 50px 50px;
+        text-align: center;
+        padding: 5px;
+        font-size: 300;
 }
 
 .section2{
@@ -119,10 +147,6 @@ h2.h2Genero{
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: space-around;
-}
-
-.divDeJs{
-    display: grid;  
 }
 
 .imgDeGeneros{
@@ -194,13 +218,15 @@ article.vinculos1 a{
 
 /* stylesheet  DESKTOP*/
 @media(min-width: 1024px){
-    .headermobile{
+    header.headermobile{
         display: none;
     }
     .headerdesktop{
         display: block;
         width: 100%;
         position: fixed;
+        top: 0;
+        z-index: 5;
     }
     header{
         background-color:white;
@@ -222,10 +248,33 @@ article.vinculos1 a{
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         font-weight: 500;
-        
-
-    }
     
+    }
+
+    section.section1{
+        padding-top: 50px;
+        margin-bottom: 35px;
+    }
+
+    h2.h2Genero{
+        color: white;
+        border: solid 2px white;
+        border-radius: 50px 50px 50px 50px;
+        text-align: center;
+        padding: 5px;
+        margin-left: 250px;
+        margin-right: 250px;
+        font-size: 300;
+    }
+    .section2{
+        margin-top:20px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-around;
+    }
+
+
     li.vinculosh {
         padding-top: 50px;
         margin: 0 auto;
@@ -256,13 +305,24 @@ article.vinculos1 a{
         font-size: 20px;
         
     }
-
     form{
         background-color: black;
         color: white;
-        margin-right: 20px;
-        padding: 5px;
+        margin-right: 50px;
+        padding: 10px;
         border-radius: 10px 10px 10px 10px;
+    }                                                     
+   
+    .buscador{
+        font-size: 18px;
+    }
+   
+    .botbuscar{
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        padding: 3px;
+        font-size: 15px;
+        margin-left: 10px;
     }
 
     li.logo {
@@ -274,9 +334,7 @@ article.vinculos1 a{
         width: 100%;
     }
 
-    .buscador{
-        font-size: 25px;
-    }
+    
     footer.footer1{
         display: none;
     }
