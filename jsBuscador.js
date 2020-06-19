@@ -21,14 +21,15 @@ window.addEventListener("load", function(){
                 let id = cadaResult.album.id
                 let idA= cadaResult.id
                 let foto = 
-                
-                '<li class="renglon">'+
-                '<div class="divDeJs">'+
-                '<a href=album.html?pepinito='+ id +'> <img src="'+ img + '" class="imgDeBuscador"> </a>'+
-                '<h4 class="h4Js">'+ nombre + '</h4>'+
-                '</div>'+
-                '<div><button class="songRepro" id-song="'+ idA + '"><i class="fas fa-play"></i></button></div>' +
-                '</li>'
+                `
+                <li class="renglon">
+                    <div class="divDeJs">
+                        <div> <a href=album.html?pepinito="`+ id +`"><img class="imgDeBuscador" src="`+ img + `" alt=""></a></div>
+                        <div class"centrar"> <section class="dentrolista"><h4 class="h4Js">"`+ nombre +`"</h4></div>
+                        <div class"centrar"> <i class="fas fa-play"></i></button></div>
+                    </div>
+                </li>
+                `
                 document.querySelector(".listadoDeResultados").innerHTML += foto
             }
             var cancionButtonRepro = document.querySelectorAll("button.songRepro")
@@ -58,10 +59,9 @@ window.addEventListener("load", function(){
                 let imgArt = cadaResultado.picture;
                 let artista = `
                 <section class="renglon2">
-                <div class="divDeJs2">
+                <div class="divDeJs0">
                 <a href=album.html?pepinito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador3"> </a>
                 <a href=Artista.html?pepinito=`+idArt+`><h4 class="h4Js2">`+ nombreArt + `</h4>
-                <i class="fas fa-play" aria-hidden="true" ></i>
                 </div>
                 </section>
                 `
@@ -90,11 +90,10 @@ window.addEventListener("load", function(){
                 let foto =
                 `
                 <section class="renglon">
-                <div class="divDeJs">
-                <a href=album.html?pepinito=`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
-                <h4 class="h4Js">`+ nombre + `</h4>
-                <i class="fas fa-play" aria-hidden="true" ></i>
-                </div>
+                    <div class="divDeJs2">
+                        <a href=album.html?pepinito=`+ id +`> <img src="`+ img + `" class="imgDeBuscador"> </a>
+                        <h4 class="h4JS">`+ nombre + `</h4>
+                    </div>
                 </section>
                 `
                 document.querySelector(".listadoDeAlbums").innerHTML += foto
