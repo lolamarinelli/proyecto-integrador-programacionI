@@ -556,9 +556,11 @@ article.vinculos1 a{
    .cancionesm{
        display: none;
    }
+
    .albumsd{
     display: block;
     }
+    
     .unico1 div.listacanciones{
         display: block;
         display: grid;
