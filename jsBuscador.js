@@ -75,11 +75,7 @@ window.addEventListener("load", function(){
                 <section class="renglon2">
                 <div class="divDeJs2"> 
                 
-<<<<<<< HEAD
-                <a href=Artistas.html?pepinito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador2"> </a>
-=======
                 <a href=album.html?pepinito=`+ idArt +`> <img src="`+ imgArt + `" class="imgDeBuscador3"> </a>
->>>>>>> afec8037cbfc2183ae4d222a7b41f202159a94df
                 <h4 class="h4Js2">`+ nombreArt + `</h4>
                 <i class="fas fa-play" aria-hidden="true" ></i>
 
