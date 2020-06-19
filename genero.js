@@ -19,7 +19,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre")
              `
              <div class="divDeJs" >
                 <h4 class="h4js">`+ nombre +`</h4>
-                <a href= "detallegeneros.html?pepito2=`+id+`"><img src="`+ img +`" alt="" class="imgDeGeneros">
+                <a href= "detallegeneros.html?pepinito2=`+id+`"><img src="`+ img +`" alt="" class="imgDeGeneros"></a>
              </div>
              `
       document.querySelector(".section2").innerHTML += generos 

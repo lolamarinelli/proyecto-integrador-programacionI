@@ -1,7 +1,7 @@
 window .addEventListener("load", function(){
     let queryString = new URLSearchParams(location.search)
     let codigoDeAlbum = queryString.get("pepinito3")
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart"+ codigoDeAlbum)
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/"+ codigoDeAlbum)
     .then (
         function(respuesta){
             return respuesta.json();
@@ -9,11 +9,11 @@ window .addEventListener("load", function(){
     )
     .then(function(informacion){
             console.log(informacion)
-            let detalleAlbum=informacion.playlist;
+            let detalleAlbum=informacion;
             let nombreDeAlbum=detalleAlbum.title;
-            let foto= detalleAlbum.cover;
-            let nombreDeArtista=detalleAlbum.artist.name
-            let idA= detalleAlbum.artist.id
+            let foto= detalleAlbum.picture;
+            let nombreDeArtista=detalleAlbum.creator.name
+            let idA= detalleAlbum.id
             let portada=
             `
             <div><img src="`+ foto +`" alt=""></div>
@@ -24,14 +24,14 @@ window .addEventListener("load", function(){
             document.querySelector(".listado").innerHTML+= portada;
     })
  
-    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/"+ codigoDeAlbum )
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/playlist/"+ codigoDeAlbum )
     .then (
         function(respuesta){
             return respuesta.json();
         }
     )
     .then(function(info){
-    console.log(info)
+        console.log(info)
         listaTracks=info.tracks.data
         console.log(listaTracks)
         for (let index = 0; index < listaTracks.length; index++) {
@@ -47,7 +47,7 @@ window .addEventListener("load", function(){
                               <div> <a href="" uk-icon="heart" class=" iconos uk-margin-small-right"></a></div>
             </div>
             `
-            document.querySelector(".listadetracks").innerHTML+= renglon;
+            document.querySelector(".listado2").innerHTML+= renglon;
             
         }
     })
