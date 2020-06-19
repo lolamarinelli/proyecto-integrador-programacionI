@@ -188,9 +188,19 @@ article.vinculos1 a{
 .footer2{
     display: none;
 }
+.desplegable{
+    display: none;
+}
 
 /* stylesheet  DESKTOP*/
 @media(min-width: 1024px){
+    main{
+        display: block;
+        background-color: rgb(39, 39, 39);
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
     .headermobile{
         display: none;
     }
@@ -199,6 +209,7 @@ article.vinculos1 a{
         width: 100%;
         position: fixed;
         z-index: 5;
+        top: 0;
     }
     header{
         background-color:white;
@@ -252,6 +263,36 @@ article.vinculos1 a{
         border: none;
         font-size: 20px;
         
+    }
+
+    .desplegable1{
+        display: block;
+        background-color:rgb(39, 39, 39);
+        border: solid 2px  white;
+        border-bottom: none;
+        border-left: none;
+        border-width: 0 1px;
+        margin-bottom: 0;
+        margin-top: 25px;
+        margin-bottom: 100px;
+        padding-top: 75px;
+        
+    }
+
+    .uldesp{
+        margin-top: 35px;
+        list-style-type: none;
+        position: fixed;
+        
+    }
+    .dli{
+        margin-bottom:35px;
+    }
+    .dli a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        font-weight: 530;
     }
 
     form{

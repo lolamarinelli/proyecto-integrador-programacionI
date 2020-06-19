@@ -331,7 +331,10 @@ article.vinculos1 a{
 .albumsd{
     display: none;
 }
-
+.desplegable{
+    display: none;
+    
+}
 
 @media (min-width: 1024px){
 
@@ -344,14 +347,41 @@ article.vinculos1 a{
     .desktopheader{
         display: block;
     }
+    .desplegable{
+        display: block;
+        background-color:rgb(39, 39, 39);
+        border: solid 2px  white;
+        border-bottom: none;
+        border-left: none;
+        margin-bottom: 0;
+        padding-top: 55px;
+    }
+
+    uldesp{
+        margin-top: 35px;
+        list-style-type: none;
+        position: fixed;
+        
+    }
+    .dli{
+        margin-bottom:35px;
+    }
+    .dli a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        font-weight: 530;
+    }
+
     header{
         background-color:white;
         width: 100%;
     }
-    main{
-        margin-top: 0;
+    main.maindes{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-top: 80px;
     }
-
     ul.headerd {
         display: grid;
         grid-template-columns: 15% 25% 20% 40%;
