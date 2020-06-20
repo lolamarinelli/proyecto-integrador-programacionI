@@ -127,6 +127,7 @@ section.section2{
     display: grid;
     grid-template-columns: 45% 45%;
     justify-content: space-around;
+    margin-top: 70px;
 
 }
 
