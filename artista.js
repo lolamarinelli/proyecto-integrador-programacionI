@@ -53,7 +53,7 @@ window .addEventListener("load", function(){
             <li class="renglones">
                             <div class="listaTracks">
                               <div> <p class="numerito">`+ (index+1) +`</p></div>
-                              <div> <section class="dentrolista"><h4 class="titulos">`+canciones+`</h4> </div>
+                              <div> <section class="dentrolista"><a href=tracks.html?=pepinito`+idA+`><h4 class="titulos">`+canciones+`</h4></a> </div>
                               <div> <span class="uk-margin-small-right" uk-icon="check"></span></div>
                               <div> <a href="" uk-icon="heart" class="uk-margin-small-right"></a></div>
                             </div>
