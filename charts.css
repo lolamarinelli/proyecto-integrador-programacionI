@@ -83,15 +83,6 @@ li{
     list-style-type: none;
 }
 
-input.lupa{
-    border: black ;
-    background:black;
-}
-
-svg{
-    color: black;
-}
-
 li a{
     color: whitesmoke;
 }
@@ -298,13 +289,7 @@ article.vinculos1 a{
     svg{
         color: white;
     }
-
-    input.lupa{
-        background-color:black;
-        border: none;
-        font-size: 20px;
         
-    }
     form{
         background-color: black;
         color: white;

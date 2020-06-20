@@ -194,14 +194,6 @@ article.vinculos1 a{
 
 /* stylesheet  DESKTOP*/
 @media(min-width: 1024px){
-    
-    main{
-    display: block;
-    background-color: rgb(39, 39, 39);
-    display: grid;
-    grid-template-columns: 20% 80%;
-
-    }
 
     .headermobile{
         display: none;
