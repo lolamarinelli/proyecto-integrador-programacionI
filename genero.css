@@ -121,6 +121,7 @@ nav:hover ul.navegacion {
 h2.h2Genero{
     color: white;
     margin-left: 10px;
+    padding-top: 100px;
 }
 section.section2{
     display: grid;
@@ -344,6 +345,7 @@ ul.headerd{
         grid-template-columns: 32% 32% 32%;
         justify-content: space-around;
         align-items: center;
+        
     }
 
     h4.h4js{
