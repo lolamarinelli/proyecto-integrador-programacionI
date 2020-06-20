@@ -88,15 +88,6 @@ button.uk-button.uk-button-default{
         padding: 3px;
         font-size: 10px;
 }
-
-.hola{
-   margin-top: 20px;
-   border: solid 2px white;
-    border-radius: 50px 50px 50px 50px;
-    margin-right: 10px;
-}
-
-
 ul .navegacion {
     display: none;
     text-decoration: none;
@@ -406,7 +397,16 @@ footer.footer2{
     list-style-type: none;
     margin-top: 7px;
 }
-
+ul.Header a.hiper{
+    color:white;
+    text-decoration: none;
+}
+.hola{
+   margin-top: 20px;
+   border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+}
 div.vinculos2 a{
     color: black;
     font-size: 30px;
