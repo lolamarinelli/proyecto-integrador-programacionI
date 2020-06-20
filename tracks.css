@@ -114,6 +114,50 @@ section.section2{
 
 }
 
+div.listacanciones{
+    display: grid;
+    grid-template-columns: 15% 50% 15% 10%;
+    justify-content: space-around;
+}
+
+p.duracion{
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+svg{
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    font-size: medium;
+}
+
+h4.titulos{
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+p.numero{
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+li.unico1{
+    background-color: white;
+}
+
+h2.h2Genero{
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+
 .h4js{
     color: white;
     margin-top: 0;
@@ -373,6 +417,47 @@ ul.headerd{
         font-size: 15px;
         margin-left: 10px;
     }
+
+    div.listacanciones{
+        display: grid;
+        grid-template-columns: 20% 50% 10% 10%;
+        justify-content: space-around;
+    }
+
+    p.duracion{
+        color: black;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    svg{
+        color: black;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    h4.titulos{
+        color: black;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    p.numero{
+        color: black;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    li.unico1{
+        background-color: white;
+    }
+
+    ul.canciones2{
+        width: 80%;
+        margin-left: 120px;
+    }
+
+    h2.h2Genero{
+        margin-left: 120px;
+    }
 }
-    
-    
