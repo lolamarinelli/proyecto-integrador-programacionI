@@ -129,6 +129,18 @@ window .addEventListener("load", function(){
              
             }
         })
+        fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart")
+        .then(
+            function(respuesta){
+                return respuesta.json();
+            }
+        )
+        .then(function(info){
+         console.log(info)
+         let tracks=info.tracks.data
+         let duracion=tracks.duration
+         let titulo=
+        })
         let saludo= alert("Bienvenidos a Play")
     })
     
