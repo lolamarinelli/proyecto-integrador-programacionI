@@ -140,7 +140,16 @@ h4.titulos{
     margin-top: 10px;
     font-size: medium;
 }
-
+ul.Header a.hiper{
+    color:white;
+    text-decoration: none;
+}
+.hola{
+   margin-top: 20px;
+   border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+}
 p.numero{
     color: black;
     margin-bottom: 10px;

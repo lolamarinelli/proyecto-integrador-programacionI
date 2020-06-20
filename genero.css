@@ -26,6 +26,16 @@ body{
     
     
 }
+ul.Header a.hiper{
+    color:white;
+    text-decoration: none;
+}
+.hola{
+   margin-top: 20px;
+   border: solid 2px white;
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+}
 li.logo img{
     margin-top: 15px;
     margin-left: 0;
